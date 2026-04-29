@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0",
+  "code": "it",
+  "name": "Italian",
+  "nativeName": "Italiano",
+  "symbol": "🇮🇹",
+  "packageVersion": "1.0.0",
+  "description": "Grammar drill questions for Italian language learners (CEFR A1-C2)",
+  "author": "rasmus@gavrilo.net",
+  "license": "MIT",
+  "lastUpdated": "2026-04-29",
+  "METADATA": "See language-pack.json",
+  "levels": {
+    "A1": { "taskCount": 18, "label": "Beginner" },
+    "A2": { "taskCount": 8, "label": "Elementary" },
+    "B1": { "taskCount": 5, "label": "Intermediate" },
+    "B2": { "taskCount": 3, "label": "Upper-Intermediate" },
+    "C1": { "taskCount": 3, "label": "Advanced" },
+    "C2": { "taskCount": 3, "label": "Mastery" }
+  },
+  "categories": [
+    "Morfologia",
+    "Sintassi",
+    "Pragmatica"
+  ],
+  "dataFormat": {
+    "version": "2.0",
+    "template": {
+      "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Coniugazione" },
+      "sentence": [
+        { "text": "io", "role": "Soggetto" },
+        { "text": "parlo", "role": "Verbo", "question": "parlare" }
+      ],
+      "replies": [
+        { "questionIndex": 1, "choices": ["parlo", "parli", "parla", "parlano"], "correct": "parlo", "explanation": "..." }
+      ]
+    }
+  },
+  "entryPoint": "index.js",
+  "environment": {
+    "browser": { "api": "fetch()", "basePath": "./languages/it/" },
+    "node": { "api": "fs.readFileSync()", "basePath": "./languages/it/" }
+  }
+}

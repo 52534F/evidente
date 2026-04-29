@@ -1,7 +1,104 @@
 // ============================================================
+// ============================================================
 // ITALIAN LANGUAGE PACK - BROWSER VERSION
 // ============================================================
-// Loads data from JSON files via fetch() (browser) or fs (Node.js for testing)
+//
+// PURPOSE:
+//   Provides grammar drill questions for Italian language learners
+//   across CEFR levels A1-C2.
+//
+// DATA SOURCE:
+//   JSON files stored in the same directory as this file:
+//   - a1.json (A1 level, 18 tasks)
+//   - a2.json (A2 level, 8 tasks)
+//   - b1.json (B1 level, 4 tasks)
+//   - b2.json (B2 level, 3 tasks)
+//   - c1.json (C1 level, 3 tasks)
+//   - c2.json (C2 level, 3 tasks)
+//
+// JSON DATA FORMAT:
+//   Each file contains an array of task objects:
+//   {
+//     "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Coniugazione" },
+//     "sentence": [
+//       { "text": "io", "role": "Soggetto" },
+//       { "text": "parlo", "role": "Verbo", "question": "parlare" }
+//     ],
+//     "replies": [
+//       { "questionIndex": 1, "choices": [...], "correct": "parlo", "explanation": "..." }
+//     ]
+//   }
+//
+// ENVIRONMENT DETECTION:
+//   - Browser: Uses fetch() to load JSON files
+//   - Node.js: Uses fs.readFileSync() to load JSON
+//   - Detection: isBrowser = typeof document !== 'undefined'
+//
+// PUBLIC API:
+//   var it = {
+//     meta: { code: 'it', name: 'Italian', levels: [...] },
+//     generateQuestion: function(level) -> Promise resolving to Question,
+//     loadAll: function() -> Promise (pre-loads all JSON),
+//     getAvailableLevels: function() -> string[],
+//     getTaskCount: function(level) -> number
+//   }
+//
+// QUESTION OBJECT (returned by generateQuestion):
+//   {
+//     id: "abc123",           // Hash ID
+//     level: "A1",          // CEFR level
+//     category: { l1: "...", l2: "...", l3: "..." },
+//     syntaxBlocks: [{ text, role, gender, conjugation, replyIndex }],
+//     replies: [{ choices, correctIndex, explanation }]
+//   }
+//
+// ============================================================
+// 
+// DATA SOURCE:
+//   JSON files stored in languages/it/ directory:
+//   - a1.json (A1 level, 18 tasks)
+//   - a2.json (A2 level, 8 tasks)
+//   - b1.json (B1 level, 4 tasks)
+//   - b2.json (B2 level, 3 tasks)
+//   - c1.json (C1 level, 3 tasks)
+//   - c2.json (C2 level, 3 tasks)
+// 
+// DATA FORMAT (JSON):
+//   Each file contains an array of task objects:
+//   {
+//     "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Coniugazione" },
+//     "sentence": [
+//       { "text": "io", "role": "Soggetto" },
+//       { "text": "parlo", "role": "Verbo", "question": "parlare" }
+//     ],
+//     "replies": [
+//       { "questionIndex": 1, "choices": [...], "correct": "parlo", "explanation": "..." }
+//     ]
+//   }
+// 
+// ENVIRONMENT DETECTION:
+//   - Browser: Uses fetch() to load JSON from languages/it/*.json
+//   - Node.js: Uses fs.readFileSync() to load JSON
+//   Detection: isBrowser = typeof document !== 'undefined'
+// 
+// PUBLIC API:
+//   it = {
+//     meta: { code: 'it', name: 'Italian', levels: [...] },
+//     generateQuestion(level) -> Promise resolving to Question object,
+//     loadAll() -> Promise (pre-loads all JSON files),
+//     getAvailableLevels() -> string[],
+//     getTaskCount(level) -> number
+//   }
+// 
+// QUESTION OBJECT STRUCTURE:
+//   {
+//     id: "abc123",           // Hash ID
+//     level: "A1",
+//     category: { l1: "...", l2: "...", l3: "..." },
+//     syntaxBlocks: [{ text, role, gender, conjugation, replyIndex }],
+//     replies: [{ choices, correctIndex, explanation }]
+//   }
+// 
 // ============================================================
 
 (function() {
