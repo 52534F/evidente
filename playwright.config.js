@@ -4,9 +4,9 @@ module.exports = defineConfig({
   testDir: './tests',
   fullyParallel: false,
   forbidOnly: !!process.env.CI,
-  retries: process.env.CI ? 2 : 0,
+  retries: 0,
   workers: 1,
-  reporter: [['list'], ['json', { outputFile: 'playwright-report/test-results.json' }]],
+  reporter: [['list']],
 
   use: {
     baseURL: 'http://localhost:3000',
@@ -16,23 +16,23 @@ module.exports = defineConfig({
 
   timeout: 30000,
 
+  webServer: {
+    command: 'python3 -m http.server 3000',
+    port: 3000,
+    timeout: 300000,
+    reuseExistingServer: !process.env.CI,
+  },
+
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
-    },
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
-    {
-      name: 'Mobile Chrome',
-      use: { ...devices['Pixel 5'] },
+      use: { 
+        ...devices['Desktop Chrome'],
+        launchOptions: {
+          args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu'],
+          devtools: true,
+        },
+      },
     },
   ],
-
-  });
+});

@@ -4,6 +4,35 @@
 
 The Italian language pack (`packages/it/index.js`) provides grammar drill questions for Italian language learners across CEFR levels A1-C2.
 
+## Code Structure
+
+The language pack is organized into 4 clear sections:
+
+```javascript
+// SECTION 1: DATA - All vocabulary and topic data
+const DATA = {
+  nouns: [...],
+  verbs: [...],
+  ipotetico: {...},
+  congiuntivo: {...}
+};
+
+// SECTION 2: HELPERS - Reusable helper functions
+const BLOCK = { soggetto: ..., verbo: ..., answer: ... };
+const CAT = { MORFOLOGIA_VERBI: ..., SINTASSI_IPOTETICO: ... };
+function CREATE_REPLY(correct, wrongs, explanation) { ... }
+
+// SECTION 3: GENERATORS - Each generates a question
+function genVerb() { ... }
+function genPronSoggetto() { ... }
+
+// SECTION 4: EXPORT - Module export
+const GENERATORS = { A1: [...], A2: [...] };
+const it = { meta: ..., generateQuestion: ... };
+```
+
+---
+
 ## Module Interface
 
 Every language pack must export an object with this structure:
@@ -29,34 +58,142 @@ module.exports = it;
 
 ```javascript
 {
-  // Required fields (for basic functionality)
-  prompt: string,           // Question text displayed to user
-  choices: string[],        // Array of 4 answer options
-  correctIndex: number,    // Index of correct answer (0-3)
-  explanation: string,      // Feedback after answer
-  
-  // Optional fields (for category/syntax display)
+  // Category for display
   category: {
     l1: string,  // Domain: "Morfologia" | "Sintassi" | "Pragmatica"
     l2: string,  // Category: "Verbi" | "Pronomi" | "Articoli" | etc.
     l3: string   // Specific topic: "Coniugazione" | "Pronome soggetto" | etc.
   },
   
+  // Syntax blocks - each block is a word/phrase in the sentence
   syntaxBlocks: [
     {
-      text: string,           // Word/token to display
-      role: string,            // Syntactic role
-      case: string|null,       // Grammatical case
-      gender: string|null,     // "m" or "f"
+      text: string,           // Word/token to display (e.g., "parla", "[il ragazzo]", "___")
+      role: string,        // Syntactic role: "Soggetto" | "Verbo" | "Articolo" | etc.
+      case: string|null,   // Grammatical case
+      gender: string|null, // "m" or "f"
       conjugation: {
         persona: string|null,  // "1s", "2s", "3s", "1p", "2p", "3p"
-        tempo: string|null,    // Tense name
-        modo: string|null      // Mood name
-      }
+        tempo: string|null,   // Tense name
+        modo: string|null   // Mood name
+      },
+      // For multi-reply questions (optional):
+      replyIndex: number|null  // Which reply this block corresponds to (0, 1, 2...). Omit for context blocks.
     }
+  ],
+  
+  // Replies array - replaces multi array
+  // Each entry corresponds to replyIndex: 0, 1, 2, etc.
+  replies: [
+    {
+      choices: string[],      // Answer choices for this reply slot
+      correctIndex: number,   // Index of correct answer in this slot's choices
+      explanation: string // Feedback for this answer
+    },
+    // ... more replies for multi-reply questions
   ]
 }
 ```
+
+### Question Block Notation
+
+There are TWO types of question blocks in syntaxBlocks:
+
+1. **Bracket notation** `[text]` - Question block where user provides the answer
+   - User's reply REPLACES the bracketed text
+   - Example: `[il ragazzo] parla` → user answers "lui" → result: "lui parla"
+   - The brackets indicate this is what the user is answering
+
+2. **Placeholder** `___` - Legacy notation (backward compatible)
+   - Assumes replyIndex: 0
+   - Example: `Mario compra ___ libro`
+
+### replyIndex Mapping
+
+- `replyIndex: 0` - First reply → maps to `replies[0]`
+- `replyIndex: 1` - Second reply → maps to `replies[1]`
+- `replyIndex: 2` - Third reply → maps to `replies[2]`
+- No `replyIndex` property - Context block (not a question to answer)
+
+### Examples
+
+#### Example 1: Bracket notation with single reply
+
+```javascript
+{
+  category: { l1: 'Morfologia', l2: 'Pronomi', l3: 'Pronome soggetto' },
+  syntaxBlocks: [
+    { text: '[il ragazzo]', role: 'Soggetto', case: 'Nominativo', gender: 'm', replyIndex: 0 },
+    { text: 'parla', role: 'Verbo', case: null, gender: null, conjugation: { persona: '3s', tempo: 'Presente', modo: 'Indicativo' } }
+  ],
+  replies: [
+    { choices: ['lui', 'io', 'tu', 'noi'], correctIndex: 0, explanation: 'lui replaces il ragazzo' }
+  ]
+}
+```
+- Display: `[il ragazzo] parla`
+- User answers: "lui"
+- Result: "lui parla"
+
+#### Example 2: Multi-reply with two brackets
+
+```javascript
+{
+  category: { l1: 'Morfologia', l2: 'Pronomi', l3: 'Pronome combinato' },
+  syntaxBlocks: [
+    { text: 'Mario', role: 'Soggetto', case: 'Nominativo', gender: 'm', conjugation: null },
+    { text: 'dà', role: 'Verbo', case: null, gender: null, conjugation: { persona: '3s', tempo: 'Presente', modo: 'Indicativo' } },
+    { text: '[a me]', role: 'Pronome', case: 'Dativo', replyIndex: 0 },
+    { text: '[il libro]', role: 'Pronome', case: 'Accusativo', replyIndex: 1 }
+  ],
+  replies: [
+    { choices: ['mi', 'ti', 'gli', 'ci'], correctIndex: 0, explanation: 'a me → mi' },
+    { choices: ['lo', 'la', 'li', 'le'], correctIndex: 0, explanation: 'il libro ��� lo' }
+  ]
+}
+```
+- Display: `Mario dà [a me] [il libro]`
+- Reply 0: "mi" (replaces "a me")
+- Reply 1: "lo" (replaces "il libro")
+- Final: "Mario mi lo dà"
+
+---
+
+### Generator Patterns Reference
+
+Each generator should use the bracket pattern `[text]` for question blocks. Here's the reference:
+
+| Generator | Pattern | Display Example |
+|-----------|---------|-------------|
+| genVerb | `io [mangiare]` | User provides conjugation |
+| genDefArt | `Mario parla con ___ libro` | `___` is answer placeholder |
+| genIndefArt | `Mario compra ___ libro` | `___` is answer placeholder |
+| genPronSoggetto | `[il ragazzo] parla` | Answer replaces bracketed text |
+| genPronOggetto | `Marco dà il libro a [Luigi]` | Answer replaces bracketed text |
+| genPronRiflessivo | `Ogni mattina [svegliarsi, io]` | Answer provides full verb form |
+| genPronCombinato | `Mario [a me] [il messaggio]` | Two replies (pronoun combination replacing [recipient] and [thing]) |
+| genIpotetico-1 | `Se domani piove [andare] a casa` | Answer provides future |
+| genIpotetico-2 | `Se [avere] fame [mangiare] la pizza` | Two replies |
+| genIpotetico-3 | `Se [avere] [mangiare], non [avere] fame` | Three replies |
+| genCongiuntivo | `Credo che [lavorare] italiano` | Answer provides subjunctive |
+
+---
+
+### How Multi-Reply Questions Work
+
+1. User sees all syntax blocks. Only ONE reply slot is active at a time (first one with replyIndex: 0)
+2. User answers the first question → feedback shown (correct/wrong + explanation)
+3. After brief delay, next reply slot becomes active → new choices load
+4. User answers second question → feedback shown
+5. Continue until all reply slots are answered
+6. Only then does the game proceed to the next question
+
+**Requirements for multi-reply questions:**
+- Each reply block in `syntaxBlocks` should have a unique `replyIndex` (0, 1, 2...)
+- The `replies` array must have exactly one entry per `replyIndex`
+- Each `replies[N]` entry must have `choices`, `correctIndex`, and `explanation`
+
+---
 
 ### Category Naming Convention
 
@@ -282,34 +419,52 @@ function shuffle(arr) {
 }
 ```
 
-### getPersona(pron)
+### BLOCK - Syntax Block Builders
 
-Map pronoun to grammatical person.
+Standardized syntax blocks using the `BLOCK` object:
 
 ```javascript
-function getPersona(pron) {
-  const m = { io: '1s', tu: '2s', lui: '3s', lei: '3s', noi: '1p', voi: '2p', loro: '3p' };
-  return m[pron] || null;
-}
-// Returns: "1s" (1st singular), "2s" (2nd singular), "3s" (3rd singular),
-//          "1p" (1st plural), "2p" (2nd plural), "3p" (3rd plural)
+// Context blocks (display only - not answered)
+BLOCK.soggetto(text, gender)     // Subject: "Mario"
+BLOCK.verbo(text, persona, tempo, modo)  // Verb: "parla"
+BLOCK.articolo(text, gender)   // Article: "il"
+BLOCK.complemento(text, gender) // Complement: "libro"
+BLOCK.avverbio(text)            // Adverb: "oggi"
+
+// Answer blocks (user provides reply)
+BLOCK.answer(text, role, replyIndex, options)  // e.g., BLOCK.answer('libro', 'Complemento', 0)
+
+// Legacy placeholder
+BLOCK.placeholder(role, replyIndex, options)     // Uses "___"
 ```
 
-### Syntax Block Builders
+### CREATE_REPLY
 
-Helper functions to create standardized syntax blocks.
+Creates a reply object with shuffled choices:
 
 ```javascript
-// Build verb syntax block
-buildVerbBlock(verb, pron, form)
-// Returns: { text, role: 'Verbo', case: null, gender: null, 
-//            conjugation: { persona, tempo, modo } }
+function CREATE_REPLY(correct, wrongs, explanation) {
+  const choices = shuffle([correct, ...wrongs]);
+  return {
+    choices,
+    correctIndex: choices.indexOf(correct),
+    explanation
+  };
+}
+```
 
-// Build pronoun syntax block
-buildPronounBlock(pron, isRiflessivo)
-// Returns: { text, role, case, gender, conjugation: null }
+### CAT - Category Constants
 
-// Build subject syntax block
+Pre-defined category objects for consistency:
+
+```javascript
+const CAT = {
+  MORFOLOGIA_VERBI: { l1: 'Morfologia', l2: 'Verbi', l3: 'Coniugazione' },
+  MORFOLOGIA_PRONOMI_SOGGETTO: { l1: 'Morfologia', l2: 'Pronomi', l3: 'Pronome soggetto' },
+  SINTASSI_IPOTETICO_TIPO1: { l1: 'Sintassi', l2: 'Periodo ipotetico', l3: 'Tipo 1' },
+  // ... more categories
+};
+```
 buildSoggettoBlock(pron)
 // Returns: { text, role: 'Soggetto', case: 'Nominativo', gender, conjugation }
 

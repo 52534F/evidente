@@ -4,7 +4,7 @@ const FEEDBACK_DELAY = 1500;
 const languages = { it };
 
 let currentLang = null;
-let state = { score: 0, streak: 0, qAnswered: 0, level: 'A1', q: null, done: false };
+let state = { score: 0, streak: 0, qAnswered: 0, level: 'A1', q: null, currentReplyIndex: 0, done: false };
 
 const el = {
   start: document.getElementById('start-screen'),
@@ -15,7 +15,6 @@ const el = {
   startBtn: document.getElementById('start-btn'),
   score: document.getElementById('game-score'),
   streak: document.getElementById('game-streak'),
-  prompt: document.getElementById('question-prompt'),
   btns: document.getElementById('answer-buttons'),
   fb: document.getElementById('feedback-overlay'),
   fbRes: document.getElementById('feedback-result'),
@@ -47,7 +46,7 @@ function shuffle(arr) {
 function displayQ() {
   const q = currentLang.generateQuestion(state.level);
   if (!q) { alert('No questions'); end(); return; }
-  state.q = q; state.done = false;
+  state.q = q; state.currentReplyIndex = 0; state.done = false;
 
   // Render category bar
   if (q.category) {
@@ -59,10 +58,32 @@ function displayQ() {
     el.catBar.classList.add('hidden');
   }
 
-  // Render syntax blocks
+  renderSyntaxBlocks(q, 0);
+  renderButtons(q, 0);
+  el.fb.classList.add('hidden');
+}
+
+function isQuestionBlock(block) {
+  if (block.replyIndex !== undefined) return true; // explicit replyIndex
+  if (block.text === '___') return true; // legacy placeholder
+  if (block.text && block.text.startsWith('[') && block.text.endsWith(']')) return true; // bracket
+  return false;
+}
+
+function getReplyIndex(block) {
+  if (block.replyIndex !== undefined) return block.replyIndex;
+  if (block.text === '___') return 0;
+  if (block.text && block.text.startsWith('[') && block.text.endsWith(']')) return 0;
+  return null;
+}
+
+function renderSyntaxBlocks(q, replyIndex) {
   if (q.syntaxBlocks && q.syntaxBlocks.length > 0) {
     el.syntaxBlocks.classList.remove('hidden');
     el.syntaxBlocks.innerHTML = q.syntaxBlocks.map(block => {
+      // Keep replyIndex for mapping but don't hide blocks - show ALL at once
+      const blockReplyIndex = getReplyIndex(block);
+      
       const details = [];
       if (block.case) details.push(block.case);
       if (block.gender) details.push(block.gender === 'm' ? 'm' : 'f');
@@ -73,9 +94,15 @@ function displayQ() {
         conjugationHtml = `<div class="conjugation">${c.persona || ''} ${c.tempo || ''} ${c.modo || ''}</div>`;
       }
 
+      // Display text - strip brackets for display
+      let displayText = block.text || '·';
+      if (displayText.startsWith('[') && displayText.endsWith(']')) {
+        displayText = displayText.slice(1, -1);
+      }
+
       return `
         <div class="syntax-block" data-role="${block.role || 'Parola'}">
-          <span class="word">${block.text || '·'}</span>
+          <span class="word">${displayText}</span>
           <span class="role">${block.role || 'Parola'}</span>
           ${details.length > 0 ? `<span class="details">${details.join(' · ')}</span>` : ''}
           ${conjugationHtml}
@@ -85,37 +112,59 @@ function displayQ() {
   } else {
     el.syntaxBlocks.classList.add('hidden');
   }
+}
 
-  el.prompt.textContent = q.prompt;
+function renderButtons(q, replyIndex) {
   const btns = el.btns.querySelectorAll('.answer-btn');
-  const sc = shuffle(q.choices.map((t, i) => ({ text: t, originalIndex: i })));
+  let choices, correctIndex;
+  
+  // Use replies array (replaces multi array)
+  if (q.replies && q.replies.length > 0) {
+    choices = q.replies[replyIndex].choices;
+    correctIndex = q.replies[replyIndex].correctIndex;
+  } else {
+    choices = q.choices;
+    correctIndex = q.correctIndex;
+  }
+  
+  const sc = shuffle(choices.map((t, i) => ({ text: t, originalIndex: i })));
   btns.forEach((b, i) => {
     b.textContent = sc[i].text;
     b.dataset.choiceIndex = sc[i].originalIndex;
     b.className = 'answer-btn';
     b.disabled = false;
   });
-  el.fb.classList.add('hidden');
 }
 
 function handle(idx) {
   if (state.done) return;
-  state.done = true; state.qAnswered++;
   const q = state.q;
+  const ri = state.currentReplyIndex;
+  
+  let choices, correctIndex, explanation;
+  if (q.replies && q.replies.length > 0) {
+    choices = q.replies[ri].choices;
+    correctIndex = q.replies[ri].correctIndex;
+    explanation = q.replies[ri].explanation;
+  } else {
+    choices = q.choices;
+    correctIndex = q.correctIndex;
+    explanation = q.explanation;
+  }
+  
   const btns = el.btns.querySelectorAll('.answer-btn');
-  const correctIndex = parseInt(q.correctIndex);
+  btns.forEach(b => { b.disabled = true; });
+  
   let isCorrect = false;
   btns.forEach(b => {
-    b.disabled = true;
     if (parseInt(b.dataset.choiceIndex) === correctIndex) {
       b.classList.add('correct-answer');
     }
   });
-  btns.forEach(b => {
-    if (parseInt(b.dataset.index) === idx && parseInt(b.dataset.choiceIndex) === correctIndex) {
-      isCorrect = true;
-    }
-  });
+  if (parseInt(btns[idx].dataset.choiceIndex) === correctIndex) {
+    isCorrect = true;
+  }
+  
   if (isCorrect) {
     state.score++;
     state.streak++;
@@ -129,19 +178,35 @@ function handle(idx) {
     el.fbRes.className = 'wrong';
     el.fb.className = 'feedback wrong';
   }
-  el.fbExp.textContent = q.explanation;
+  
+  el.fbExp.textContent = explanation;
   el.fb.classList.remove('hidden');
   el.score.textContent = state.score;
   el.streak.textContent = state.streak;
-  if (state.score <= 0) setTimeout(end, FEEDBACK_DELAY);
-  else setTimeout(displayQ, FEEDBACK_DELAY);
+  
+  const totalReplies = (q.replies && q.replies.length) || 1;
+  state.currentReplyIndex++;
+  state.qAnswered++;
+  
+  if (state.currentReplyIndex < totalReplies) {
+    setTimeout(() => {
+      renderSyntaxBlocks(q, state.currentReplyIndex);
+      renderButtons(q, state.currentReplyIndex);
+      el.fb.classList.add('hidden');
+      state.done = false;
+    }, FEEDBACK_DELAY);
+  } else {
+    state.done = true;
+    if (state.score <= 0) setTimeout(end, FEEDBACK_DELAY);
+    else setTimeout(displayQ, FEEDBACK_DELAY);
+  }
 }
 
 function start() {
   currentLang = languages.it;
   const lvl = el.lvl.value;
   if (!currentLang.meta.levels.includes(lvl)) { alert('Level not available'); return; }
-  state = { score: 0, streak: 0, qAnswered: 0, level: lvl, q: null, done: false };
+  state = { score: 0, streak: 0, qAnswered: 0, level: lvl, q: null, currentReplyIndex: 0, done: false };
   el.score.textContent = 0;
   el.streak.textContent = 0;
   show(el.game);
