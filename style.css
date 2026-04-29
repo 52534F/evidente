@@ -336,3 +336,161 @@ h1 {
     font-size: 18px;
   }
 }
+
+/* Category Bar */
+.category-bar {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.category-bar.hidden {
+  display: none;
+}
+
+.category-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.category-sep {
+  color: #9ca3af;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.category-badge.l1 { background: #dbeafe; color: #2563eb; }
+.category-badge.l2 { background: #fef3c7; color: #d97706; }
+.category-badge.l3 { background: #d1fae5; color: #059669; }
+
+/* Syntax Blocks */
+.syntax-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.syntax-blocks.hidden {
+  display: none;
+}
+
+.syntax-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border-bottom: 3px solid;
+  font-size: 12px;
+  min-width: 48px;
+}
+
+.syntax-block .word {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.syntax-block .role {
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  opacity: 0.85;
+}
+
+.syntax-block .details {
+  font-size: 9px;
+  opacity: 0.75;
+  margin-top: 2px;
+}
+
+.syntax-block .conjugation {
+  font-size: 9px;
+  color: #6366f1;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.syntax-block .gender {
+  font-weight: 600;
+}
+
+.syntax-block .gender.m { color: #3b82f6; }
+.syntax-block .gender.f { color: #ec4899; }
+
+/* Role-based colors (borders and backgrounds) */
+.syntax-block[data-role="Soggetto"] {
+  border-color: #22c55e;
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+}
+.syntax-block[data-role="Soggetto"] .role { color: #16a34a; }
+
+.syntax-block[data-role="Verbo"] {
+  border-color: #3b82f6;
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+}
+.syntax-block[data-role="Verbo"] .role { color: #2563eb; }
+
+.syntax-block[data-role="Oggetto diretto"] {
+  border-color: #f97316;
+  background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+}
+.syntax-block[data-role="Oggetto diretto"] .role { color: #ea580c; }
+
+.syntax-block[data-role="Oggetto indiretto"] {
+  border-color: #a855f7;
+  background: linear-gradient(135deg, #faf5ff 0%, #f3e8ff 100%);
+}
+.syntax-block[data-role="Oggetto indiretto"] .role { color: #9333ea; }
+
+.syntax-block[data-role="Riflessivo"] {
+  border-color: #06b6d4;
+  background: linear-gradient(135deg, #ecfeff 0%, #cffafe 100%);
+}
+.syntax-block[data-role="Riflessivo"] .role { color: #0891b2; }
+
+.syntax-block[data-role="Complemento"] {
+  border-color: #64748b;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+.syntax-block[data-role="Complemento"] .role { color: #475569; }
+
+.syntax-block[data-role="Articolo"] {
+  border-color: #ec4899;
+  background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);
+}
+.syntax-block[data-role="Articolo"] .role { color: #db2777; }
+
+.syntax-block[data-role="Preposizione"] {
+  border-color: #eab308;
+  background: linear-gradient(135deg, #fefce8 0%, #fef9c3 100%);
+}
+.syntax-block[data-role="Preposizione"] .role { color: #ca8a04; }
+
+.syntax-block[data-role="Congiunzione"] {
+  border-color: #14b8a6;
+  background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%);
+}
+.syntax-block[data-role="Congiunzione"] .role { color: #0d9488; }
+
+.syntax-block[data-role="Interrogativo"] {
+  border-color: #8b5cf6;
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+}
+.syntax-block[data-role="Interrogativo"] .role { color: #7c3aed; }
+
+.syntax-block[data-role="Pronome"] {
+  border-color: #f43f5e;
+  background: linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%);
+}
+.syntax-block[data-role="Pronome"] .role { color: #e11d48; }

@@ -25,7 +25,9 @@ const el = {
   finQ: document.getElementById('final-questions'),
   newHs: document.getElementById('new-high-score'),
   again: document.getElementById('play-again-btn'),
-  home: document.getElementById('home-btn')
+  home: document.getElementById('home-btn'),
+  catBar: document.getElementById('category-bar'),
+  syntaxBlocks: document.getElementById('syntax-blocks')
 };
 
 function getHs() { try { return parseInt(localStorage.getItem(STORAGE_KEY)) || 0; } catch { return 0; } }
@@ -46,6 +48,44 @@ function displayQ() {
   const q = currentLang.generateQuestion(state.level);
   if (!q) { alert('No questions'); end(); return; }
   state.q = q; state.done = false;
+
+  // Render category bar
+  if (q.category) {
+    el.catBar.classList.remove('hidden');
+    el.catBar.querySelector('.l1').textContent = q.category.l1;
+    el.catBar.querySelector('.l2').textContent = q.category.l2;
+    el.catBar.querySelector('.l3').textContent = q.category.l3;
+  } else {
+    el.catBar.classList.add('hidden');
+  }
+
+  // Render syntax blocks
+  if (q.syntaxBlocks && q.syntaxBlocks.length > 0) {
+    el.syntaxBlocks.classList.remove('hidden');
+    el.syntaxBlocks.innerHTML = q.syntaxBlocks.map(block => {
+      const details = [];
+      if (block.case) details.push(block.case);
+      if (block.gender) details.push(block.gender === 'm' ? 'm' : 'f');
+      
+      let conjugationHtml = '';
+      if (block.conjugation) {
+        const c = block.conjugation;
+        conjugationHtml = `<div class="conjugation">${c.persona || ''} ${c.tempo || ''} ${c.modo || ''}</div>`;
+      }
+
+      return `
+        <div class="syntax-block" data-role="${block.role || 'Parola'}">
+          <span class="word">${block.text || '·'}</span>
+          <span class="role">${block.role || 'Parola'}</span>
+          ${details.length > 0 ? `<span class="details">${details.join(' · ')}</span>` : ''}
+          ${conjugationHtml}
+        </div>
+      `;
+    }).join('');
+  } else {
+    el.syntaxBlocks.classList.add('hidden');
+  }
+
   el.prompt.textContent = q.prompt;
   const btns = el.btns.querySelectorAll('.answer-btn');
   const sc = shuffle(q.choices.map((t, i) => ({ text: t, originalIndex: i })));
