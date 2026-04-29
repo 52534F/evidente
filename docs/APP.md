@@ -4,6 +4,8 @@
 
 GrammarDrill is a gamified grammar practice web application. The app presents multiple-choice grammar questions, tracks scores/streaks, and provides feedback with explanations.
 
+For setup and installation instructions, see [SETUP.md](SETUP.md).
+
 ## Architecture
 
 ```
@@ -20,7 +22,7 @@ GrammarDrill is a gamified grammar practice web application. The app presents mu
                    │
                    ▼
 ┌─────────────────────────────────────────┐
-│         packages/it/index.js            │
+│         languages/it/index.js            │
 │     (Italian language module)            │
 │  - Question generators                   │
 │  - Vocabulary data                      │
@@ -198,15 +200,15 @@ The app automatically attaches click handlers to:
 ### 1. Create Package Structure
 
 ```
-packages/
+ languages/
   +-- es/
-      +-- index.js    # Spanish language module
+        +-- index.js    # Spanish language module
 ```
 
 ### 2. Implement Required Module Interface
 
 ```javascript
-// packages/es/index.js
+// languages/es/index.js
 const es = {
   meta: {
     code: 'es',
@@ -227,17 +229,17 @@ module.exports = es;
 ### 3. Register the Language in app.js
 
 ```javascript
-const languages = {
-  it: require('./packages/it/index.js'),
-  es: require('./packages/es/index.js')  // Add your language
+ const languages = {
+  it: require('./languages/it/index.js'),
+  es: require('./languages/es/index.js')  // Add your language
 };
 ```
 
 ### 4. Update HTML Script Include
 
 ```html
-<script src="packages/it/index.js"></script>
-<script src="packages/es/index.js"></script>
+<script src="languages/it/index.js"></script>
+<script src="languages/es/index.js"></script>
 <script src="app.js"></script>
 ```
 

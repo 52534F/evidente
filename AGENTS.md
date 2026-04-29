@@ -8,7 +8,7 @@ Only work in project directory and subdirectories, do not attempt reading or wri
 
 Please periodically update this file as the project evolves to include:
 - Project overview and goals
-- Setup and installation instructions
+- Setup and installation instructions (see docs/SETUP.md)
 - Development workflow
 - Coding standards and conventions
 - Testing approach

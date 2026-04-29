@@ -1,4 +1,4 @@
-const it = require('../packages/it/index.js');
+const it = require('../languages/it/index.js');
 
 function test(name, fn) {
   try {

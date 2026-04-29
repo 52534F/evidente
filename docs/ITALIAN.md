@@ -2,11 +2,13 @@
 
 ## Overview
 
-The Italian language pack (`packages/it/index.js`) provides grammar drill questions for Italian language learners across CEFR levels A1-C2.
+The Italian language pack (`languages/it/index.js`) provides grammar drill questions for Italian language learners across CEFR levels A1-C2.
+
+For setup and installation instructions, see [SETUP.md](../SETUP.md).
 
 ## Data Source
 
-Data is stored in JSON files at `data/it/`:
+Data is stored in JSON files at `languages/it/`:
 - `a1.json` - A1 level (18 tasks)
 - `a2.json` - A2 level (8 tasks)
 - `b1.json` - B1 level (4 tasks)
@@ -30,6 +32,10 @@ Each JSON file contains an array of task objects with this structure:
   }
 ]
 ```
+
+### File location
+
+The main module is at `languages/it/index.js` with JSON data files in the same directory.
 
 ### task.sentence fields
 
@@ -139,7 +145,7 @@ The `question` field in sentence blocks determines what user sees:
 ## Browser Usage
 
 ```html
-<script src="packages/it/index.js"></script>
+<script src="languages/it/index.js"></script>
 <script>
   // Load all data first
   it.loadAll().then(function() {

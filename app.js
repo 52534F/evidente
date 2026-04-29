@@ -1,10 +1,8 @@
 const STORAGE_KEY = 'grammadrill_highscore';
 const FEEDBACK_DELAY = 1500;
 
-const languages = { it };
-
 let currentLang = null;
-let state = { score: 0, streak: 0, qAnswered: 0, level: 'A1', q: null, currentReplyIndex: 0, done: false };
+let state = { score:0, streak:0, qAnswered:0, level: 'A1', q: null, currentReplyIndex: 0, done: false };
 
 const el = {
   start: document.getElementById('start-screen'),
@@ -44,29 +42,33 @@ function shuffle(arr) {
 }
 
 function displayQ() {
-  const q = currentLang.generateQuestion(state.level);
-  if (!q) { alert('No questions'); end(); return; }
-  state.q = q; state.currentReplyIndex = 0; state.done = false;
+  currentLang.generateQuestion(state.level).then(function(q) {
+    if (!q) { alert('No questions'); end(); return; }
+    state.q = q; state.currentReplyIndex = 0; state.done = false;
 
-  // Render category bar
-  if (q.category) {
-    el.catBar.classList.remove('hidden');
-    el.catBar.querySelector('.l1').textContent = q.category.l1.toLowerCase();
-    el.catBar.querySelector('.l2').textContent = q.category.l2.toLowerCase();
-    el.catBar.querySelector('.l3').textContent = q.category.l3.toLowerCase();
-  } else {
-    el.catBar.classList.add('hidden');
-  }
+    if (q.category) {
+      el.catBar.classList.remove('hidden');
+      el.catBar.querySelector('.l1').textContent = q.category.l1.toLowerCase();
+      el.catBar.querySelector('.l2').textContent = q.category.l2.toLowerCase();
+      el.catBar.querySelector('.l3').textContent = q.category.l3.toLowerCase();
+    } else {
+      el.catBar.classList.add('hidden');
+    }
 
-  renderSyntaxBlocks(q, 0);
-  renderButtons(q, 0);
-  el.fb.classList.add('hidden');
+    renderSyntaxBlocks(q, 0);
+    renderButtons(q, 0);
+    el.fb.classList.add('hidden');
+  }).catch(function(err) {
+    console.error('Error loading question:', err);
+    alert('Error loading question');
+    end();
+  });
 }
 
 function isQuestionBlock(block) {
-  if (block.replyIndex !== undefined) return true; // explicit replyIndex
-  if (block.text === '___') return true; // legacy placeholder
-  if (block.text && block.text.startsWith('[') && block.text.endsWith(']')) return true; // bracket
+  if (block.replyIndex !== undefined) return true;
+  if (block.text === '___') return true;
+  if (block.text && block.text.startsWith('[') && block.text.endsWith(']')) return true;
   return false;
 }
 
@@ -79,25 +81,19 @@ function renderSyntaxBlocks(q, replyIndex) {
   if (q.syntaxBlocks && q.syntaxBlocks.length > 0) {
     el.syntaxBlocks.classList.remove('hidden');
     el.syntaxBlocks.innerHTML = q.syntaxBlocks.map(block => {
-      // Keep replyIndex for mapping but don't hide blocks - show ALL at once
       const blockReplyIndex = getReplyIndex(block);
-      
       const details = [];
       if (block.case) details.push(block.case);
       if (block.gender) details.push(block.gender === 'm' ? 'm' : 'f');
-      
       let conjugationHtml = '';
       if (block.conjugation) {
         const c = block.conjugation;
         conjugationHtml = `<div class="conjugation">${c.persona || ''} ${c.tempo || ''} ${c.modo || ''}</div>`;
       }
-
-      // Display text - strip brackets for display
       let displayText = block.text || '·';
       if (displayText.startsWith('[') && displayText.endsWith(']')) {
         displayText = displayText.slice(1, -1);
       }
-
       return `
         <div class="syntax-block" data-role="${block.role || 'Parola'}">
           <span class="word">${displayText}</span>
@@ -115,22 +111,21 @@ function renderSyntaxBlocks(q, replyIndex) {
 function renderButtons(q, replyIndex) {
   const btns = el.btns.querySelectorAll('.answer-btn');
   let choices, correctIndex;
-  
-  // Use replies array (replaces multi array)
-  if (q.replies && q.replies.length > 0) {
-    choices = q.replies[replyIndex].choices;
+  if (q.replies && q.replies.length > 0 && q.replies[replyIndex]) {
+    choices = q.replies[replyIndex].choices || [];
     correctIndex = q.replies[replyIndex].correctIndex;
   } else {
-    choices = q.choices;
+    choices = q.choices || [];
     correctIndex = q.correctIndex;
   }
-  
   const sc = shuffle(choices.map((t, i) => ({ text: t, originalIndex: i })));
   btns.forEach((b, i) => {
-    b.textContent = sc[i].text;
-    b.dataset.choiceIndex = sc[i].originalIndex;
-    b.className = 'answer-btn';
-    b.disabled = false;
+    if (sc[i]) {
+      b.textContent = sc[i].text;
+      b.dataset.choiceIndex = sc[i].originalIndex;
+      b.className = 'answer-btn';
+      b.disabled = false;
+    }
   });
 }
 
@@ -138,9 +133,8 @@ function handle(idx) {
   if (state.done) return;
   const q = state.q;
   const ri = state.currentReplyIndex;
-  
   let choices, correctIndex, explanation;
-  if (q.replies && q.replies.length > 0) {
+  if (q.replies && q.replies.length > 0 && q.replies[ri]) {
     choices = q.replies[ri].choices;
     correctIndex = q.replies[ri].correctIndex;
     explanation = q.replies[ri].explanation;
@@ -149,10 +143,8 @@ function handle(idx) {
     correctIndex = q.correctIndex;
     explanation = q.explanation;
   }
-  
   const btns = el.btns.querySelectorAll('.answer-btn');
   btns.forEach(b => { b.disabled = true; });
-  
   let isCorrect = false;
   btns.forEach(b => {
     if (parseInt(b.dataset.choiceIndex) === correctIndex) {
@@ -162,30 +154,26 @@ function handle(idx) {
   if (parseInt(btns[idx].dataset.choiceIndex) === correctIndex) {
     isCorrect = true;
   }
-  
   if (isCorrect) {
     state.score++;
     state.streak++;
     el.fbRes.textContent = 'Correct!';
-    el.fbRes.className = 'correct';
+    el.fbRes.className = 'feedback correct';
     el.fb.className = 'feedback correct';
   } else {
     state.score--;
     state.streak = 0;
     el.fbRes.textContent = 'Wrong!';
-    el.fbRes.className = 'wrong';
+    el.fbRes.className = 'feedback wrong';
     el.fb.className = 'feedback wrong';
   }
-  
   el.fbExp.textContent = explanation;
   el.fb.classList.remove('hidden');
   el.score.textContent = state.score;
   el.streak.textContent = state.streak;
-  
   const totalReplies = (q.replies && q.replies.length) || 1;
   state.currentReplyIndex++;
   state.qAnswered++;
-  
   if (state.currentReplyIndex < totalReplies) {
     setTimeout(() => {
       renderSyntaxBlocks(q, state.currentReplyIndex);
@@ -201,14 +189,17 @@ function handle(idx) {
 }
 
 function start() {
-  currentLang = languages.it;
+  currentLang = window.it;
   const lvl = el.lvl.value;
   if (!currentLang.meta.levels.includes(lvl)) { alert('Level not available'); return; }
-  state = { score: 0, streak: 0, qAnswered: 0, level: lvl, q: null, currentReplyIndex: 0, done: false };
+  state = { score:0, streak:0, qAnswered:0, level: lvl, q: null, currentReplyIndex: 0, done: false };
   el.score.textContent = 0;
   el.streak.textContent = 0;
   show(el.game);
-  displayQ();
+  var promise = currentLang.loadAll || function() { return Promise.resolve(); };
+  promise.call(currentLang).then(function() {
+    displayQ();
+  });
 }
 
 function end() {
