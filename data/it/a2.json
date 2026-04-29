@@ -1,0 +1,86 @@
+[
+  {
+    "category": { "l1": "Morfologia", "l2": "Pronomi", "l3": "Pronome oggetto" },
+    "sentence": [
+      { "text": "Marco", "role": "Soggetto", "gender": "m" },
+      { "text": "dà", "role": "Verbo" },
+      { "text": "mi", "role": "Oggetto indiretto", "question": "mi" },
+      { "text": "il libro", "role": "Oggetto diretto", "gender": "m" }
+    ],
+    "replies": [
+      { "questionIndex": 2, "choices": ["mi", "ti", "gli", "le"], "correct": "mi", "explanation": "Use mi for 'to me' (indirect object)" }
+    ]
+  },
+  {
+    "category": { "l1": "Morfologia", "l2": "Pronomi", "l3": "Pronome oggetto" },
+    "sentence": [
+      { "text": "Maria", "role": "Soggetto", "gender": "f" },
+      { "text": "parla", "role": "Verbo" },
+      { "text": "gli", "role": "Oggetto indiretto", "question": "gli" },
+      { "text": "di noi", "role": "Complemento" }
+    ],
+    "replies": [
+      { "questionIndex": 2, "choices": ["mi", "ti", "gli", "le"], "correct": "gli", "explanation": "Use gli for 'to him' (indirect object)" }
+    ]
+  },
+  {
+    "category": { "l1": "Morfologia", "l2": "Pronomi", "l3": "Pronome riflessivo" },
+    "sentence": [
+      { "text": "ogni mattina", "role": "Avverbio" },
+      { "text": "mi sveglio", "role": "Verbo", "question": "mi sveglio" }
+    ],
+    "replies": [
+      { "questionIndex": 1, "choices": ["mi sveglio", "ti svegli", "si sveglia", "ci svegliamo"], "correct": "mi sveglio", "explanation": "mi + sveglio (1st person singular reflexive)" }
+    ]
+  },
+  {
+    "category": { "l1": "Morfologia", "l2": "Pronomi", "l3": "Pronome riflessivo" },
+    "sentence": [
+      { "text": "tu", "role": "Soggetto" },
+      { "text": "ti lavi", "role": "Verbo", "question": "ti lavi" }
+    ],
+    "replies": [
+      { "questionIndex": 1, "choices": ["mi lavo", "ti lavi", "si lava", "ci laviamo"], "correct": "ti lavi", "explanation": "ti + lavi (2nd person singular reflexive)" }
+    ]
+  },
+  {
+    "category": { "l1": "Morfologia", "l2": "Pronomi", "l3": "Pronome riflessivo" },
+    "sentence": [
+      { "text": "noi", "role": "Soggetto" },
+      { "text": "ci alziamo", "role": "Verbo", "question": "ci alziamo" }
+    ],
+    "replies": [
+      { "questionIndex": 1, "choices": ["mi alzo", "ti alzi", "si alza", "ci alziamo"], "correct": "ci alziamo", "explanation": "ci + alziamo (1st person plural reflexive)" }
+    ]
+  },
+  {
+    "category": { "l1": "Morfologia", "l2": "Pronomi", "l3": "Pronome riflessivo" },
+    "sentence": [
+      { "text": "loro", "role": "Soggetto" },
+      { "text": "si svegliano", "role": "Verbo", "question": "si svegliano" }
+    ],
+    "replies": [
+      { "questionIndex": 1, "choices": ["mi sveglio", "ti svegli", "si sveglia", "si svegliano"], "correct": "si svegliano", "explanation": "si + svegliano (3rd person plural reflexive)" }
+    ]
+  },
+  {
+    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Passato prossimo" },
+    "sentence": [
+      { "text": "io", "role": "Soggetto" },
+      { "text": "ho mangiato", "role": "Verbo", "question": "ho mangiato" }
+    ],
+    "replies": [
+      { "questionIndex": 1, "choices": ["mangio", "mangiato", "ho mangiato", "mangerò"], "correct": "ho mangiato", "explanation": "ho + participio (passato prossimo with avere)" }
+    ]
+  },
+  {
+    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Passato prossimo" },
+    "sentence": [
+      { "text": "lei", "role": "Soggetto" },
+      { "text": "ha parlato", "role": "Verbo", "question": "ha parlato" }
+    ],
+    "replies": [
+      { "questionIndex": 1, "choices": ["parla", "parlato", "ha parlato", "parlerà"], "correct": "ha parlato", "explanation": "ha + participio (passato prossimo with avere)" }
+    ]
+  }
+]

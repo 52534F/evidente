@@ -1,0 +1,69 @@
+[
+  {
+    "category": { "l1": "Sintassi", "l2": "Periodo ipotetico", "l3": "Tipo 2" },
+    "sentence": [
+      { "text": "Se", "role": "Congiunzione" },
+      { "text": "avessi", "role": "Verbo", "question": "avessi" },
+      { "text": "fame", "role": "Complemento" },
+      { "text": "mangerei", "role": "Verbo", "question": "mangerei" },
+      { "text": "la pizza", "role": "Complemento" }
+    ],
+    "replies": [
+      { "questionIndex": 1, "choices": ["avessi", "avevo", "avrò", "ho"], "correct": "avessi", "explanation": "Se + imperfetto congiuntivo (Tipo 2)" },
+      { "questionIndex": 3, "choices": ["mangerei", "mangio", "mangia", "mangerò"], "correct": "mangerei", "explanation": "Then + condizionale presente" }
+    ]
+  },
+  {
+    "category": { "l1": "Sintassi", "l2": "Periodo ipotetico", "l3": "Tipo 3" },
+    "sentence": [
+      { "text": "Se", "role": "Congiunzione" },
+      { "text": "avessi", "role": "Verbo", "question": "avessi" },
+      { "text": "mangiato", "role": "Verbo", "question": "mangiato" },
+      { "text": ", non", "role": "Congiunzione" },
+      { "text": "avrei", "role": "Verbo", "question": "avrei" },
+      { "text": "fame", "role": "Complemento" }
+    ],
+    "replies": [
+      { "questionIndex": 1, "choices": ["avessi", "avevo", "avrò", "ho"], "correct": "avessi", "explanation": "Se + trapassato congiuntivo" },
+      { "questionIndex": 2, "choices": ["mangiato", "mangio", "mangia", "mangerò"], "correct": "mangiato", "explanation": "Participio passato" },
+      { "questionIndex": 4, "choices": ["avrei", "ero", "sarò", "sono"], "correct": "avrei", "explanation": "Condizionale passato" }
+    ]
+  },
+  {
+    "category": { "l1": "Sintassi", "l2": "Congiuntivo", "l3": "Presente" },
+    "sentence": [
+      { "text": "Credo che", "role": "Congiunzione" },
+      { "text": "lavori", "role": "Verbo", "question": "lavori" },
+      { "text": "bene", "role": "Avverbio" }
+    ],
+    "replies": [
+      { "questionIndex": 1, "choices": ["lavori", "lava", "lavorava", "lavorerà"], "correct": "lavori", "explanation": "Credo che + congiuntivo presente" }
+    ]
+  },
+  {
+    "category": { "l1": "Sintassi", "l2": "Congiuntivo", "l3": "Passato" },
+    "sentence": [
+      { "text": "Spero che", "role": "Congiunzione" },
+      { "text": "abbia finito", "role": "Verbo", "question": "abbia finito" },
+      { "text": "in tempo", "role": "Complemento" }
+    ],
+    "replies": [
+      { "questionIndex": 1, "choices": ["abbia finito", "finiva", "finirà", "finisse"], "correct": "abbia finito", "explanation": "Spero che + congiuntivo passato (aio + participio)" }
+    ]
+  },
+  {
+    "category": { "l1": "Sintassi", "l2": "Congiuntivo", "l3": "Trapassato" },
+    "sentence": [
+      { "text": "Se non", "role": "Congiunzione" },
+      { "text": "avessi", "role": "Verbo", "question": "avessi" },
+      { "text": "tempo", "role": "Complemento" },
+      { "text": "non", "role": "Negazione" },
+      { "text": "finisse", "role": "Verbo", "question": "finisse" },
+      { "text": "il lavoro", "role": "Complemento", "gender": "m" }
+    ],
+    "replies": [
+      { "questionIndex": 1, "choices": ["avessi", "avevo", "avrò", "ho"], "correct": "avessi", "explanation": "Se non + trapassato congiuntivo (avessi)" },
+      { "questionIndex": 4, "choices": ["finisse", "finiva", "finirà", "finito"], "correct": "finisse", "explanation": "Trapassato congiuntivo (3s)" }
+    ]
+  }
+]

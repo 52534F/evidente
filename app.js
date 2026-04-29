@@ -72,8 +72,6 @@ function isQuestionBlock(block) {
 
 function getReplyIndex(block) {
   if (block.replyIndex !== undefined) return block.replyIndex;
-  if (block.text === '___') return 0;
-  if (block.text && block.text.startsWith('[') && block.text.endsWith(']')) return 0;
   return null;
 }
 

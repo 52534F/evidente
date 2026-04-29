@@ -17,10 +17,10 @@ module.exports = defineConfig({
   timeout: 30000,
 
   webServer: {
-    command: 'python3 -m http.server 3000',
+    command: 'npx -y http-server . -p 3000 -c-1',
     port: 3000,
-    timeout: 300000,
-    reuseExistingServer: !process.env.CI,
+    timeout: 30000,
+    reuseExistingServer: true,
   },
 
   projects: [
@@ -29,8 +29,7 @@ module.exports = defineConfig({
       use: { 
         ...devices['Desktop Chrome'],
         launchOptions: {
-          args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu'],
-          devtools: true,
+          args: ['--no-sandbox', '--disable-setuid-sandbox'],
         },
       },
     },
