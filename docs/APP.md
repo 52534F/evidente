@@ -57,13 +57,11 @@ GrammarDrill is a gamified grammar practice web application. The app presents mu
     <span>Streak:</span> <strong id="game-streak">0</strong>
   </header>
   
-  <!-- Category Bar (optional) -->
+  <!-- Category Bar (3-level hierarchical classification) -->
   <div id="category-bar">
-    <span class="category-badge l1"></span>
-    <span class="category-sep">:</span>
-    <span class="category-badge l2"></span>
-    <span class="category-sep">:</span>
-    <span class="category-badge l3"></span>
+    <span class="category-level l1"></span>
+    <span class="category-level l2"></span>
+    <span class="category-level l3"></span>
   </div>
   
   <!-- Syntax Blocks (optional) -->
@@ -273,12 +271,11 @@ Or implement language switching in the UI.
 - `.answer-btn.correct-answer` - Shows correct answer after wrong choice
 
 ### Category & Syntax
-- `.category-bar` - Container for category badges
-- `.category-badge` - Individual category badge
-  - `.l1` - Level 1 (domain)
-  - `.l2` - Level 2 (category)  
-  - `.l3` - Level 3 (topic)
-- `.category-sep` - Separator between badges (`:`)
+- `.category-bar` - Container for category levels (interlocking arrows style)
+- `.category-level` - Individual category level box
+  - `.l1` - Level 1 (domain): e.g., "Morfologia"
+  - `.l2` - Level 2 (category): e.g., "Pronomi"  
+  - `.l3` - Level 3 (topic): e.g., "Pronome soggetto"
 - `.syntax-blocks` - Container for syntax blocks
 - `.syntax-block` - Individual syntax block card
   - `data-role` attribute for role-based styling

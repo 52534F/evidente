@@ -58,6 +58,40 @@ module.exports = it;
 }
 ```
 
+### Category Naming Convention
+
+When creating categories for questions, follow these rules to ensure consistency:
+
+1. **l1 (Domain)**: Broad grammatical category
+   - Use: `Morfologia`, `Sintassi`, `Pragmatica`
+   - Do NOT repeat this word in l2 or l3
+
+2. **l2 (Category)**: Specific grammatical category
+   - Use: `Verbi`, `Pronomi`, `Articoli`, `Periodo ipotetico`, `Congiuntivo`, `Domande`
+   - Do NOT repeat this word in l3
+
+3. **l3 (Topic)**: Specific topic within the category
+   - Should be unique and not repeat l1 or l2 words
+   - Examples: `Coniugazione`, `Pronome soggetto`, `Pronome riflessivo`, `Tipo 0`, `Presente`, `Passato`, `Base`
+
+**Correct Examples:**
+```javascript
+{ l1: 'Morfologia', l2: 'Verbi', l3: 'Coniugazione' }
+{ l1: 'Morfologia', l2: 'Pronomi', l3: 'Pronome riflessivo' }
+{ l1: 'Sintassi', l2: 'Congiuntivo', l3: 'Presente' }
+{ l1: 'Sintassi', l2: 'Periodo ipotetico', l3: 'Tipo 0' }
+{ l1: 'Pragmatica', l2: 'Domande', l3: 'Base' }
+```
+
+**Incorrect (Avoid):**
+```javascript
+// WRONG - repeats "Congiuntivo" in l3
+{ l1: 'Sintassi', l2: 'Congiuntivo', l3: 'Congiuntivo presente' }
+
+// WRONG - repeats "Domande" in l3  
+{ l1: 'Pragmatica', l2: 'Domande', l3: 'Domande base' }
+```
+
 ---
 
 ## Data Structures
@@ -410,7 +444,7 @@ Subjunctive mood (presente, passato, imperfetto, trapassato).
 ```javascript
 // genCongiuntivo('presente') example:
 {
-  category: { l1: 'Sintassi', l2: 'Congiuntivo', l3: 'Congiuntivo presente' },
+  category: { l1: 'Sintassi', l2: 'Congiuntivo', l3: 'Presente' },
   syntaxBlocks: [
     { text: 'Credo', role: 'Verbo', case: null, gender: null,
       conjugation: { persona: '1s', tempo: 'Presente', modo: 'Indicativo' } },

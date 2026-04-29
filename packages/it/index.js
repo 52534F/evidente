@@ -256,7 +256,7 @@ function genBasicQ() {
   const q = rand(A1_TOPICS.basicQ);
   const choices = shuffle([...q.a]);
   return {
-    category: { l1: 'Pragmatica', l2: 'Domande', l3: 'Domande base' },
+    category: { l1: 'Pragmatica', l2: 'Domande', l3: 'Base' },
     syntaxBlocks: q.q.split(' ').map(w => ({
       text: w.replace('?', ''),
       role: w.endsWith('?') ? 'Interrogativo' : (w === w.toLowerCase() ? 'Parola' : 'Parola'),
@@ -373,7 +373,7 @@ function genIpotetico(type) {
   return {
     category: { l1: 'Sintassi', l2: 'Periodo ipotetico', l3: typeLabels[type] },
     syntaxBlocks: blocks,
-    prompt: typeNames[type] + '. ' + q.p,
+    prompt: typeLabels[type] + ' (' + q.p + ')',
     choices: choices,
     correctIndex: choices.indexOf(q.a[q.c]),
     explanation: 'La risposta corretta è: ' + q.a[q.c]
@@ -397,16 +397,17 @@ function genCongiuntivo(type) {
     if (!wrongs.includes(w) && w !== correct) wrongs.push(w);
   }
   const choices = shuffle([correct, ...wrongs.slice(0, 3)]);
-  const typeNames = { presente: 'Congiuntivo presente', passato: 'Congiuntivo passato', imperfetto: 'Congiuntivo imperfetto', trapassato: 'Congiuntivo trapassato' };
+  const typeNames = { presente: 'Presente', passato: 'Passato', imperfetto: 'Imperfetto', trapassato: 'Trapassato' };
+  const typeLabels = { presente: 'Presente', passato: 'Passato', imperfetto: 'Imperfetto', trapassato: 'Trapassato' };
   const blocks = [];
   const segs = item.v.split(' ');
   blocks.push({ text: segs[0], role: 'Verbo', case: null, gender: null, conjugation: { persona: '1s', tempo: 'Presente', modo: 'Indicativo' } });
   blocks.push(buildCongiunzioneBlock('che'));
   blocks.push({ text: '___', role: 'Verbo', case: null, gender: null, conjugation: { persona: '3s', tempo: type === 'presente' ? 'Presente' : (type === 'passato' ? 'Passato' : (type === 'imperfetto' ? 'Imperfetto' : 'Trapassato')), modo: 'Congiuntivo' } });
   return {
-    category: { l1: 'Sintassi', l2: 'Congiuntivo', l3: typeNames[type] },
+    category: { l1: 'Sintassi', l2: 'Congiuntivo', l3: typeLabels[type] },
     syntaxBlocks: blocks,
-    prompt: typeNames[type] + '. ' + item.sentence.replace('___', '___'),
+    prompt: typeNames[type] + ' - ' + item.sentence.replace('___', '___'),
     choices: choices,
     correctIndex: choices.indexOf(correct),
     explanation: 'Dopo "' + item.v + '" si usa il congiuntivo: ' + correct

@@ -52,9 +52,9 @@ function displayQ() {
   // Render category bar
   if (q.category) {
     el.catBar.classList.remove('hidden');
-    el.catBar.querySelector('.l1').textContent = q.category.l1;
-    el.catBar.querySelector('.l2').textContent = q.category.l2;
-    el.catBar.querySelector('.l3').textContent = q.category.l3;
+    el.catBar.querySelector('.l1').textContent = q.category.l1.toLowerCase();
+    el.catBar.querySelector('.l2').textContent = q.category.l2.toLowerCase();
+    el.catBar.querySelector('.l3').textContent = q.category.l3.toLowerCase();
   } else {
     el.catBar.classList.add('hidden');
   }

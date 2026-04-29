@@ -337,38 +337,80 @@ h1 {
   }
 }
 
-/* Category Bar */
+/* Category Bar - Interlocking Arrows Style */
 .category-bar {
+  width: 100%;
+  max-width: 360px;
   display: flex;
-  gap: 6px;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 12px;
+  margin: 0 auto 14px;
+  max-height: 40px;
+  overflow: hidden;
 }
 
 .category-bar.hidden {
   display: none;
 }
 
-.category-badge {
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 11px;
+.category-level {
+  padding: 8px 16px;
+  font-size: 12px;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+  position: relative;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
-.category-sep {
-  color: #9ca3af;
-  font-size: 10px;
-  font-weight: 500;
+.category-level.l1 {
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  color: #1d4ed8;
+  border-radius: 6px 0 0 6px;
+  margin-right: -8px;
+  z-index: 1;
 }
 
-.category-badge.l1 { background: #dbeafe; color: #2563eb; }
-.category-badge.l2 { background: #fef3c7; color: #d97706; }
-.category-badge.l3 { background: #d1fae5; color: #059669; }
+.category-level.l2 {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  color: #b45309;
+  margin-right: -8px;
+  z-index: 2;
+}
+
+.category-level.l3 {
+  background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+  color: #047857;
+  border-radius: 0 6px 6px 0;
+  z-index: 3;
+}
+
+.category-level.l1::after {
+  content: '';
+  position: absolute;
+  right: -10px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 18px 0 18px 10px;
+  border-color: transparent transparent transparent #bfdbfe;
+  z-index: 1;
+}
+
+.category-level.l2::after {
+  content: '';
+  position: absolute;
+  right: -10px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 18px 0 18px 10px;
+  border-color: transparent transparent transparent #fde68a;
+  z-index: 2;
+}
 
 /* Syntax Blocks */
 .syntax-blocks {
