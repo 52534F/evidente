@@ -1,188 +1,593 @@
 [
   {
-    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Coniugazione" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Coniugazione"
+    },
     "sentence": [
-      { "text": "io", "role": "Soggetto" },
-      { "text": "parlo", "role": "Verbo", "question": "parlo" }
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlo",
+        "role": "Verbo",
+        "question": "parlare"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["parlo", "parli", "parla", "parlano"], "correct": "parlo", "explanation": "io + parlo (1st person singular presente)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlo",
+          "parli",
+          "parla",
+          "parlano"
+        ],
+        "correct": "parlo",
+        "explanation": "io + parlo (1ª persona singolare presente)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Coniugazione" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Coniugazione"
+    },
     "sentence": [
-      { "text": "tu", "role": "Soggetto" },
-      { "text": "mangi", "role": "Verbo", "question": "mangi" }
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "mangi",
+        "role": "Verbo",
+        "question": "mangiare"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["mango", "mangi", "mangia", "mangiamo"], "correct": "mangi", "explanation": "tu + mang i (2nd person singular)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "mango",
+          "mangi",
+          "mangia",
+          "mangiamo"
+        ],
+        "correct": "mangi",
+        "explanation": "tu + mangiare (2ª persona singolare)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Coniugazione" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Coniugazione"
+    },
     "sentence": [
-      { "text": "lui", "role": "Soggetto" },
-      { "text": "parla", "role": "Verbo", "question": "parla" }
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parla",
+        "role": "Verbo",
+        "question": "parlare"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["parlo", "parli", "parla", "parlano"], "correct": "parla", "explanation": "lui/shei + parla (3rd person singular)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlo",
+          "parli",
+          "parla",
+          "parlano"
+        ],
+        "correct": "parla",
+        "explanation": "lui + parla (3ª persona singolare)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Coniugazione" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Coniugazione"
+    },
     "sentence": [
-      { "text": "noi", "role": "Soggetto" },
-      { "text": "mangiamo", "role": "Verbo", "question": "mangiamo" }
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "mangiamo",
+        "role": "Verbo",
+        "question": "mangiare"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["mangio", "mangi", "mangia", "mangiamo"], "correct": "mangiamo", "explanation": "noi + mangiamo (1st person plural)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "mangio",
+          "mangi",
+          "mangia",
+          "mangiamo"
+        ],
+        "correct": "mangiamo",
+        "explanation": "noi + mangiamo (1ª persona plurale)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Articoli", "l3": "Articolo definito" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Articoli",
+      "l3": "Articolo definito"
+    },
     "sentence": [
-      { "text": "Luigi", "role": "Soggetto", "gender": "m" },
-      { "text": "guarda", "role": "Verbo" },
-      { "text": "il", "role": "Articolo", "question": "il" },
-      { "text": "libro", "role": "Complemento", "gender": "m" }
+      {
+        "text": "Luigi",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "guarda",
+        "role": "Verbo"
+      },
+      {
+        "text": "il",
+        "role": "Articolo",
+        "question": "___"
+      },
+      {
+        "text": "libro",
+        "role": "Complemento",
+        "gender": "m"
+      }
     ],
     "replies": [
-      { "questionIndex": 2, "choices": ["il", "lo", "la", "le"], "correct": "il", "explanation": "libro is masculine singular → use il" }
+      {
+        "questionIndex": 2,
+        "choices": [
+          "il",
+          "lo",
+          "la",
+          "le"
+        ],
+        "correct": "il",
+        "explanation": "libro è maschile singolare → usa il"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Articoli", "l3": "Articolo definito" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Articoli",
+      "l3": "Articolo definito"
+    },
     "sentence": [
-      { "text": "Anna", "role": "Soggetto", "gender": "f" },
-      { "text": "legge", "role": "Verbo" },
-      { "text": "la", "role": "Articolo", "question": "la" },
-      { "text": "ragazza", "role": "Complemento", "gender": "f" }
+      {
+        "text": "Anna",
+        "role": "Soggetto",
+        "gender": "f"
+      },
+      {
+        "text": "legge",
+        "role": "Verbo"
+      },
+      {
+        "text": "la",
+        "role": "Articolo",
+        "question": "___"
+      },
+      {
+        "text": "ragazza",
+        "role": "Complemento",
+        "gender": "f"
+      }
     ],
     "replies": [
-      { "questionIndex": 2, "choices": ["il", "lo", "la", "le"], "correct": "la", "explanation": "ragazza is feminine singular → use la" }
+      {
+        "questionIndex": 2,
+        "choices": [
+          "il",
+          "lo",
+          "la",
+          "le"
+        ],
+        "correct": "la",
+        "explanation": "ragazza è femminile singolare → usa la"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Articoli", "l3": "Articolo definito" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Articoli",
+      "l3": "Articolo definito"
+    },
     "sentence": [
-      { "text": "i", "role": "Articolo", "question": "i" },
-      { "text": "ragazzi", "role": "Complemento", "gender": "m" }
+      {
+        "text": "i",
+        "role": "Articolo",
+        "question": "___"
+      },
+      {
+        "text": "ragazzi",
+        "role": "Complemento",
+        "gender": "m"
+      }
     ],
     "replies": [
-      { "questionIndex": 0, "choices": ["il", "lo", "i", "gli"], "correct": "i", "explanation": "ragazzi is masculine plural → use i" }
+      {
+        "questionIndex": 0,
+        "choices": [
+          "il",
+          "lo",
+          "i",
+          "gli"
+        ],
+        "correct": "i",
+        "explanation": "ragazzi è maschile plurale → usa i"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Articoli", "l3": "Articolo indefinito" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Articoli",
+      "l3": "Articolo indefinito"
+    },
     "sentence": [
-      { "text": "Maria", "role": "Soggetto", "gender": "f" },
-      { "text": "compra", "role": "Verbo" },
-      { "text": "una", "role": "Articolo", "question": "una" },
-      { "text": "casa", "role": "Complemento", "gender": "f" }
+      {
+        "text": "Maria",
+        "role": "Soggetto",
+        "gender": "f"
+      },
+      {
+        "text": "compra",
+        "role": "Verbo"
+      },
+      {
+        "text": "una",
+        "role": "Articolo",
+        "question": "___"
+      },
+      {
+        "text": "casa",
+        "role": "Complemento",
+        "gender": "f"
+      }
     ],
     "replies": [
-      { "questionIndex": 2, "choices": ["un", "uno", "una", "un'"], "correct": "una", "explanation": "casa is feminine singular → use una" }
+      {
+        "questionIndex": 2,
+        "choices": [
+          "un",
+          "uno",
+          "una",
+          "un'"
+        ],
+        "correct": "una",
+        "explanation": "casa è femminile singolare → usa una"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Articoli", "l3": "Articolo indefinito" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Articoli",
+      "l3": "Articolo indefinito"
+    },
     "sentence": [
-      { "text": "un", "role": "Articolo", "question": "un" },
-      { "text": "libro", "role": "Complemento", "gender": "m" }
+      {
+        "text": "un",
+        "role": "Articolo",
+        "question": "___"
+      },
+      {
+        "text": "libro",
+        "role": "Complemento",
+        "gender": "m"
+      }
     ],
     "replies": [
-      { "questionIndex": 0, "choices": ["un", "uno", "una", "un'"], "correct": "un", "explanation": "libro begins with consonant → use un" }
+      {
+        "questionIndex": 0,
+        "choices": [
+          "un",
+          "uno",
+          "una",
+          "un'"
+        ],
+        "correct": "un",
+        "explanation": "libro inizia per consonante → usa un"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Pronomi", "l3": "Pronome soggetto" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome soggetto"
+    },
     "sentence": [
-      { "text": "lui", "role": "Soggetto", "question": "lui", "gender": "m" },
-      { "text": "parla", "role": "Verbo" }
+      {
+        "text": "lui",
+        "role": "Soggetto",
+        "question": "il ragazzo",
+        "gender": "m"
+      },
+      {
+        "text": "parla",
+        "role": "Verbo"
+      }
     ],
     "replies": [
-      { "questionIndex": 0, "choices": ["io", "tu", "lui", "lei"], "correct": "lui", "explanation": "Use lui to replace il ragazzo (masculine subject)" }
+      {
+        "questionIndex": 0,
+        "choices": [
+          "io",
+          "tu",
+          "lui",
+          "lei"
+        ],
+        "correct": "lui",
+        "explanation": "Usa lui per sostituire il ragazzo (soggetto maschile)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Pronomi", "l3": "Pronome soggetto" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome soggetto"
+    },
     "sentence": [
-      { "text": "lei", "role": "Soggetto", "question": "lei", "gender": "f" },
-      { "text": "mangia", "role": "Verbo" }
+      {
+        "text": "lei",
+        "role": "Soggetto",
+        "question": "la ragazza",
+        "gender": "f"
+      },
+      {
+        "text": "mangia",
+        "role": "Verbo"
+      }
     ],
     "replies": [
-      { "questionIndex": 0, "choices": ["io", "tu", "lui", "lei"], "correct": "lei", "explanation": "Use lei to replace la ragazza (feminine subject)" }
+      {
+        "questionIndex": 0,
+        "choices": [
+          "io",
+          "tu",
+          "lui",
+          "lei"
+        ],
+        "correct": "lei",
+        "explanation": "Usa lei per sostituire la ragazza (soggetto femminile)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Pronomi", "l3": "Pronome soggetto" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome soggetto"
+    },
     "sentence": [
-      { "text": "noi", "role": "Soggetto", "question": "noi" },
-      { "text": "parliamo", "role": "Verbo" }
+      {
+        "text": "noi",
+        "role": "Soggetto",
+        "question": "noi"
+      },
+      {
+        "text": "parliamo",
+        "role": "Verbo"
+      }
     ],
     "replies": [
-      { "questionIndex": 0, "choices": ["noi", "voi", "loro"], "correct": "noi", "explanation": "Use noi as subject (1st person plural)" }
+      {
+        "questionIndex": 0,
+        "choices": [
+          "noi",
+          "voi",
+          "loro"
+        ],
+        "correct": "noi",
+        "explanation": "Usa noi come soggetto (1ª persona plurale)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Essere" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Essere"
+    },
     "sentence": [
-      { "text": "io", "role": "Soggetto" },
-      { "text": "sono", "role": "Verbo", "question": "sono" }
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sono",
+        "role": "Verbo",
+        "question": "essere"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["sono", "sei", "è", "siamo"], "correct": "sono", "explanation": "io sono (1st person of essere)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sono",
+          "sei",
+          "è",
+          "siamo"
+        ],
+        "correct": "sono",
+        "explanation": "io sono (1ª persona di essere)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Avere" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Avere"
+    },
     "sentence": [
-      { "text": "tu", "role": "Soggetto" },
-      { "text": "hai", "role": "Verbo", "question": "hai" }
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "hai",
+        "role": "Verbo",
+        "question": "avere"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["ho", "hai", "ha", "abbiamo"], "correct": "hai", "explanation": "tu hai (2nd person of avere)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho",
+          "hai",
+          "ha",
+          "abbiamo"
+        ],
+        "correct": "hai",
+        "explanation": "tu hai (2ª persona di avere)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Andare" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Andare"
+    },
     "sentence": [
-      { "text": "lui", "role": "Soggetto" },
-      { "text": "va", "role": "Verbo", "question": "va" }
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["vado", "vai", "va", "vanno"], "correct": "va", "explanation": "lui va (3rd person of andare)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "vai",
+          "va",
+          "vanno"
+        ],
+        "correct": "va",
+        "explanation": "lui va (3ª persona di andare)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Fare" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Fare"
+    },
     "sentence": [
-      { "text": "noi", "role": "Soggetto" },
-      { "text": "facciamo", "role": "Verbo", "question": "facciamo" }
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "facciamo",
+        "role": "Verbo",
+        "question": "fare"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["faccio", "fai", "fa", "facciamo"], "correct": "facciamo", "explanation": "noi facciamo (1st person plural of fare)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "faccio",
+          "fai",
+          "fa",
+          "facciamo"
+        ],
+        "correct": "facciamo",
+        "explanation": "noi facciamo (1ª persona plurale di fare)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Dare" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Dare"
+    },
     "sentence": [
-      { "text": "loro", "role": "Soggetto" },
-      { "text": "danno", "role": "Verbo", "question": "danno" }
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "danno",
+        "role": "Verbo",
+        "question": "dare"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["do", "dai", "dà", "danno"], "correct": "danno", "explanation": "loro danno (3rd person plural of dare)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "do",
+          "dai",
+          "dà",
+          "danno"
+        ],
+        "correct": "danno",
+        "explanation": "loro danno (3ª persona plurale di dare)"
+      }
     ]
   },
   {
-    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Stare" },
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Stare"
+    },
     "sentence": [
-      { "text": "voi", "role": "Soggetto" },
-      { "text": "state", "role": "Verbo", "question": "state" }
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "state",
+        "role": "Verbo",
+        "question": "stare"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["sto", "stai", "sta", "stiamo"], "correct": "state", "explanation": "voi state (2nd person plural of stare)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sto",
+          "stai",
+          "sta",
+          "stiamo"
+        ],
+        "correct": "state",
+        "explanation": "voi state (2ª persona plurale di stare)"
+      }
     ]
   }
 ]

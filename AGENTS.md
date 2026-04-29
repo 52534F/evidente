@@ -262,6 +262,20 @@ sbx secret set -g github -t "$(gh auth token)"
 - You have sudo permissions, so you can install necessary packages
 - npm, pip and uv are already available for package management
 
+## Testing
+
+Run the Italian module tests:
+```bash
+node tests/italian-unit.test.js
+```
+
+Tests verify:
+- Question generation for each level (A1-C2)
+- Category structure validity
+- Syntax blocks required fields
+- Reply choices and correctIndex
+- Async API (generateQuestion returns Promise)
+
 # Development Guidelines
 
 ## Code Review Standards

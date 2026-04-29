@@ -1,55 +1,133 @@
 [
   {
-    "category": { "l1": "Sintassi", "l2": "Congiuntivo", "l3": "Imperfetto" },
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Imperfetto"
+    },
     "sentence": [
-      { "text": "Credo che", "role": "Congiunzione" },
-      { "text": "lavorasse", "role": "Verbo", "question": "lavorasse" },
-      { "text": "italiano", "role": "Complemento", "gender": "m" }
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "lavorasse",
+        "role": "Verbo",
+        "question": "lavorasse"
+      },
+      {
+        "text": "italiano",
+        "role": "Complemento",
+        "gender": "m"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["lavorasse", "lavorava", "lavorerà", "lavori"], "correct": "lavorasse", "explanation": "Credo che + congiuntivo imperfetto (3s)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "lavorasse",
+          "lavorava",
+          "lavorerà",
+          "lavori"
+        ],
+        "correct": "lavorasse",
+        "explanation": "Credo che + congiuntivo imperfetto"
+      }
     ]
   },
   {
-    "category": { "l1": "Sintassi", "l2": "Congiuntivo", "l3": "Trapassato" },
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Trapassato"
+    },
     "sentence": [
-      { "text": "Se non", "role": "Congiunzione" },
-      { "text": "avessi", "role": "Verbo", "question": "avessi" },
-      { "text": "tempo", "role": "Complemento" },
-      { "text": ", non", "role": "Congiunzione" },
-      { "text": "finisse", "role": "Verbo", "question": "finisse" },
-      { "text": "il lavoro", "role": "Complemento", "gender": "m" }
+      {
+        "text": "Se non",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "avesse",
+        "role": "Verbo",
+        "question": "avere"
+      },
+      {
+        "text": "tempo",
+        "role": "Complemento"
+      },
+      {
+        "text": ", non",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "finisse",
+        "role": "Verbo",
+        "question": "finire"
+      },
+      {
+        "text": "il lavoro",
+        "role": "Complemento",
+        "gender": "m"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["avessi", "avevo", "avrò", "ho"], "correct": "avessi", "explanation": "Se non + trapassato congiuntivo (1s)" },
-      { "questionIndex": 4, "choices": ["finisse", "finiva", "finirà", "finito"], "correct": "finisse", "explanation": "Trapassato congiuntivo (3s)" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "avessi",
+          "avesse",
+          "averei",
+          "avevo"
+        ],
+        "correct": "avessi",
+        "explanation": "Se non + trapassato congiuntivo"
+      },
+      {
+        "questionIndex": 4,
+        "choices": [
+          "finisse",
+          "finisse",
+          "finirei",
+          "finivo"
+        ],
+        "correct": "finisse",
+        "explanation": "Trapassato congiuntivo (3ª persona)"
+      }
     ]
   },
   {
-    "category": { "l1": "Sintassi", "l2": "Congiuntivo", "l3": "Trapassato" },
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Trapassato"
+    },
     "sentence": [
-      { "text": "Bastava che", "role": "Congiunzione" },
-      { "text": "fossi", "role": "Verbo", "question": "fossi" },
-      { "text": "arrivato prima", "role": "Complemento" }
+      {
+        "text": "Bastava che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "fossi",
+        "role": "Verbo",
+        "question": "essere"
+      },
+      {
+        "text": "arrivato prima",
+        "role": "Complemento"
+      }
     ],
     "replies": [
-      { "questionIndex": 1, "choices": ["fossi", "ero", "sarò", "sono"], "correct": "fossi", "explanation": "Bastava che + trapassato congiuntivo (fossi)" }
-    ]
-  },
-  {
-    "category": { "l1": "Morfologia", "l2": "Verbi", "l3": "Congiuntivo trapassato" },
-    "sentence": [
-      { "text": "Se", "role": "Congiunzione" },
-      { "text": "avessi", "role": "Verbo", "question": "avessi" },
-      { "text": "saputo", "role": "Verbo", "question": "saputo" },
-      { "text": ", non", "role": "Negazione" },
-      { "text": "sarebbe", "role": "Verbo", "question": "sarebbe" },
-      { "text": "successo", "role": "Complemento", "gender": "m" }
-    ],
-    "replies": [
-      { "questionIndex": 1, "choices": ["avessi", "avevo", "avrò", "ho"], "correct": "avessi", "explanation": "Se + trapassato congiuntivo" },
-      { "questionIndex": 2, "choices": ["saputo", "so", "sai", "sanno"], "correct": "saputo", "explanation": "Participio passato" },
-      { "questionIndex": 4, "choices": ["sarebbe", "sarà", "saranno", "era"], "correct": "sarebbe", "explanation": "Condizionale passato" }
+      {
+        "questionIndex": 1,
+        "choices": [
+          "fossi",
+          "essere",
+          "sarò",
+          "sono"
+        ],
+        "correct": "fossi",
+        "explanation": "Bastava che + trapassato congiuntivo"
+      }
     ]
   }
 ]
