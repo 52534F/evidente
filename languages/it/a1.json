@@ -1539,41 +1539,6 @@
     },
     "sentence": [
       {
-        "text": "io",
-        "role": "Soggetto"
-      },
-      {
-        "text": "parlo",
-        "role": "Verbo",
-        "question": "parlare"
-      },
-      {
-        "text": "italiano",
-        "role": "Complemento"
-      }
-    ],
-    "replies": [
-      {
-        "questionIndex": 1,
-        "choices": [
-          "parlo",
-          "parli",
-          "parla",
-          "parliamo"
-        ],
-        "correct": "parlo",
-        "explanation": "parlare → io parlo (1ª persona singolare)"
-      }
-    ]
-  },
-  {
-    "category": {
-      "l1": "Morfologia",
-      "l2": "Verbi",
-      "l3": "Presente - verbi regolari in -are"
-    },
-    "sentence": [
-      {
         "text": "tu",
         "role": "Soggetto"
       },
@@ -1598,41 +1563,6 @@
         ],
         "correct": "parli",
         "explanation": "parlare → tu parli (2ª persona singolare)"
-      }
-    ]
-  },
-  {
-    "category": {
-      "l1": "Morfologia",
-      "l2": "Verbi",
-      "l3": "Presente - verbi regolari in -are"
-    },
-    "sentence": [
-      {
-        "text": "lui",
-        "role": "Soggetto"
-      },
-      {
-        "text": "parla",
-        "role": "Verbo",
-        "question": "parlare"
-      },
-      {
-        "text": "bene",
-        "role": "Avverbio"
-      }
-    ],
-    "replies": [
-      {
-        "questionIndex": 1,
-        "choices": [
-          "parlo",
-          "parli",
-          "parla",
-          "parliamo"
-        ],
-        "correct": "parla",
-        "explanation": "parlare → lui parla (3ª persona singolare)"
       }
     ]
   },

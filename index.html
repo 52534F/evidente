@@ -31,10 +31,8 @@
 
     <!-- Statistics Screen -->
     <section id="stats-screen" class="screen hidden">
-      <header class="stats-header">
-        <button id="stats-back-btn" class="back-btn">← Back</button>
-        <h1>Statistics</h1>
-        <button id="stats-reset-btn" class="secondary-btn danger">Reset</button>
+      <header class="stats-header" id="stats-header-clickable">
+        <h1 id="stats-title">Statistics</h1>
       </header>
       <div id="stats-content">
         <div class="stats-section">
@@ -58,6 +56,9 @@
           <h2>By Language</h2>
           <div id="language-stats-content"></div>
         </div>
+      </div>
+      <div class="stats-footer">
+        <button id="stats-reset-btn" class="secondary-btn danger">Reset Statistics</button>
       </div>
     </section>
 
