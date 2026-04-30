@@ -49,8 +49,10 @@ const el = {
   levelDropdown: document.getElementById('level-dropdown'),
   currentLevel: document.getElementById('current-level'),
   statsScreen: document.getElementById('stats-screen'),
-  statsBackBtn: document.getElementById('stats-back-btn'),
+  statsHeaderBtn: document.getElementById('stats-header-clickable'),
+  statsTitle: document.getElementById('stats-title'),
   statsResetBtn: document.getElementById('stats-reset-btn'),
+  statsContent: document.getElementById('stats-content'),
   statsSessions: document.getElementById('stats-sessions'),
   statsTotalTime: document.getElementById('stats-total-time'),
   statsLastPlayed: document.getElementById('stats-last-played'),
@@ -153,6 +155,7 @@ function selectLanguage(code) {
     currentLang = module;
     saveLanguage(code);
     updateFlag();
+    updateLevelIndicator();
     // Use availableLanguages for levels with labels (from language-pack.json)
     const langData = availableLanguages.find(l => l.code === code);
     populateLevelSelect(langData && langData.meta && langData.meta.levels || {});
@@ -438,6 +441,7 @@ function start() {
   state = { score:0, streak:0, qAnswered:0, level: lvl, language: state.language, q: null, currentReplyIndex: 0, done: false };
   el.score.textContent = 0;
   el.streak.textContent = 0;
+  updateLevelIndicator();
   show(el.game);
   // Start stats session
   if (window.statsModule) {
@@ -533,6 +537,7 @@ function init() {
       state.language = langToLoad;
       el.langSelect.value = langToLoad;
       updateFlag();
+      updateLevelIndicator();
       // Use availableLanguages for levels with labels (from language-pack.json)
       const langData = availableLanguages.find(l => l.code === langToLoad);
       if (langData && langData.meta && langData.meta.levels) {
@@ -640,8 +645,8 @@ function init() {
   if (el.gameStreakBtn) {
     el.gameStreakBtn.addEventListener('click', showStatsScreen);
   }
-  if (el.statsBackBtn) {
-    el.statsBackBtn.addEventListener('click', () => {
+  if (el.statsHeaderBtn) {
+    el.statsHeaderBtn.addEventListener('click', () => {
       if (statsOpenedFromGame) {
         show(el.game);
       } else {

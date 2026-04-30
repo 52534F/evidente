@@ -161,44 +161,41 @@
     return Math.abs(hash).toString(16).substring(0, 8);
   }
 
-  // Pool of semantically different words for verb replies (each person/tense)
-  var verbWordPool = {
-    'io': ['parlo', 'mangio', 'vado', 'faccio', 'sono', 'ho', 'sto', 'vengo'],
-    'tu': ['parli', 'mangi', 'vai', 'fai', 'sei', 'hai', 'stai', 'vieni'],
-    'lui': ['parla', 'mangia', 'va', 'fa', 'è', 'ha', 'sta', 'viene'],
-    'noi': ['parliamo', 'mangiamo', 'andiamo', 'facciamo', 'siamo', 'abbiamo', 'stiamo', 'veniamo'],
-    'voi': ['parlate', 'mangiate', 'andate', 'fate', 'siete', 'avete', 'state', 'venite'],
-    'loro': ['parlano', 'mangiano', 'vanno', 'fanno', 'sono', 'hanno', 'stanno', 'vengono']
-  };
-
   function shuffleReplyChoices(reply) {
     var correct = reply.correct;
-    var choices = [correct];
 
-    // For verbs, use semantically different words from the pool
-    // Detect if this is a verb reply by checking if correct is a verb form
-    var verbMatch = Object.keys(verbWordPool).find(function(person) {
-      return verbWordPool[person].indexOf(correct) !== -1;
-    });
+    // Start with original choices if they exist and contain the correct answer
+    var choices = reply.choices && reply.choices.indexOf(correct) !== -1
+      ? reply.choices.slice()  // Use original choices
+      : [correct];  // Start fresh with just correct
 
-    if (verbMatch) {
-      // Add 7 other verbs from the same person pool (semantically different)
-      var pool = verbWordPool[verbMatch].filter(function(w) { return w !== correct; });
-      // Shuffle and take 7
-      var shuffled = pool.sort(function() { return Math.random() - 0.5; }).slice(0, 7);
-      choices = choices.concat(shuffled);
-    } else {
-      // For non-verbs, use existing choices (minus correct) and pad to 8
-      var others = reply.choices.filter(function(c) { return c !== correct; });
-      // Add generic options to reach 8 total
-      var genericPool = ['molto', 'bene', 'anche', 'sempre', 'dove', 'oggi', 'qui', 'c\u0027è'];
-      var combined = others.concat(genericPool.filter(function(g) { return choices.indexOf(g) === -1; }));
-      var shuffled = combined.sort(function() { return Math.random() - 0.5; }).slice(0, 7);
-      choices = choices.concat(shuffled);
+    // If we're starting fresh, add wrong answers from original set
+    if (choices.length === 1 && reply.choices) {
+      reply.choices.forEach(function(c) {
+        if (c !== correct && c !== null && c !== undefined && choices.indexOf(c) === -1) {
+          choices.push(c);
+        }
+      });
     }
 
-    // Shuffle the final 8 choices
+    // Pad to 8 choices if needed
+    if (choices.length < 8) {
+      var genericPool = ['molto', 'bene', 'anche', 'sempre', 'dove', 'oggi', 'qui', 'c\'è'];
+      genericPool.forEach(function(g) {
+        if (choices.length < 8 && choices.indexOf(g) === -1) {
+          choices.push(g);
+        }
+      });
+    }
+
+    // Shuffle the final choices
     choices = choices.sort(function() { return Math.random() - 0.5; });
+
+    // Ensure correct is in choices
+    if (choices.indexOf(correct) === -1) {
+      choices[0] = correct;  // Force correct into the array
+      choices = choices.sort(function() { return Math.random() - 0.5; });
+    }
 
     var result = JSON.parse(JSON.stringify(reply));
     result.choices = choices;
