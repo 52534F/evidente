@@ -55,7 +55,7 @@
     "category": {
       "l1": "Sintassi",
       "l2": "Periodo ipotetico",
-      "l3": "Tipo 1"
+      "l3": "Reale"
     },
     "sentence": [
       {
@@ -199,6 +199,2642 @@
         ],
         "correct": "finisca",
         "explanation": "Spero che + congiuntivo presente"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto - pratica"
+    },
+    "sentence": [
+      {
+        "text": "Quando ero piccolo",
+        "role": "Avverbio"
+      },
+      {
+        "text": "giocavo",
+        "role": "Verbo",
+        "question": "giocare"
+      },
+      {
+        "text": "a calcio",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "giocavo",
+          "giocavi",
+          "giocava",
+          "giocavano"
+        ],
+        "correct": "giocavo",
+        "explanation": "io giocavo (imperfetto 1ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto - pratica"
+    },
+    "sentence": [
+      {
+        "text": "Quando eravamo giovani",
+        "role": "Avverbio"
+      },
+      {
+        "text": "studiavamo",
+        "role": "Verbo",
+        "question": "studiare"
+      },
+      {
+        "text": "molto",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "studiavo",
+          "studiavi",
+          "studiava",
+          "studiavamo"
+        ],
+        "correct": "studiavamo",
+        "explanation": "noi studiavamo (imperfetto 1ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto - pratica"
+    },
+    "sentence": [
+      {
+        "text": "Da bambino",
+        "role": "Avverbio"
+      },
+      {
+        "text": "leggevo",
+        "role": "Verbo",
+        "question": "leggere"
+      },
+      {
+        "text": "molti libri",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggevo",
+          "leggevi",
+          "leggeva",
+          "leggevano"
+        ],
+        "correct": "leggevo",
+        "explanation": "io leggevo (imperfetto 1ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto - pratica"
+    },
+    "sentence": [
+      {
+        "text": "Loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormivano",
+        "role": "Verbo",
+        "question": "dormire"
+      },
+      {
+        "text": "ogni pomeriggio",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormivo",
+          "dormivi",
+          "dormiva",
+          "dormivano"
+        ],
+        "correct": "dormivano",
+        "explanation": "loro dormivano (imperfetto 3ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "Io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerei",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "con lui",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerei",
+          "parleresti",
+          "parlerebbe",
+          "parleremmo"
+        ],
+        "correct": "parlerei",
+        "explanation": "io parlerei (condizionale presente 1ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "Tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parleresti",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "con lui",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerei",
+          "parleresti",
+          "parlerebbe",
+          "parleremmo"
+        ],
+        "correct": "parleresti",
+        "explanation": "tu parleresti (condizionale presente 2ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "Lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerebbe",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "con noi",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerei",
+          "parleresti",
+          "parlerebbe",
+          "parleremmo"
+        ],
+        "correct": "parlerebbe",
+        "explanation": "lui parlerebbe (condizionale presente 3ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "Noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parleremmo",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "con loro",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerei",
+          "parleresti",
+          "parlerebbe",
+          "parleremmo"
+        ],
+        "correct": "parleremmo",
+        "explanation": "noi parleremmo (condizionale presente 1ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "Voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlereste",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "con noi",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlereste",
+          "parlerebbero",
+          "parleresti",
+          "parlerebbe"
+        ],
+        "correct": "parlereste",
+        "explanation": "voi parlereste (condizionale presente 2ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "Loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerebbero",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "con noi",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlereste",
+          "parlerebbero",
+          "parleresti",
+          "parlerebbe"
+        ],
+        "correct": "parlerebbero",
+        "explanation": "loro parlerebbero (condizionale presente 3ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente - verbi in -ere"
+    },
+    "sentence": [
+      {
+        "text": "Io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggerei",
+        "role": "Verbo",
+        "question": "leggere"
+      },
+      {
+        "text": "quel libro",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggerei",
+          "leggeresti",
+          "leggerebbe",
+          "leggeremmo"
+        ],
+        "correct": "leggerei",
+        "explanation": "io leggerei (condizionale presente 1ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente - verbi in -ire"
+    },
+    "sentence": [
+      {
+        "text": "Io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "partirei",
+        "role": "Verbo",
+        "question": "partire"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "partirei",
+          "partiresti",
+          "partirebbe",
+          "partiremmo"
+        ],
+        "correct": "partirei",
+        "explanation": "io partirei (condizionale presente 1ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronomi relativi"
+    },
+    "sentence": [
+      {
+        "text": "Il libro",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "che",
+        "role": "Pronome relativo"
+      },
+      {
+        "text": "leggi",
+        "role": "Verbo",
+        "question": "leggere"
+      },
+      {
+        "text": "è interessante",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "che",
+          "chi",
+          "cui",
+          "quale"
+        ],
+        "correct": "che",
+        "explanation": "che sostituisce il libro (soggetto)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronomi relativi"
+    },
+    "sentence": [
+      {
+        "text": "La ragazza",
+        "role": "Soggetto",
+        "gender": "f"
+      },
+      {
+        "text": "che",
+        "role": "Pronome relativo"
+      },
+      {
+        "text": "parla",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "è mia sorella",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "che",
+          "chi",
+          "cui",
+          "quale"
+        ],
+        "correct": "che",
+        "explanation": "che sostituisce la ragazza (soggetto)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronomi relativi"
+    },
+    "sentence": [
+      {
+        "text": "Il libro",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "del quale",
+        "role": "Pronome relativo"
+      },
+      {
+        "text": "parli",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "è interessante",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "che",
+          "chi",
+          "del quale",
+          "quale"
+        ],
+        "correct": "del quale",
+        "explanation": "del quale = di cui (oggetto indiretto)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronomi relativi"
+    },
+    "sentence": [
+      {
+        "text": "La persona",
+        "role": "Soggetto",
+        "gender": "f"
+      },
+      {
+        "text": "a cui",
+        "role": "Pronome relativo"
+      },
+      {
+        "text": "scrivo",
+        "role": "Verbo",
+        "question": "scrivere"
+      },
+      {
+        "text": "è mia amica",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "che",
+          "a cui",
+          "del quale",
+          "quale"
+        ],
+        "correct": "a cui",
+        "explanation": "a cui = alla quale (oggetto indiretto)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "CI",
+      "l3": "CI impersonal"
+    },
+    "sentence": [
+      {
+        "text": "In Italia",
+        "role": "Avverbio"
+      },
+      {
+        "text": "si",
+        "role": "CI impersonal"
+      },
+      {
+        "text": "mangia",
+        "role": "Verbo",
+        "question": "mangiare"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ci",
+          "si",
+          "ne",
+          "vi"
+        ],
+        "correct": "si",
+        "explanation": "si impersonale (senza soggetto specifico)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "CI",
+      "l3": "CI impersonal"
+    },
+    "sentence": [
+      {
+        "text": "Qui",
+        "role": "Avverbio"
+      },
+      {
+        "text": "si",
+        "role": "CI impersonal"
+      },
+      {
+        "text": "parla",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "italiano",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ci",
+          "si",
+          "ne",
+          "vi"
+        ],
+        "correct": "si",
+        "explanation": "si impersonale (senza soggetto specifico)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "CI",
+      "l3": "CI partitivo"
+    },
+    "sentence": [
+      {
+        "text": "Io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ne",
+        "role": "CI partitivo"
+      },
+      {
+        "text": "mangio",
+        "role": "Verbo",
+        "question": "mangiare"
+      },
+      {
+        "text": "due",
+        "role": "Numero"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ci",
+          "si",
+          "ne",
+          "vi"
+        ],
+        "correct": "ne",
+        "explanation": "ne partitivo = di essi (due di essi)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "CI",
+      "l3": "CI partitivo"
+    },
+    "sentence": [
+      {
+        "text": "Io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ne",
+        "role": "CI partitivo"
+      },
+      {
+        "text": "ho",
+        "role": "Verbo",
+        "question": "avere"
+      },
+      {
+        "text": "tre",
+        "role": "Numero"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ci",
+          "si",
+          "ne",
+          "vi"
+        ],
+        "correct": "ne",
+        "explanation": "ne partitivo = di essi (tre di essi)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "NE",
+      "l3": "NE partitivo"
+    },
+    "sentence": [
+      {
+        "text": "Vuoi",
+        "role": "Verbo"
+      },
+      {
+        "text": "delle",
+        "role": "Articolo"
+      },
+      {
+        "text": "mele",
+        "role": "Complemento",
+        "gender": "f"
+      },
+      {
+        "text": "?",
+        "role": "Punteggiatura"
+      },
+      {
+        "text": "Sì,",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "ne",
+        "role": "NE partitivo"
+      },
+      {
+        "text": "voglio",
+        "role": "Verbo",
+        "question": "volere"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 5,
+        "choices": [
+          "ci",
+          "si",
+          "ne",
+          "vi"
+        ],
+        "correct": "ne",
+        "explanation": "ne = di mele (partitivo)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "NE",
+      "l3": "NE partitivo"
+    },
+    "sentence": [
+      {
+        "text": "Conosci",
+        "role": "Verbo"
+      },
+      {
+        "text": "queste persone",
+        "role": "Complemento",
+        "gender": "f"
+      },
+      {
+        "text": "?",
+        "role": "Punteggiatura"
+      },
+      {
+        "text": "Sì,",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "ne",
+        "role": "NE partitivo"
+      },
+      {
+        "text": "conosco",
+        "role": "Verbo",
+        "question": "conoscere"
+      },
+      {
+        "text": "alcune",
+        "role": "Aggettivo",
+        "gender": "f"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 4,
+        "choices": [
+          "ci",
+          "si",
+          "ne",
+          "vi"
+        ],
+        "correct": "ne",
+        "explanation": "ne = di queste persone (partitivo)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Voce passiva",
+      "l3": "Passiva con essere"
+    },
+    "sentence": [
+      {
+        "text": "Il libro",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "è",
+        "role": "Verbo ausiliare"
+      },
+      {
+        "text": "letto",
+        "role": "Participio passato",
+        "gender": "m"
+      },
+      {
+        "text": "da Maria",
+        "role": "Complemento agente"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "letto",
+          "letta",
+          "letti",
+          "lette"
+        ],
+        "correct": "letto",
+        "explanation": "letto = participio maschile singolare (concordanza con libro)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Voce passiva",
+      "l3": "Passiva con essere"
+    },
+    "sentence": [
+      {
+        "text": "La lettera",
+        "role": "Soggetto",
+        "gender": "f"
+      },
+      {
+        "text": "è",
+        "role": "Verbo ausiliare"
+      },
+      {
+        "text": "scritta",
+        "role": "Participio passato",
+        "gender": "f"
+      },
+      {
+        "text": "da Marco",
+        "role": "Complemento agente"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "letto",
+          "letta",
+          "scritto",
+          "scritta"
+        ],
+        "correct": "scritta",
+        "explanation": "scritta = participio femminile singolare (concordanza con lettera)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Voce passiva",
+      "l3": "Passiva con essere"
+    },
+    "sentence": [
+      {
+        "text": "I libri",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "sono",
+        "role": "Verbo ausiliare"
+      },
+      {
+        "text": "letti",
+        "role": "Participio passato",
+        "gender": "m"
+      },
+      {
+        "text": "da Maria",
+        "role": "Complemento agente"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "letto",
+          "letta",
+          "letti",
+          "lette"
+        ],
+        "correct": "letti",
+        "explanation": "letti = participio maschile plurale (concordanza con libri)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Voce passiva",
+      "l3": "Passiva con essere"
+    },
+    "sentence": [
+      {
+        "text": "Le lettere",
+        "role": "Soggetto",
+        "gender": "f"
+      },
+      {
+        "text": "sono",
+        "role": "Verbo ausiliare"
+      },
+      {
+        "text": "scritte",
+        "role": "Participio passato",
+        "gender": "f"
+      },
+      {
+        "text": "da Marco",
+        "role": "Complemento agente"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "letto",
+          "letta",
+          "scritti",
+          "scritte"
+        ],
+        "correct": "scritte",
+        "explanation": "scritte = participio femminile plurale (concordanza con lettere)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Irreale passato"
+    },
+    "sentence": [
+      {
+        "text": "Se",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "avessi avuto",
+        "role": "Verbo",
+        "question": "avere"
+      },
+      {
+        "text": "tempo",
+        "role": "Complemento"
+      },
+      {
+        "text": "sarei venuto",
+        "role": "Verbo",
+        "question": "venire"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "avevo",
+          "ho",
+          "avessi avuto",
+          "avrò"
+        ],
+        "correct": "avessi avuto",
+        "explanation": "Trapassato congiuntivo per il Periodo Ipotetico Irreale passato"
+      },
+      {
+        "questionIndex": 3,
+        "choices": [
+          "venivo",
+          "vengo",
+          "sarei venuto",
+          "verrò"
+        ],
+        "correct": "sarei venuto",
+        "explanation": "Condizionale passato per il Periodo Ipotetico Irreale passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Irreale passato"
+    },
+    "sentence": [
+      {
+        "text": "Se",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "fossi andato",
+        "role": "Verbo",
+        "question": "andare"
+      },
+      {
+        "text": "al cinema",
+        "role": "Complemento"
+      },
+      {
+        "text": "avrei visto",
+        "role": "Verbo",
+        "question": "vedere"
+      },
+      {
+        "text": "il film",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andavo",
+          "sono andato",
+          "fossi andato",
+          "andrò"
+        ],
+        "correct": "fossi andato",
+        "explanation": "Trapassato congiuntivo per il Periodo Ipotetico Irreale passato"
+      },
+      {
+        "questionIndex": 3,
+        "choices": [
+          "vedevo",
+          "vedo",
+          "avrei visto",
+          "vedrò"
+        ],
+        "correct": "avrei visto",
+        "explanation": "Condizionale passato per il Periodo Ipotetico Irreale passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "studi",
+        "role": "Verbo",
+        "question": "studiare"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      },
+      {
+        "text": "passi",
+        "role": "Verbo",
+        "question": "passare"
+      },
+      {
+        "text": "l'esame",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "studi",
+          "studierai",
+          "studiavi",
+          "studiassi"
+        ],
+        "correct": "studi",
+        "explanation": "Reale: Se + presente, poi + presente/futuro"
+      },
+      {
+        "questionIndex": 3,
+        "choices": [
+          "passi",
+          "passerai",
+          "passavi",
+          "passassi"
+        ],
+        "correct": "passi",
+        "explanation": "Reale: Se + presente, poi + presente/futuro"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "studiassi",
+        "role": "Verbo",
+        "question": "studiare"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      },
+      {
+        "text": "passerei",
+        "role": "Verbo",
+        "question": "passare"
+      },
+      {
+        "text": "l'esame",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "studi",
+          "studierai",
+          "studiassi",
+          "ho studiato"
+        ],
+        "correct": "studiassi",
+        "explanation": "Possibile: Se + imperfetto congiuntivo, poi + condizionale presente"
+      },
+      {
+        "questionIndex": 3,
+        "choices": [
+          "passi",
+          "passerai",
+          "passerei",
+          "passavi"
+        ],
+        "correct": "passerei",
+        "explanation": "Possibile: Se + imperfetto congiuntivo, poi + condizionale presente"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Irreale presente"
+    },
+    "sentence": [
+      {
+        "text": "Se",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "avessi",
+        "role": "Verbo",
+        "question": "avere"
+      },
+      {
+        "text": "tempo",
+        "role": "Complemento"
+      },
+      {
+        "text": "verrei",
+        "role": "Verbo",
+        "question": "venire"
+      },
+      {
+        "text": "con te",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho",
+          "avevo",
+          "avessi",
+          "avrei"
+        ],
+        "correct": "avessi",
+        "explanation": "Irreale presente: Se + imperfetto congiuntivo, poi + condizionale presente"
+      },
+      {
+        "questionIndex": 3,
+        "choices": [
+          "vengo",
+          "venivo",
+          "verrei",
+          "verrò"
+        ],
+        "correct": "verrei",
+        "explanation": "Irreale presente: Se + imperfetto congiuntivo, poi + condizionale presente"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "a"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto a casa",
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: presente + presente"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "se studio",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "imparo",
+        "role": "Verbo",
+        "question": "verbo"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "imparo",
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "imparo",
+        "explanation": "Reale: presente + presente"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "se hai tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "vieni",
+        "role": "Verbo",
+        "question": "verbo"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vieni",
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "vieni",
+        "explanation": "Reale: presente + presente"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "restare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto a casa",
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se studio",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "imparo",
+        "role": "Verbo",
+        "question": "imparare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "imparo",
+          "imparo",
+          "vado",
+          "faccio"
+        ],
+        "correct": "imparo",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se hai tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "vieni",
+        "role": "Verbo",
+        "question": "venire"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vieni",
+          "vieni",
+          "vado",
+          "faccio"
+        ],
+        "correct": "vieni",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se avessi tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "andrei al cinema",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrei al cinema",
+          "andrei",
+          "vado",
+          "andavo"
+        ],
+        "correct": "andrei al cinema",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se studiassi",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "supereresti l'esame",
+        "role": "Verbo",
+        "question": "superare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "supereresti l'esame",
+          "supereresti",
+          "vado",
+          "andavo"
+        ],
+        "correct": "supereresti l'esame",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che io parlii",
+        "role": "Verbo",
+        "question": "parlare (io)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che io parlare",
+        "explanation": "Congiuntivo presente: che io parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che tu parlii",
+        "role": "Verbo",
+        "question": "parlare (tu)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che tu parlare",
+        "explanation": "Congiuntivo presente: che tu parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che lui parlii",
+        "role": "Verbo",
+        "question": "parlare (lui)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che lui parlare",
+        "explanation": "Congiuntivo presente: che lui parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che io scrivai",
+        "role": "Verbo",
+        "question": "scrivere (io)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che io scrivere",
+        "explanation": "Congiuntivo presente: che io scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che tu scrivai",
+        "role": "Verbo",
+        "question": "scrivere (tu)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che tu scrivere",
+        "explanation": "Congiuntivo presente: che tu scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che lui scrivai",
+        "role": "Verbo",
+        "question": "scrivere (lui)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che lui scrivere",
+        "explanation": "Congiuntivo presente: che lui scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che io dormai",
+        "role": "Verbo",
+        "question": "dormire (io)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che io dormire",
+        "explanation": "Congiuntivo presente: che io dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che tu dormai",
+        "role": "Verbo",
+        "question": "dormire (tu)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che tu dormire",
+        "explanation": "Congiuntivo presente: che tu dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che lui dormai",
+        "role": "Verbo",
+        "question": "dormire (lui)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che lui dormire",
+        "explanation": "Congiuntivo presente: che lui dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che io finai",
+        "role": "Verbo",
+        "question": "finire (io)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che io finire",
+        "explanation": "Congiuntivo presente: che io finire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che tu finai",
+        "role": "Verbo",
+        "question": "finire (tu)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che tu finire",
+        "explanation": "Congiuntivo presente: che tu finire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che lui finai",
+        "role": "Verbo",
+        "question": "finire (lui)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che lui finire",
+        "explanation": "Congiuntivo presente: che lui finire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che io capai",
+        "role": "Verbo",
+        "question": "capire (io)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che io capire",
+        "explanation": "Congiuntivo presente: che io capire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che tu capai",
+        "role": "Verbo",
+        "question": "capire (tu)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che tu capire",
+        "explanation": "Congiuntivo presente: che tu capire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Presente"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "che lui capai",
+        "role": "Verbo",
+        "question": "capire (lui)"
+      },
+      {
+        "text": "bene",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "che lui capire",
+        "explanation": "Congiuntivo presente: che lui capire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "restare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "restare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "restare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "restare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "restare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "restare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "restare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "restare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "restare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Reale"
+    },
+    "sentence": [
+      {
+        "text": "Se piove",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "resto a casa",
+        "role": "Verbo",
+        "question": "restare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "resto",
+          "vado",
+          "faccio"
+        ],
+        "correct": "resto a casa",
+        "explanation": "Reale: se + indicativo → indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se avessi tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "andrei al cinema",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrei",
+          "vado",
+          "andavo"
+        ],
+        "correct": "andrei al cinema",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se avessi tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "andrei al cinema",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrei",
+          "vado",
+          "andavo"
+        ],
+        "correct": "andrei al cinema",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se avessi tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "andrei al cinema",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrei",
+          "vado",
+          "andavo"
+        ],
+        "correct": "andrei al cinema",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se avessi tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "andrei al cinema",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrei",
+          "vado",
+          "andavo"
+        ],
+        "correct": "andrei al cinema",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se avessi tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "andrei al cinema",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrei",
+          "vado",
+          "andavo"
+        ],
+        "correct": "andrei al cinema",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se avessi tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "andrei al cinema",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrei",
+          "vado",
+          "andavo"
+        ],
+        "correct": "andrei al cinema",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se avessi tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "andrei al cinema",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrei",
+          "vado",
+          "andavo"
+        ],
+        "correct": "andrei al cinema",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se avessi tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "andrei al cinema",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrei",
+          "vado",
+          "andavo"
+        ],
+        "correct": "andrei al cinema",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se avessi tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "andrei al cinema",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrei",
+          "vado",
+          "andavo"
+        ],
+        "correct": "andrei al cinema",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Possibile"
+    },
+    "sentence": [
+      {
+        "text": "Se avessi tempo",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "andrei al cinema",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrei",
+          "vado",
+          "andavo"
+        ],
+        "correct": "andrei al cinema",
+        "explanation": "Possibile: se + imperfetto cong → condizionale"
       }
     ]
   }

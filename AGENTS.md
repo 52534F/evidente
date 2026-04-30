@@ -262,6 +262,24 @@ sbx secret set -g github -t "$(gh auth token)"
 - You have sudo permissions, so you can install necessary packages
 - npm, pip and uv are already available for package management
 
+## Language Pack Discovery
+
+Languages are dynamically discovered via `languages/manifest.json`. When working with language packs:
+
+- **Manifest file**: `languages/manifest.json` contains the registry of available languages
+- **Language structure**: Each language lives in `languages/<code>/` with:
+  - `index.js` - Main module implementing the language interface
+  - `language-pack.json` - Metadata (version, symbol, entryPoint, levels with taskCount)
+  - `<level>.json` - Level data files (a1.json, a2.json, etc.)
+- **Adding a new language**: 
+  1. Create directory `languages/<code>/`
+  2. Add `index.js` with required module interface
+  3. Add `language-pack.json` with metadata
+  4. Update `languages/manifest.json` to include the new language
+  5. No need to modify `app.js` or `index.html` - dynamic loading handles it
+- **Language preference**: Stored in localStorage as `grammadrill_language`
+- **Module interface**: Each language module must export `meta` (code, name, symbol, levels) and `generateQuestion(level)` function that returns a Promise
+
 ## Testing
 
 Run the Italian module tests:
@@ -275,6 +293,9 @@ Tests verify:
 - Syntax blocks required fields
 - Reply choices and correctIndex
 - Async API (generateQuestion returns Promise)
+- Word roles reflect syntactic-grammatical function
+- Verb roles include tense/person information
+- Content coverage (≥20 sentences per topic)
 
 # Development Guidelines
 

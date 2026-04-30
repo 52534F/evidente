@@ -129,5 +129,1441 @@
         "explanation": "Trapassato congiuntivo (3ª persona)"
       }
     ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Mario dice che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "parla",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "italiano",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parla",
+          "parlava",
+          "parlerà",
+          "parlerebbe"
+        ],
+        "correct": "parla",
+        "explanation": "Discorsi indiretti: quando il verbo principale è al presente, il discorso indiretto mantiene i tempi originali"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - passato"
+    },
+    "sentence": [
+      {
+        "text": "Mario ha detto che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "parlava",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "italiano",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parla",
+          "parlava",
+          "parlerà",
+          "parlerebbe"
+        ],
+        "correct": "parlava",
+        "explanation": "Discorsi indiretti: 'Ho parlato italiano' → ha detto che parlava"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - futuro"
+    },
+    "sentence": [
+      {
+        "text": "Mario ha detto che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "parlerà",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "italiano",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parla",
+          "parlava",
+          "parlerà",
+          "parlerebbe"
+        ],
+        "correct": "parlerà",
+        "explanation": "Discorsi indiretti: 'Parlerò italiano' → ha detto che parlerà"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - imperativo"
+    },
+    "sentence": [
+      {
+        "text": "Mario ha detto di",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "parlare",
+        "role": "Infinito",
+        "question": "parlare"
+      },
+      {
+        "text": "italiano",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parla",
+          "parlare",
+          "parli",
+          "parlerebbe"
+        ],
+        "correct": "parlare",
+        "explanation": "Discorsi indiretti: 'Parla italiano!' → ha detto di parlare italiano"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Congiuntivo in frasi indipendenti"
+    },
+    "sentence": [
+      {
+        "text": "Dio",
+        "role": "Soggetto"
+      },
+      {
+        "text": "voglia",
+        "role": "Verbo",
+        "question": "volere"
+      },
+      {
+        "text": "che tu sia felice",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vuole",
+          "voleva",
+          "vorrà",
+          "voglia"
+        ],
+        "correct": "voglia",
+        "explanation": "Congiuntivo in frasi indipendenti: espressioni di augurio/desiderio"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Congiuntivo in frasi indipendenti"
+    },
+    "sentence": [
+      {
+        "text": "Che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sia",
+        "role": "Verbo",
+        "question": "essere"
+      },
+      {
+        "text": "felice",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "sei",
+          "eri",
+          "sarai",
+          "sia"
+        ],
+        "correct": "sia",
+        "explanation": "Congiuntivo in frasi indipendenti: espressioni di augurio (Che tu sia felice)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Congiuntivo in frasi indipendenti"
+    },
+    "sentence": [
+      {
+        "text": "Viva",
+        "role": "Verbo",
+        "question": "vivere"
+      },
+      {
+        "text": "l'Italia",
+        "role": "Complemento",
+        "gender": "f"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Vive",
+          "Viveva",
+          "Viverà",
+          "Viva"
+        ],
+        "correct": "Viva",
+        "explanation": "Congiuntivo in frasi indipendenti: espressioni di esclamazione/augurio"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Proposizioni subordinate",
+      "l3": "Subordinata sostantiva"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sia",
+        "role": "Verbo",
+        "question": "essere"
+      },
+      {
+        "text": "intelligente",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "sei",
+          "eri",
+          "sarai",
+          "sia"
+        ],
+        "correct": "sia",
+        "explanation": "Subordinata sostantiva: che + congiuntivo dopo verbi di opinione"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Proposizioni subordinate",
+      "l3": "Subordinata temporale"
+    },
+    "sentence": [
+      {
+        "text": "Quando",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "arriverai",
+        "role": "Verbo",
+        "question": "arrivare"
+      },
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sarò",
+        "role": "Verbo",
+        "question": "essere"
+      },
+      {
+        "text": "a casa",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "arrivi",
+          "arrivavi",
+          "arriverai",
+          "arriverai"
+        ],
+        "correct": "arriverai",
+        "explanation": "Subordinata temporale: quando + futuro/indicativo per eventi futuri"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Proposizioni subordinate",
+      "l3": "Subordinata causale"
+    },
+    "sentence": [
+      {
+        "text": "Non esco",
+        "role": "Verbo"
+      },
+      {
+        "text": "perché",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "piove",
+        "role": "Verbo",
+        "question": "piovere"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "piove",
+          "piovva",
+          "piovesse",
+          "piovuto"
+        ],
+        "correct": "piove",
+        "explanation": "Subordinata causale: perché + indicativo per fatti reali"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Proposizioni subordinate",
+      "l3": "Subordinata concessiva"
+    },
+    "sentence": [
+      {
+        "text": "Anche se",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "piove",
+        "role": "Verbo",
+        "question": "piovere"
+      },
+      {
+        "text": "esco",
+        "role": "Verbo",
+        "question": "uscire"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "piove",
+          "piovva",
+          "piovesse",
+          "piovuto"
+        ],
+        "correct": "piove",
+        "explanation": "Subordinata concessiva: anche se + indicativo per fatti reali"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Proposizioni subordinate",
+      "l3": "Subordinata finale"
+    },
+    "sentence": [
+      {
+        "text": "Studio",
+        "role": "Verbo"
+      },
+      {
+        "text": "perché",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "impari",
+        "role": "Verbo",
+        "question": "imparare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 3,
+        "choices": [
+          "impari",
+          "imparavi",
+          "imparerai",
+          "impareresti"
+        ],
+        "correct": "impari",
+        "explanation": "Subordinata finale: perché + congiuntivo presente"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Proposizioni subordinate",
+      "l3": "Subordinata condizionale"
+    },
+    "sentence": [
+      {
+        "text": "Se",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "studi",
+        "role": "Verbo",
+        "question": "studiare"
+      },
+      {
+        "text": "passi",
+        "role": "Verbo",
+        "question": "passare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "studi",
+          "studiassi",
+          "studiavi",
+          "studierai"
+        ],
+        "correct": "studi",
+        "explanation": "Subordinata condizionale: se + indicativo presente (reale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Avvenuto"
+    },
+    "sentence": [
+      {
+        "text": "Se",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "avessi studiato",
+        "role": "Verbo",
+        "question": "studiare"
+      },
+      {
+        "text": "avresti passato",
+        "role": "Verbo",
+        "question": "passare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "studiavi",
+          "hai studiato",
+          "avessi studiato",
+          "studierai"
+        ],
+        "correct": "avessi studiato",
+        "explanation": "Periodo ipotetico avvenuto: se + trapassato congiuntivo, poi + condizionale passato"
+      },
+      {
+        "questionIndex": 2,
+        "choices": [
+          "passavi",
+          "hai passato",
+          "avresti passato",
+          "passerai"
+        ],
+        "correct": "avresti passato",
+        "explanation": "Periodo ipotetico avvenuto: se + trapassato congiuntivo, poi + condizionale passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Periodo ipotetico",
+      "l3": "Irreale presente - avanzato"
+    },
+    "sentence": [
+      {
+        "text": "Se",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "avessi",
+        "role": "Verbo",
+        "question": "avere"
+      },
+      {
+        "text": "tempo",
+        "role": "Complemento"
+      },
+      {
+        "text": "e",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "fossi",
+        "role": "Verbo",
+        "question": "essere"
+      },
+      {
+        "text": "in salute",
+        "role": "Complemento"
+      },
+      {
+        "text": "verrei",
+        "role": "Verbo",
+        "question": "venire"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho",
+          "avevo",
+          "avessi",
+          "avrei"
+        ],
+        "correct": "avessi",
+        "explanation": "Irreale presente: se + imperfetto congiuntivo (avessi)"
+      },
+      {
+        "questionIndex": 4,
+        "choices": [
+          "sono",
+          "ero",
+          "fossi",
+          "sarei"
+        ],
+        "correct": "fossi",
+        "explanation": "Irreale presente: se + imperfetto congiuntivo (fossi)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Frasi condizionali avanzate",
+      "l3": "Condizionale composto"
+    },
+    "sentence": [
+      {
+        "text": "Avrei",
+        "role": "Verbo",
+        "question": "avere"
+      },
+      {
+        "text": "studiato",
+        "role": "Participio passato",
+        "gender": "m"
+      },
+      {
+        "text": "se",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "avessi",
+        "role": "Verbo",
+        "question": "avere"
+      },
+      {
+        "text": "tempo",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Avevo",
+          "Ho",
+          "Avrei",
+          "Avrò"
+        ],
+        "correct": "Avrei",
+        "explanation": "Condizionale composto: avrebbe + participio (consuetudine ipotetica)"
+      },
+      {
+        "questionIndex": 3,
+        "choices": [
+          "ho",
+          "avevo",
+          "avessi",
+          "avrei"
+        ],
+        "correct": "avessi",
+        "explanation": "Condizionale composto: se + trapassato congiuntivo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Voce passiva avanzata",
+      "l3": "Passiva con venire - tempi composti"
+    },
+    "sentence": [
+      {
+        "text": "Il libro",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "è",
+        "role": "Verbo ausiliare"
+      },
+      {
+        "text": "stato",
+        "role": "Participio passato",
+        "gender": "m"
+      },
+      {
+        "text": "letto",
+        "role": "Participio passato",
+        "gender": "m"
+      },
+      {
+        "text": "da Maria",
+        "role": "Complemento agente"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "stato",
+          "stata",
+          "stati",
+          "state"
+        ],
+        "correct": "stato",
+        "explanation": "Passiva con venire + essere: participio concorda con il soggetto (il libro = maschile singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Voce passiva avanzata",
+      "l3": "Passiva con venire - tempi composti"
+    },
+    "sentence": [
+      {
+        "text": "La lettera",
+        "role": "Soggetto",
+        "gender": "f"
+      },
+      {
+        "text": "è",
+        "role": "Verbo ausiliare"
+      },
+      {
+        "text": "stata",
+        "role": "Participio passato",
+        "gender": "f"
+      },
+      {
+        "text": "scritta",
+        "role": "Participio passato",
+        "gender": "f"
+      },
+      {
+        "text": "da Marco",
+        "role": "Complemento agente"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "stato",
+          "stata",
+          "stati",
+          "state"
+        ],
+        "correct": "stata",
+        "explanation": "Passiva con venire + essere: participio concorda con il soggetto (la lettera = femminile singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Voce passiva avanzata",
+      "l3": "Passiva con venire - imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "Il libro",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "veniva",
+        "role": "Verbo ausiliare"
+      },
+      {
+        "text": "letto",
+        "role": "Participio passato",
+        "gender": "m"
+      },
+      {
+        "text": "da tutti",
+        "role": "Complemento agente"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "letto",
+          "letta",
+          "letti",
+          "lette"
+        ],
+        "correct": "letto",
+        "explanation": "Passiva con venire (imperfetto): participio concorda con il soggetto (il libro = maschile singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - presente"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "va",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "va",
+          "andava",
+          "andrà"
+        ],
+        "correct": "va",
+        "explanation": "Discorso indiretto: dice che + indicativo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Discorsi indiretti",
+      "l3": "Discorsi indiretti - futuro"
+    },
+    "sentence": [
+      {
+        "text": "Dice che",
+        "role": "Principale"
+      },
+      {
+        "text": "andrà",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrà",
+          "va",
+          "andava"
+        ],
+        "correct": "andrà",
+        "explanation": "Discorso indiretto (futuro): dice che + futuro"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Proposizioni subordinate",
+      "l3": "Subordinata temporale"
+    },
+    "sentence": [
+      {
+        "text": "Mentre",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "parlavo",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavo",
+          "parlo",
+          "parlerò"
+        ],
+        "correct": "parlavo",
+        "explanation": "Subordinata temporale: mentre + imperfetto"
+      }
+    ]
   }
 ]

@@ -16,6 +16,19 @@ test('GrammarDrill loads and displays start screen', async ({ page }) => {
 test('Can start a game and see questions', async ({ page }) => {
   await page.goto('/index.html');
 
+  // Wait for language to load (flag appears = language module loaded)
+  await page.waitForFunction(() => {
+    const flag = document.querySelector('#current-flag');
+    return flag && flag.textContent.length > 0;
+  }, { timeout: 10000 });
+
+  // Wait for level dropdown to be populated (check option count, not visibility)
+  await page.waitForFunction(() => {
+    const select = document.querySelector('#level-select');
+    return select && select.options.length > 0;
+  }, { timeout: 10000 });
+  await page.selectOption('#level-select', 'A1');
+
   // Click start
   await page.click('#start-btn');
 

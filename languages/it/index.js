@@ -161,13 +161,48 @@
     return Math.abs(hash).toString(16).substring(0, 8);
   }
 
+  // Pool of semantically different words for verb replies (each person/tense)
+  var verbWordPool = {
+    'io': ['parlo', 'mangio', 'vado', 'faccio', 'sono', 'ho', 'sto', 'vengo'],
+    'tu': ['parli', 'mangi', 'vai', 'fai', 'sei', 'hai', 'stai', 'vieni'],
+    'lui': ['parla', 'mangia', 'va', 'fa', 'è', 'ha', 'sta', 'viene'],
+    'noi': ['parliamo', 'mangiamo', 'andiamo', 'facciamo', 'siamo', 'abbiamo', 'stiamo', 'veniamo'],
+    'voi': ['parlate', 'mangiate', 'andate', 'fate', 'siete', 'avete', 'state', 'venite'],
+    'loro': ['parlano', 'mangiano', 'vanno', 'fanno', 'sono', 'hanno', 'stanno', 'vengono']
+  };
+
   function shuffleReplyChoices(reply) {
-    var others = reply.choices.filter(function(c) { return c !== reply.correct; });
-    var shuffled = others.sort(function() { return Math.random() - 0.5; }).slice(0, 3);
-    var choices = [reply.correct].concat(shuffled).sort(function() { return Math.random() - 0.5; });
+    var correct = reply.correct;
+    var choices = [correct];
+
+    // For verbs, use semantically different words from the pool
+    // Detect if this is a verb reply by checking if correct is a verb form
+    var verbMatch = Object.keys(verbWordPool).find(function(person) {
+      return verbWordPool[person].indexOf(correct) !== -1;
+    });
+
+    if (verbMatch) {
+      // Add 7 other verbs from the same person pool (semantically different)
+      var pool = verbWordPool[verbMatch].filter(function(w) { return w !== correct; });
+      // Shuffle and take 7
+      var shuffled = pool.sort(function() { return Math.random() - 0.5; }).slice(0, 7);
+      choices = choices.concat(shuffled);
+    } else {
+      // For non-verbs, use existing choices (minus correct) and pad to 8
+      var others = reply.choices.filter(function(c) { return c !== correct; });
+      // Add generic options to reach 8 total
+      var genericPool = ['molto', 'bene', 'anche', 'sempre', 'dove', 'oggi', 'qui', 'c\u0027è'];
+      var combined = others.concat(genericPool.filter(function(g) { return choices.indexOf(g) === -1; }));
+      var shuffled = combined.sort(function() { return Math.random() - 0.5; }).slice(0, 7);
+      choices = choices.concat(shuffled);
+    }
+
+    // Shuffle the final 8 choices
+    choices = choices.sort(function() { return Math.random() - 0.5; });
+
     var result = JSON.parse(JSON.stringify(reply));
     result.choices = choices;
-    result.correctIndex = choices.indexOf(reply.correct);
+    result.correctIndex = choices.indexOf(correct);
     return result;
   }
 
@@ -203,7 +238,9 @@
       level: task.level,
       category: category,
       syntaxBlocks: syntaxBlocks,
-      replies: replies
+      replies: replies,
+      disabled: task.disabled || false,
+      disabledReason: task.disabledReason || null
     };
   }
 

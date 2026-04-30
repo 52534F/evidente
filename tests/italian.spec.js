@@ -4,9 +4,22 @@ const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
 async function startGame(page, level = 'A1') {
   await page.goto('/index.html');
+
+  // Wait for language to load (flag appears = language module loaded)
+  await page.waitForFunction(() => {
+    const flag = document.querySelector('#current-flag');
+    return flag && flag.textContent.length > 0;
+  }, { timeout: 10000 });
+
+  // Wait for level dropdown to be populated (check option count, not visibility)
+  await page.waitForFunction(() => {
+    const select = document.querySelector('#level-select');
+    return select && select.options.length > 0;
+  }, { timeout: 10000 });
   await page.selectOption('#level-select', level);
+
   await page.click('#start-btn');
-  await page.waitForSelector('#game-screen:not(.hidden)');
+  await page.waitForSelector('#game-screen:not(.hidden)', { timeout: 10000 });
 }
 
 async function getQuestionData(page) {
@@ -31,7 +44,10 @@ async function getQuestionData(page) {
 for (const level of LEVELS) {
   test(`${level} generates questions`, async ({ page }) => {
     await startGame(page, level);
-    
+
+    // Wait for syntax blocks to be rendered
+    await page.waitForSelector('#syntax-blocks .syntax-block', { timeout: 10000 });
+
     const data = await getQuestionData(page);
     expect(data.blocks.length).toBeGreaterThan(0);
     expect(data.cat.l2).toBeTruthy();
@@ -51,12 +67,15 @@ test('clicking answer shows feedback', async ({ page }) => {
 test('category levels display correctly', async ({ page }) => {
   for (const level of ['A1', 'A2', 'B1']) {
     await startGame(page, level);
-    
+
+    // Wait for category to be rendered
+    await page.waitForSelector('.category-level.l1:not(:empty)', { timeout: 10000 });
+
     const cat = await page.evaluate(() => ({
       l1: document.querySelector('.category-level.l1')?.textContent,
       l2: document.querySelector('.category-level.l2')?.textContent,
     }));
-    
+
     expect(cat.l1).toBeTruthy();
     expect(cat.l2).toBeTruthy();
   }

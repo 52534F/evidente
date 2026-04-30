@@ -265,5 +265,7459 @@
         "explanation": "ha + participio passato (passato prossimo con avere)"
       }
     ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlavo",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavo",
+          "parlava",
+          "parlavamo",
+          "parlavate"
+        ],
+        "correct": "parlavo",
+        "explanation": "parlare → io parlavo (imperfetto 1ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlavi",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavo",
+          "parlavi",
+          "parlava",
+          "parlavamo"
+        ],
+        "correct": "parlavi",
+        "explanation": "parlare → tu parlavi (imperfetto 2ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlava",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavo",
+          "parlavi",
+          "parlava",
+          "parlavamo"
+        ],
+        "correct": "parlava",
+        "explanation": "parlare → lui parlava (imperfetto 3ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlavamo",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavo",
+          "parlavi",
+          "parlava",
+          "parlavamo"
+        ],
+        "correct": "parlavamo",
+        "explanation": "parlare → noi parlavamo (imperfetto 1ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlavate",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavate",
+          "parlavano",
+          "parlavi",
+          "parlava"
+        ],
+        "correct": "parlavate",
+        "explanation": "parlare → voi parlavate (imperfetto 2ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlavano",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavate",
+          "parlavano",
+          "parlavi",
+          "parlava"
+        ],
+        "correct": "parlavano",
+        "explanation": "parlare → loro parlavano (imperfetto 3ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto - verbi in -ere"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggevo",
+        "role": "Verbo",
+        "question": "leggere"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggevo",
+          "leggevi",
+          "leggeva",
+          "leggevamo"
+        ],
+        "correct": "leggevo",
+        "explanation": "leggere → io leggevo (imperfetto 1ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto - verbi in -ere"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggeva",
+        "role": "Verbo",
+        "question": "leggere"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggevo",
+          "leggevi",
+          "leggeva",
+          "leggevamo"
+        ],
+        "correct": "leggeva",
+        "explanation": "leggere → lui leggeva (imperfetto 3ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto - verbi in -ire"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "partivo",
+        "role": "Verbo",
+        "question": "partire"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "partivo",
+          "partivi",
+          "partiva",
+          "partivamo"
+        ],
+        "correct": "partivo",
+        "explanation": "partire → io partivo (imperfetto 1ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto - verbi in -ire"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "partivano",
+        "role": "Verbo",
+        "question": "partire"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "partivano",
+          "partivate",
+          "partivi",
+          "partiva"
+        ],
+        "correct": "partivano",
+        "explanation": "partire → loro partivano (imperfetto 3ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerò",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerò",
+          "parlerai",
+          "parlerà",
+          "parleremo"
+        ],
+        "correct": "parlerò",
+        "explanation": "parlare → io parlerò (futuro semplice 1ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerai",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerò",
+          "parlerai",
+          "parlerà",
+          "parleremo"
+        ],
+        "correct": "parlerai",
+        "explanation": "parlare → tu parlerai (futuro semplice 2ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerà",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerò",
+          "parlerai",
+          "parlerà",
+          "parleremo"
+        ],
+        "correct": "parlerà",
+        "explanation": "parlare → lui parlerà (futuro semplice 3ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parleremo",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerò",
+          "parlerai",
+          "parlerà",
+          "parleremo"
+        ],
+        "correct": "parleremo",
+        "explanation": "parlare → noi parleremo (futuro semplice 1ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerete",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerete",
+          "parleranno",
+          "parlerai",
+          "parlerà"
+        ],
+        "correct": "parlerete",
+        "explanation": "parlare → voi parlerete (futuro semplice 2ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parleranno",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerete",
+          "parleranno",
+          "parlerai",
+          "parlerà"
+        ],
+        "correct": "parleranno",
+        "explanation": "parlare → loro parleranno (futuro semplice 3ª persona plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice - verbi in -ere"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggerò",
+        "role": "Verbo",
+        "question": "leggere"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggerò",
+          "leggerai",
+          "leggerà",
+          "leggeremo"
+        ],
+        "correct": "leggerò",
+        "explanation": "leggere → io leggerò (futuro semplice 1ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice - verbi in -ire"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "partirò",
+        "role": "Verbo",
+        "question": "partire"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "partirò",
+          "partirai",
+          "partirà",
+          "partiremo"
+        ],
+        "correct": "partirò",
+        "explanation": "partire → io partirò (futuro semplice 1ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Comparativi"
+    },
+    "sentence": [
+      {
+        "text": "Marco è",
+        "role": "Soggetto"
+      },
+      {
+        "text": "più",
+        "role": "Avverbio"
+      },
+      {
+        "text": "alto",
+        "role": "Aggettivo",
+        "question": "(alto)"
+      },
+      {
+        "text": "di",
+        "role": "Preposizione"
+      },
+      {
+        "text": "Luca",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "più alto",
+          "meno alto",
+          "altissimo",
+          "alto"
+        ],
+        "correct": "più alto",
+        "explanation": "Comparativo di maggioranza: più + aggettivo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Comparativi"
+    },
+    "sentence": [
+      {
+        "text": "Luca è",
+        "role": "Soggetto"
+      },
+      {
+        "text": "meno",
+        "role": "Avverbio"
+      },
+      {
+        "text": "alto",
+        "role": "Aggettivo",
+        "question": "(alto)"
+      },
+      {
+        "text": "di",
+        "role": "Preposizione"
+      },
+      {
+        "text": "Marco",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "più alto",
+          "meno alto",
+          "altissimo",
+          "alto"
+        ],
+        "correct": "meno alto",
+        "explanation": "Comparativo di minoranza: meno + aggettivo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Comparativi"
+    },
+    "sentence": [
+      {
+        "text": "Marco è",
+        "role": "Soggetto"
+      },
+      {
+        "text": "alto",
+        "role": "Aggettivo",
+        "question": "(alto)"
+      },
+      {
+        "text": "come",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "Luca",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "più alto",
+          "meno alto",
+          "alto come",
+          "altissimo"
+        ],
+        "correct": "alto come",
+        "explanation": "Comparativo di uguaglianza: aggettivo + come"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Superlativi"
+    },
+    "sentence": [
+      {
+        "text": "Marco è",
+        "role": "Soggetto"
+      },
+      {
+        "text": "altissimo",
+        "role": "Aggettivo",
+        "question": "alto"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "più alto",
+          "altissimo",
+          "alto",
+          "meno alto"
+        ],
+        "correct": "altissimo",
+        "explanation": "Superlativo assoluto: aggettivo + -issimo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Superlativi"
+    },
+    "sentence": [
+      {
+        "text": "Marco è",
+        "role": "Soggetto"
+      },
+      {
+        "text": "il più",
+        "role": "Aggettivo",
+        "question": "alto"
+      },
+      {
+        "text": "alto",
+        "role": "Aggettivo"
+      },
+      {
+        "text": "della classe",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "molto alto",
+          "il più alto",
+          "altissimo",
+          "più alto"
+        ],
+        "correct": "il più alto",
+        "explanation": "Superlativo relativo di maggioranza: il più + aggettivo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Superlativi"
+    },
+    "sentence": [
+      {
+        "text": "Luca è",
+        "role": "Soggetto"
+      },
+      {
+        "text": "il meno",
+        "role": "Aggettivo",
+        "question": "alto"
+      },
+      {
+        "text": "alto",
+        "role": "Aggettivo"
+      },
+      {
+        "text": "della classe",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "molto alto",
+          "il meno alto",
+          "altissimo",
+          "meno alto"
+        ],
+        "correct": "il meno alto",
+        "explanation": "Superlativo relativo di minoranza: il meno + aggettivo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Vado",
+        "role": "Verbo"
+      },
+      {
+        "text": "al",
+        "role": "Preposizione",
+        "question": "a + il"
+      },
+      {
+        "text": "cinema",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "al",
+          "a",
+          "di",
+          "da",
+          "in",
+          "con",
+          "su",
+          "per"
+        ],
+        "correct": "al",
+        "explanation": "a + il = al (preposizione articolata)",
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Vado",
+        "role": "Verbo"
+      },
+      {
+        "text": "alla",
+        "role": "Preposizione",
+        "question": "a + la"
+      },
+      {
+        "text": "scuola",
+        "role": "Complemento",
+        "gender": "f"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "alla",
+          "a",
+          "di",
+          "da",
+          "in",
+          "con",
+          "su",
+          "per"
+        ],
+        "correct": "alla",
+        "explanation": "a + la = alla (preposizione articolata)",
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Vado",
+        "role": "Verbo"
+      },
+      {
+        "text": "ai",
+        "role": "Preposizione",
+        "question": "a + i"
+      },
+      {
+        "text": "musei",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ai",
+          "a",
+          "di",
+          "da",
+          "in",
+          "con",
+          "su",
+          "per"
+        ],
+        "correct": "ai",
+        "explanation": "a + i = ai (preposizione articolata)",
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Vado",
+        "role": "Verbo"
+      },
+      {
+        "text": "alle",
+        "role": "Preposizione",
+        "question": "a + le"
+      },
+      {
+        "text": "poste",
+        "role": "Complemento",
+        "gender": "f"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "alle",
+          "a",
+          "di",
+          "da",
+          "in",
+          "con",
+          "su",
+          "per"
+        ],
+        "correct": "alle",
+        "explanation": "a + le = alle (preposizione articolata)",
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Vengo",
+        "role": "Verbo"
+      },
+      {
+        "text": "dal",
+        "role": "Preposizione",
+        "question": "da + il"
+      },
+      {
+        "text": "medico",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dal",
+          "a",
+          "di",
+          "da",
+          "in",
+          "con",
+          "su",
+          "per"
+        ],
+        "correct": "dal",
+        "explanation": "da + il = dal (preposizione articolata)",
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Vengo",
+        "role": "Verbo"
+      },
+      {
+        "text": "dalla",
+        "role": "Preposizione",
+        "question": "da + la"
+      },
+      {
+        "text": "scuola",
+        "role": "Complemento",
+        "gender": "f"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dalla",
+          "a",
+          "di",
+          "da",
+          "in",
+          "con",
+          "su",
+          "per"
+        ],
+        "correct": "dalla",
+        "explanation": "da + la = dalla (preposizione articolata)",
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Il libro è",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sul",
+        "role": "Preposizione",
+        "question": "su + il"
+      },
+      {
+        "text": "tavolo",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sul",
+          "a",
+          "di",
+          "da",
+          "in",
+          "con",
+          "su",
+          "per"
+        ],
+        "correct": "sul",
+        "explanation": "su + il = sul (preposizione articolata)",
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Il libro è",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sulla",
+        "role": "Preposizione",
+        "question": "su + la"
+      },
+      {
+        "text": "sedia",
+        "role": "Complemento",
+        "gender": "f"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sulla",
+          "a",
+          "di",
+          "da",
+          "in",
+          "con",
+          "su",
+          "per"
+        ],
+        "correct": "sulla",
+        "explanation": "su + la = sulla (preposizione articolata)",
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "Marco",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "lo",
+        "role": "Oggetto diretto",
+        "question": "il libro"
+      },
+      {
+        "text": "legge",
+        "role": "Verbo"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "lo",
+          "la",
+          "li",
+          "le"
+        ],
+        "correct": "lo",
+        "explanation": "lo sostituisce il libro (maschile singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "Maria",
+        "role": "Soggetto",
+        "gender": "f"
+      },
+      {
+        "text": "la",
+        "role": "Oggetto diretto",
+        "question": "la penna"
+      },
+      {
+        "text": "prende",
+        "role": "Verbo"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "lo",
+          "la",
+          "li",
+          "le"
+        ],
+        "correct": "la",
+        "explanation": "la sostituisce la penna (femminile singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "Marco",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "li",
+        "role": "Oggetto diretto",
+        "question": "i libri"
+      },
+      {
+        "text": "legge",
+        "role": "Verbo"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "lo",
+          "la",
+          "li",
+          "le"
+        ],
+        "correct": "li",
+        "explanation": "li sostituisce i libri (maschile plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "Maria",
+        "role": "Soggetto",
+        "gender": "f"
+      },
+      {
+        "text": "le",
+        "role": "Oggetto diretto",
+        "question": "le penne"
+      },
+      {
+        "text": "prende",
+        "role": "Verbo"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "lo",
+          "la",
+          "li",
+          "le"
+        ],
+        "correct": "le",
+        "explanation": "le sostituisce le penne (femminile plurale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Espressioni di tempo",
+      "l3": "Avverbi di tempo"
+    },
+    "sentence": [
+      {
+        "text": "Oggi",
+        "role": "Avverbio"
+      },
+      {
+        "text": "vado",
+        "role": "Verbo",
+        "question": "andare"
+      },
+      {
+        "text": "a scuola",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Oggi",
+          "Ieri",
+          "Domani",
+          "Sempre"
+        ],
+        "correct": "Oggi",
+        "explanation": "Oggi indica il presente"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Espressioni di tempo",
+      "l3": "Avverbi di tempo"
+    },
+    "sentence": [
+      {
+        "text": "Ieri",
+        "role": "Avverbio"
+      },
+      {
+        "text": "sono andato",
+        "role": "Verbo",
+        "question": "andare"
+      },
+      {
+        "text": "a scuola",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Oggi",
+          "Ieri",
+          "Domani",
+          "Sempre"
+        ],
+        "correct": "Ieri",
+        "explanation": "Ieri indica il passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Espressioni di tempo",
+      "l3": "Avverbi di tempo"
+    },
+    "sentence": [
+      {
+        "text": "Domani",
+        "role": "Avverbio"
+      },
+      {
+        "text": "andrò",
+        "role": "Verbo",
+        "question": "andare"
+      },
+      {
+        "text": "a scuola",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Oggi",
+          "Ieri",
+          "Domani",
+          "Sempre"
+        ],
+        "correct": "Domani",
+        "explanation": "Domani indica il futuro"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Espressioni di tempo",
+      "l3": "Avverbi di tempo"
+    },
+    "sentence": [
+      {
+        "text": "Sempre",
+        "role": "Avverbio"
+      },
+      {
+        "text": "studio",
+        "role": "Verbo",
+        "question": "studiare"
+      },
+      {
+        "text": "italiano",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Oggi",
+          "Ieri",
+          "Domani",
+          "Sempre"
+        ],
+        "correct": "Sempre",
+        "explanation": "Sempre indica un'abitudine"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Espressioni di tempo",
+      "l3": "Avverbi di tempo"
+    },
+    "sentence": [
+      {
+        "text": "Mai",
+        "role": "Avverbio"
+      },
+      {
+        "text": "vado",
+        "role": "Verbo",
+        "question": "andare"
+      },
+      {
+        "text": "al cinema",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Sempre",
+          "Mai",
+          "Spesso",
+          "Ogni giorno"
+        ],
+        "correct": "Mai",
+        "explanation": "Mai indica negazione assoluta di tempo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Numeri",
+      "l3": "Numeri ordinali"
+    },
+    "sentence": [
+      {
+        "text": "Il",
+        "role": "Articolo"
+      },
+      {
+        "text": "primo",
+        "role": "Numero ordinale",
+        "question": "1°"
+      },
+      {
+        "text": "giorno",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "primo",
+          "secondo",
+          "terzo",
+          "quarto"
+        ],
+        "correct": "primo",
+        "explanation": "1° = primo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Numeri",
+      "l3": "Numeri ordinali"
+    },
+    "sentence": [
+      {
+        "text": "La",
+        "role": "Articolo"
+      },
+      {
+        "text": "seconda",
+        "role": "Numero ordinale",
+        "question": "2°"
+      },
+      {
+        "text": "volta",
+        "role": "Complemento",
+        "gender": "f"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "prima",
+          "seconda",
+          "terza",
+          "quarta"
+        ],
+        "correct": "seconda",
+        "explanation": "2° = seconda (femminile)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Numeri",
+      "l3": "Numeri ordinali"
+    },
+    "sentence": [
+      {
+        "text": "Il",
+        "role": "Articolo"
+      },
+      {
+        "text": "terzo",
+        "role": "Numero ordinale",
+        "question": "3°"
+      },
+      {
+        "text": "libro",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "primo",
+          "secondo",
+          "terzo",
+          "quarto"
+        ],
+        "correct": "terzo",
+        "explanation": "3° = terzo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Numeri",
+      "l3": "Numeri ordinali"
+    },
+    "sentence": [
+      {
+        "text": "La",
+        "role": "Articolo"
+      },
+      {
+        "text": "quarta",
+        "role": "Numero ordinale",
+        "question": "4°"
+      },
+      {
+        "text": "settimana",
+        "role": "Complemento",
+        "gender": "f"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "terza",
+          "quarta",
+          "quinta",
+          "sesta"
+        ],
+        "correct": "quarta",
+        "explanation": "4° = quarta (femminile)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Numeri",
+      "l3": "Numeri ordinali"
+    },
+    "sentence": [
+      {
+        "text": "Il",
+        "role": "Articolo"
+      },
+      {
+        "text": "quinto",
+        "role": "Numero ordinale",
+        "question": "5°"
+      },
+      {
+        "text": "giorno",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "quarto",
+          "quinto",
+          "sesto",
+          "settimo"
+        ],
+        "correct": "quinto",
+        "explanation": "5° = quinto"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Numeri",
+      "l3": "Numeri ordinali"
+    },
+    "sentence": [
+      {
+        "text": "Il",
+        "role": "Articolo"
+      },
+      {
+        "text": "decimo",
+        "role": "Numero ordinale",
+        "question": "10°"
+      },
+      {
+        "text": "giorno",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "nono",
+          "decimo",
+          "undicesimo",
+          "dodicesimo"
+        ],
+        "correct": "decimo",
+        "explanation": "10° = decimo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Numeri",
+      "l3": "Numeri ordinali"
+    },
+    "sentence": [
+      {
+        "text": "Il",
+        "role": "Articolo"
+      },
+      {
+        "text": "ventesimo",
+        "role": "Numero ordinale",
+        "question": "20°"
+      },
+      {
+        "text": "giorno",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "diciannovesimo",
+          "ventesimo",
+          "ventunesimo",
+          "trentesimo"
+        ],
+        "correct": "ventesimo",
+        "explanation": "20° = ventesimo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlavo",
+        "role": "Verbo (1ª sing)",
+        "question": "parlare (io)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavo",
+          "parlavo",
+          "parlava",
+          "faccio"
+        ],
+        "correct": "parlavo",
+        "explanation": "io + parlare (1ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlavi",
+        "role": "Verbo (2ª sing)",
+        "question": "parlare (tu)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavi",
+          "parlavo",
+          "parlava",
+          "faccio"
+        ],
+        "correct": "parlavi",
+        "explanation": "tu + parlare (2ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlava",
+        "role": "Verbo (3ª m sing)",
+        "question": "parlare (lui)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlava",
+          "parlavo",
+          "parlava",
+          "faccio"
+        ],
+        "correct": "parlava",
+        "explanation": "lui + parlare (3ª m sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lei",
+        "role": "Soggetto"
+      },
+      {
+        "role": "Verbo (3ª f sing)",
+        "question": "parlare (lei)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          null,
+          "parlavo",
+          "parlava",
+          "faccio"
+        ],
+        "explanation": "lei + parlare (3ª f sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlavamo",
+        "role": "Verbo (1ª plur)",
+        "question": "parlare (noi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavamo",
+          "parlavo",
+          "parlava",
+          "faccio"
+        ],
+        "correct": "parlavamo",
+        "explanation": "noi + parlare (1ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlavate",
+        "role": "Verbo (2ª plur)",
+        "question": "parlare (voi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavate",
+          "parlavo",
+          "parlava",
+          "faccio"
+        ],
+        "correct": "parlavate",
+        "explanation": "voi + parlare (2ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlavano",
+        "role": "Verbo (3ª plur)",
+        "question": "parlare (loro)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlavano",
+          "parlavo",
+          "parlava",
+          "faccio"
+        ],
+        "correct": "parlavano",
+        "explanation": "loro + parlare (3ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scrivevo",
+        "role": "Verbo (1ª sing)",
+        "question": "scrivere (io)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scrivevo",
+          "scrivevo",
+          "scriveva",
+          "faccio"
+        ],
+        "correct": "scrivevo",
+        "explanation": "io + scrivere (1ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scrivevi",
+        "role": "Verbo (2ª sing)",
+        "question": "scrivere (tu)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scrivevi",
+          "scrivevo",
+          "scriveva",
+          "faccio"
+        ],
+        "correct": "scrivevi",
+        "explanation": "tu + scrivere (2ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriveva",
+        "role": "Verbo (3ª m sing)",
+        "question": "scrivere (lui)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scriveva",
+          "scrivevo",
+          "scriveva",
+          "faccio"
+        ],
+        "correct": "scriveva",
+        "explanation": "lui + scrivere (3ª m sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lei",
+        "role": "Soggetto"
+      },
+      {
+        "role": "Verbo (3ª f sing)",
+        "question": "scrivere (lei)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          null,
+          "scrivevo",
+          "scriveva",
+          "faccio"
+        ],
+        "explanation": "lei + scrivere (3ª f sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scrivevamo",
+        "role": "Verbo (1ª plur)",
+        "question": "scrivere (noi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scrivevamo",
+          "scrivevo",
+          "scriveva",
+          "faccio"
+        ],
+        "correct": "scrivevamo",
+        "explanation": "noi + scrivere (1ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scrivevate",
+        "role": "Verbo (2ª plur)",
+        "question": "scrivere (voi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scrivevate",
+          "scrivevo",
+          "scriveva",
+          "faccio"
+        ],
+        "correct": "scrivevate",
+        "explanation": "voi + scrivere (2ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scrivevano",
+        "role": "Verbo (3ª plur)",
+        "question": "scrivere (loro)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scrivevano",
+          "scrivevo",
+          "scriveva",
+          "faccio"
+        ],
+        "correct": "scrivevano",
+        "explanation": "loro + scrivere (3ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormivo",
+        "role": "Verbo (1ª sing)",
+        "question": "dormire (io)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormivo",
+          "dormevo",
+          "dormeva",
+          "faccio"
+        ],
+        "correct": "dormivo",
+        "explanation": "io + dormire (1ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormivi",
+        "role": "Verbo (2ª sing)",
+        "question": "dormire (tu)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormivi",
+          "dormevo",
+          "dormeva",
+          "faccio"
+        ],
+        "correct": "dormivi",
+        "explanation": "tu + dormire (2ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormiva",
+        "role": "Verbo (3ª m sing)",
+        "question": "dormire (lui)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormiva",
+          "dormevo",
+          "dormeva",
+          "faccio"
+        ],
+        "correct": "dormiva",
+        "explanation": "lui + dormire (3ª m sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lei",
+        "role": "Soggetto"
+      },
+      {
+        "role": "Verbo (3ª f sing)",
+        "question": "dormire (lei)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          null,
+          "dormevo",
+          "dormeva",
+          "faccio"
+        ],
+        "explanation": "lei + dormire (3ª f sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormivamo",
+        "role": "Verbo (1ª plur)",
+        "question": "dormire (noi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormivamo",
+          "dormevo",
+          "dormeva",
+          "faccio"
+        ],
+        "correct": "dormivamo",
+        "explanation": "noi + dormire (1ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormivate",
+        "role": "Verbo (2ª plur)",
+        "question": "dormire (voi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormivate",
+          "dormevo",
+          "dormeva",
+          "faccio"
+        ],
+        "correct": "dormivate",
+        "explanation": "voi + dormire (2ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormivano",
+        "role": "Verbo (3ª plur)",
+        "question": "dormire (loro)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormivano",
+          "dormevo",
+          "dormeva",
+          "faccio"
+        ],
+        "correct": "dormivano",
+        "explanation": "loro + dormire (3ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggevo",
+        "role": "Verbo (1ª sing)",
+        "question": "leggere (io)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggevo",
+          "leggevo",
+          "leggeva",
+          "faccio"
+        ],
+        "correct": "leggevo",
+        "explanation": "io + leggere (1ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggevi",
+        "role": "Verbo (2ª sing)",
+        "question": "leggere (tu)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggevi",
+          "leggevo",
+          "leggeva",
+          "faccio"
+        ],
+        "correct": "leggevi",
+        "explanation": "tu + leggere (2ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggeva",
+        "role": "Verbo (3ª m sing)",
+        "question": "leggere (lui)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggeva",
+          "leggevo",
+          "leggeva",
+          "faccio"
+        ],
+        "correct": "leggeva",
+        "explanation": "lui + leggere (3ª m sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lei",
+        "role": "Soggetto"
+      },
+      {
+        "role": "Verbo (3ª f sing)",
+        "question": "leggere (lei)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          null,
+          "leggevo",
+          "leggeva",
+          "faccio"
+        ],
+        "explanation": "lei + leggere (3ª f sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggevamo",
+        "role": "Verbo (1ª plur)",
+        "question": "leggere (noi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggevamo",
+          "leggevo",
+          "leggeva",
+          "faccio"
+        ],
+        "correct": "leggevamo",
+        "explanation": "noi + leggere (1ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggevate",
+        "role": "Verbo (2ª plur)",
+        "question": "leggere (voi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggevate",
+          "leggevo",
+          "leggeva",
+          "faccio"
+        ],
+        "correct": "leggevate",
+        "explanation": "voi + leggere (2ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggevano",
+        "role": "Verbo (3ª plur)",
+        "question": "leggere (loro)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggevano",
+          "leggevo",
+          "leggeva",
+          "faccio"
+        ],
+        "correct": "leggevano",
+        "explanation": "loro + leggere (3ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vedevo",
+        "role": "Verbo (1ª sing)",
+        "question": "vedere (io)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vedevo",
+          "vedevo",
+          "vedeva",
+          "faccio"
+        ],
+        "correct": "vedevo",
+        "explanation": "io + vedere (1ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vedevi",
+        "role": "Verbo (2ª sing)",
+        "question": "vedere (tu)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vedevi",
+          "vedevo",
+          "vedeva",
+          "faccio"
+        ],
+        "correct": "vedevi",
+        "explanation": "tu + vedere (2ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vedeva",
+        "role": "Verbo (3ª m sing)",
+        "question": "vedere (lui)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vedeva",
+          "vedevo",
+          "vedeva",
+          "faccio"
+        ],
+        "correct": "vedeva",
+        "explanation": "lui + vedere (3ª m sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lei",
+        "role": "Soggetto"
+      },
+      {
+        "role": "Verbo (3ª f sing)",
+        "question": "vedere (lei)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          null,
+          "vedevo",
+          "vedeva",
+          "faccio"
+        ],
+        "explanation": "lei + vedere (3ª f sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vedevamo",
+        "role": "Verbo (1ª plur)",
+        "question": "vedere (noi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vedevamo",
+          "vedevo",
+          "vedeva",
+          "faccio"
+        ],
+        "correct": "vedevamo",
+        "explanation": "noi + vedere (1ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vedevate",
+        "role": "Verbo (2ª plur)",
+        "question": "vedere (voi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vedevate",
+          "vedevo",
+          "vedeva",
+          "faccio"
+        ],
+        "correct": "vedevate",
+        "explanation": "voi + vedere (2ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vedevano",
+        "role": "Verbo (3ª plur)",
+        "question": "vedere (loro)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vedevano",
+          "vedevo",
+          "vedeva",
+          "faccio"
+        ],
+        "correct": "vedevano",
+        "explanation": "loro + vedere (3ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finivo",
+        "role": "Verbo (1ª sing)",
+        "question": "finire (io)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "finivo",
+          "finevo",
+          "fineva",
+          "faccio"
+        ],
+        "correct": "finivo",
+        "explanation": "io + finire (1ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finivi",
+        "role": "Verbo (2ª sing)",
+        "question": "finire (tu)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "finivi",
+          "finevo",
+          "fineva",
+          "faccio"
+        ],
+        "correct": "finivi",
+        "explanation": "tu + finire (2ª sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finiva",
+        "role": "Verbo (3ª m sing)",
+        "question": "finire (lui)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "finiva",
+          "finevo",
+          "fineva",
+          "faccio"
+        ],
+        "correct": "finiva",
+        "explanation": "lui + finire (3ª m sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "lei",
+        "role": "Soggetto"
+      },
+      {
+        "role": "Verbo (3ª f sing)",
+        "question": "finire (lei)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          null,
+          "finevo",
+          "fineva",
+          "faccio"
+        ],
+        "explanation": "lei + finire (3ª f sing)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finivamo",
+        "role": "Verbo (1ª plur)",
+        "question": "finire (noi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "finivamo",
+          "finevo",
+          "fineva",
+          "faccio"
+        ],
+        "correct": "finivamo",
+        "explanation": "noi + finire (1ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finivate",
+        "role": "Verbo (2ª plur)",
+        "question": "finire (voi)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "finivate",
+          "finevo",
+          "fineva",
+          "faccio"
+        ],
+        "correct": "finivate",
+        "explanation": "voi + finire (2ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finivano",
+        "role": "Verbo (3ª plur)",
+        "question": "finire (loro)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "finivano",
+          "finevo",
+          "fineva",
+          "faccio"
+        ],
+        "correct": "finivano",
+        "explanation": "loro + finire (3ª plur)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sono parlato",
+        "role": "Verbo",
+        "question": "parlare (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sono parlato",
+          "avevo parlato",
+          "sarò parlato",
+          "ero parlato"
+        ],
+        "correct": "sono parlato",
+        "explanation": "Passato prossimo: sono + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sono parlato",
+        "role": "Verbo",
+        "question": "parlare (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sono parlato",
+          "avevo parlato",
+          "sarò parlato",
+          "ero parlato"
+        ],
+        "correct": "sono parlato",
+        "explanation": "Passato prossimo: sono + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sono parlato",
+        "role": "Verbo",
+        "question": "parlare (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sono parlato",
+          "avevo parlato",
+          "sarò parlato",
+          "ero parlato"
+        ],
+        "correct": "sono parlato",
+        "explanation": "Passato prossimo: sono + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sono andato",
+        "role": "Verbo",
+        "question": "andare (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sono andato",
+          "avevo andato",
+          "sarò andato",
+          "ero andato"
+        ],
+        "correct": "sono andato",
+        "explanation": "Passato prossimo: sono + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sono andato",
+        "role": "Verbo",
+        "question": "andare (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sono andato",
+          "avevo andato",
+          "sarò andato",
+          "ero andato"
+        ],
+        "correct": "sono andato",
+        "explanation": "Passato prossimo: sono + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sono andato",
+        "role": "Verbo",
+        "question": "andare (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sono andato",
+          "avevo andato",
+          "sarò andato",
+          "ero andato"
+        ],
+        "correct": "sono andato",
+        "explanation": "Passato prossimo: sono + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho fatto",
+        "role": "Verbo",
+        "question": "fare (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho fatto",
+          "avevo fatto",
+          "sarò fatto",
+          "ero fatto"
+        ],
+        "correct": "ho fatto",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho fatto",
+        "role": "Verbo",
+        "question": "fare (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho fatto",
+          "avevo fatto",
+          "sarò fatto",
+          "ero fatto"
+        ],
+        "correct": "ho fatto",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho fatto",
+        "role": "Verbo",
+        "question": "fare (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho fatto",
+          "avevo fatto",
+          "sarò fatto",
+          "ero fatto"
+        ],
+        "correct": "ho fatto",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho dormito",
+        "role": "Verbo",
+        "question": "dormire (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho dormito",
+          "avevo dormito",
+          "sarò dormito",
+          "ero dormito"
+        ],
+        "correct": "ho dormito",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho dormito",
+        "role": "Verbo",
+        "question": "dormire (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho dormito",
+          "avevo dormito",
+          "sarò dormito",
+          "ero dormito"
+        ],
+        "correct": "ho dormito",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho dormito",
+        "role": "Verbo",
+        "question": "dormire (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho dormito",
+          "avevo dormito",
+          "sarò dormito",
+          "ero dormito"
+        ],
+        "correct": "ho dormito",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho letto",
+        "role": "Verbo",
+        "question": "leggere (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho letto",
+          "avevo letto",
+          "sarò letto",
+          "ero letto"
+        ],
+        "correct": "ho letto",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho letto",
+        "role": "Verbo",
+        "question": "leggere (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho letto",
+          "avevo letto",
+          "sarò letto",
+          "ero letto"
+        ],
+        "correct": "ho letto",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho letto",
+        "role": "Verbo",
+        "question": "leggere (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho letto",
+          "avevo letto",
+          "sarò letto",
+          "ero letto"
+        ],
+        "correct": "ho letto",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho scritto",
+        "role": "Verbo",
+        "question": "scrivere (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho scritto",
+          "avevo scritto",
+          "sarò scritto",
+          "ero scritto"
+        ],
+        "correct": "ho scritto",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho scritto",
+        "role": "Verbo",
+        "question": "scrivere (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho scritto",
+          "avevo scritto",
+          "sarò scritto",
+          "ero scritto"
+        ],
+        "correct": "ho scritto",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Passato prossimo"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ho scritto",
+        "role": "Verbo",
+        "question": "scrivere (participio)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ho scritto",
+          "avevo scritto",
+          "sarò scritto",
+          "ero scritto"
+        ],
+        "correct": "ho scritto",
+        "explanation": "Passato prossimo: ho + participio passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerò",
+        "role": "Verbo",
+        "question": "parlare (io)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerò",
+          "parleri",
+          "vado",
+          "faccio"
+        ],
+        "correct": "parlerò",
+        "explanation": "Futuro semplice: io + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerai",
+        "role": "Verbo",
+        "question": "parlare (tu)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerai",
+          "parlera",
+          "vado",
+          "faccio"
+        ],
+        "correct": "parlerai",
+        "explanation": "Futuro semplice: tu + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerà",
+        "role": "Verbo",
+        "question": "parlare (lui)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerà",
+          "parleri",
+          "vado",
+          "faccio"
+        ],
+        "correct": "parlerà",
+        "explanation": "Futuro semplice: lui + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriverò",
+        "role": "Verbo",
+        "question": "scrivere (io)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scriverò",
+          "scriveri",
+          "vado",
+          "faccio"
+        ],
+        "correct": "scriverò",
+        "explanation": "Futuro semplice: io + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriverai",
+        "role": "Verbo",
+        "question": "scrivere (tu)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scriverai",
+          "scrivera",
+          "vado",
+          "faccio"
+        ],
+        "correct": "scriverai",
+        "explanation": "Futuro semplice: tu + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriverà",
+        "role": "Verbo",
+        "question": "scrivere (lui)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scriverà",
+          "scriveri",
+          "vado",
+          "faccio"
+        ],
+        "correct": "scriverà",
+        "explanation": "Futuro semplice: lui + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormirò",
+        "role": "Verbo",
+        "question": "dormire (io)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormirò",
+          "dormiri",
+          "vado",
+          "faccio"
+        ],
+        "correct": "dormirò",
+        "explanation": "Futuro semplice: io + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormirai",
+        "role": "Verbo",
+        "question": "dormire (tu)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormirai",
+          "dormira",
+          "vado",
+          "faccio"
+        ],
+        "correct": "dormirai",
+        "explanation": "Futuro semplice: tu + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormirà",
+        "role": "Verbo",
+        "question": "dormire (lui)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormirà",
+          "dormiri",
+          "vado",
+          "faccio"
+        ],
+        "correct": "dormirà",
+        "explanation": "Futuro semplice: lui + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finirò",
+        "role": "Verbo",
+        "question": "finire (io)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "finirò",
+          "finiri",
+          "vado",
+          "faccio"
+        ],
+        "correct": "finirò",
+        "explanation": "Futuro semplice: io + finire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finirai",
+        "role": "Verbo",
+        "question": "finire (tu)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "finirai",
+          "finira",
+          "vado",
+          "faccio"
+        ],
+        "correct": "finirai",
+        "explanation": "Futuro semplice: tu + finire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finirà",
+        "role": "Verbo",
+        "question": "finire (lui)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "finirà",
+          "finiri",
+          "vado",
+          "faccio"
+        ],
+        "correct": "finirà",
+        "explanation": "Futuro semplice: lui + finire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerei",
+        "role": "Verbo",
+        "question": "parlare (io)"
+      },
+      {
+        "text": "forse",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerei",
+          "parleri",
+          "vado",
+          "faccio"
+        ],
+        "correct": "parlerei",
+        "explanation": "Condizionale presente: io + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parleresti",
+        "role": "Verbo",
+        "question": "parlare (tu)"
+      },
+      {
+        "text": "forse",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parleresti",
+          "parlere",
+          "vado",
+          "faccio"
+        ],
+        "correct": "parleresti",
+        "explanation": "Condizionale presente: tu + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerebbe",
+        "role": "Verbo",
+        "question": "parlare (lui)"
+      },
+      {
+        "text": "forse",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlerebbe",
+          "parlerebbe",
+          "vado",
+          "faccio"
+        ],
+        "correct": "parlerebbe",
+        "explanation": "Condizionale presente: lui + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriverei",
+        "role": "Verbo",
+        "question": "scrivere (io)"
+      },
+      {
+        "text": "forse",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scriverei",
+          "scriveri",
+          "vado",
+          "faccio"
+        ],
+        "correct": "scriverei",
+        "explanation": "Condizionale presente: io + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriveresti",
+        "role": "Verbo",
+        "question": "scrivere (tu)"
+      },
+      {
+        "text": "forse",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scriveresti",
+          "scrivere",
+          "vado",
+          "faccio"
+        ],
+        "correct": "scriveresti",
+        "explanation": "Condizionale presente: tu + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriverebbe",
+        "role": "Verbo",
+        "question": "scrivere (lui)"
+      },
+      {
+        "text": "forse",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "scriverebbe",
+          "scriverebbe",
+          "vado",
+          "faccio"
+        ],
+        "correct": "scriverebbe",
+        "explanation": "Condizionale presente: lui + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormirei",
+        "role": "Verbo",
+        "question": "dormire (io)"
+      },
+      {
+        "text": "forse",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormirei",
+          "dormiri",
+          "vado",
+          "faccio"
+        ],
+        "correct": "dormirei",
+        "explanation": "Condizionale presente: io + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormiresti",
+        "role": "Verbo",
+        "question": "dormire (tu)"
+      },
+      {
+        "text": "forse",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormiresti",
+          "dormire",
+          "vado",
+          "faccio"
+        ],
+        "correct": "dormiresti",
+        "explanation": "Condizionale presente: tu + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Condizionale presente"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormirebbe",
+        "role": "Verbo",
+        "question": "dormire (lui)"
+      },
+      {
+        "text": "forse",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dormirebbe",
+          "dormirebbe",
+          "vado",
+          "faccio"
+        ],
+        "correct": "dormirebbe",
+        "explanation": "Condizionale presente: lui + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome riflessivo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "mi lavo",
+        "role": "Verbo",
+        "question": "lavare (io)"
+      },
+      {
+        "text": "ogni mattina",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "mi lavo",
+          "ti lavare",
+          "si lavare",
+          "ci lavare"
+        ],
+        "correct": "mi lavo",
+        "explanation": "Riflessivo: io + lavare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome riflessivo"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ti lavi",
+        "role": "Verbo",
+        "question": "lavare (tu)"
+      },
+      {
+        "text": "ogni mattina",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ti lavi",
+          "ti lavare",
+          "si lavare",
+          "ci lavare"
+        ],
+        "correct": "ti lavi",
+        "explanation": "Riflessivo: tu + lavare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome riflessivo"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "si lava",
+        "role": "Verbo",
+        "question": "lavare (lui)"
+      },
+      {
+        "text": "ogni mattina",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "si lava",
+          "ti lavare",
+          "si lavare",
+          "ci lavare"
+        ],
+        "correct": "si lava",
+        "explanation": "Riflessivo: lui + lavare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome riflessivo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "mi alzo",
+        "role": "Verbo",
+        "question": "alzare (io)"
+      },
+      {
+        "text": "ogni mattina",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "mi alzo",
+          "ti alzare",
+          "si alzare",
+          "ci alzare"
+        ],
+        "correct": "mi alzo",
+        "explanation": "Riflessivo: io + alzare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome riflessivo"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ti alzi",
+        "role": "Verbo",
+        "question": "alzare (tu)"
+      },
+      {
+        "text": "ogni mattina",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ti alzi",
+          "ti alzare",
+          "si alzare",
+          "ci alzare"
+        ],
+        "correct": "ti alzi",
+        "explanation": "Riflessivo: tu + alzare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome riflessivo"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "si alza",
+        "role": "Verbo",
+        "question": "alzare (lui)"
+      },
+      {
+        "text": "ogni mattina",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "si alza",
+          "ti alzare",
+          "si alzare",
+          "ci alzare"
+        ],
+        "correct": "si alza",
+        "explanation": "Riflessivo: lui + alzare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome riflessivo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "mi sveglio",
+        "role": "Verbo",
+        "question": "svegliare (io)"
+      },
+      {
+        "text": "ogni mattina",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "mi sveglio",
+          "ti svegliare",
+          "si svegliare",
+          "ci svegliare"
+        ],
+        "correct": "mi sveglio",
+        "explanation": "Riflessivo: io + svegliare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome riflessivo"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ti svegli",
+        "role": "Verbo",
+        "question": "svegliare (tu)"
+      },
+      {
+        "text": "ogni mattina",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "ti svegli",
+          "ti svegliare",
+          "si svegliare",
+          "ci svegliare"
+        ],
+        "correct": "ti svegli",
+        "explanation": "Riflessivo: tu + svegliare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome riflessivo"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "si sveglia",
+        "role": "Verbo",
+        "question": "svegliare (lui)"
+      },
+      {
+        "text": "ogni mattina",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "si sveglia",
+          "ti svegliare",
+          "si svegliare",
+          "ci svegliare"
+        ],
+        "correct": "si sveglia",
+        "explanation": "Riflessivo: lui + svegliare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "lo leggo",
+        "role": "Verbo",
+        "question": "il libro (io)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "lo leggo",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "lo leggo",
+        "explanation": "Pronome oggetto: il libro → lo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "lo leggi",
+        "role": "Verbo",
+        "question": "il libro (tu)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "lo leggi",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "lo leggi",
+        "explanation": "Pronome oggetto: il libro → lo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "lo legge",
+        "role": "Verbo",
+        "question": "il libro (lui)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "lo legge",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "lo legge",
+        "explanation": "Pronome oggetto: il libro → lo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "la uso",
+        "role": "Verbo",
+        "question": "la penna (io)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "la uso",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "la uso",
+        "explanation": "Pronome oggetto: la penna → la"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "la usi",
+        "role": "Verbo",
+        "question": "la penna (tu)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "la usi",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "la usi",
+        "explanation": "Pronome oggetto: la penna → la"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "la usa",
+        "role": "Verbo",
+        "question": "la penna (lui)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "la usa",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "la usa",
+        "explanation": "Pronome oggetto: la penna → la"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "li leggo",
+        "role": "Verbo",
+        "question": "i libri (io)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "li leggo",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "li leggo",
+        "explanation": "Pronome oggetto: i libri → li"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "li leggi",
+        "role": "Verbo",
+        "question": "i libri (tu)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "li leggi",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "li leggi",
+        "explanation": "Pronome oggetto: i libri → li"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "li legge",
+        "role": "Verbo",
+        "question": "i libri (lui)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "li legge",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "li legge",
+        "explanation": "Pronome oggetto: i libri → li"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "le uso",
+        "role": "Verbo",
+        "question": "le penne (io)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "le uso",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "le uso",
+        "explanation": "Pronome oggetto: le penne → le"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "le usi",
+        "role": "Verbo",
+        "question": "le penne (tu)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "le usi",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "le usi",
+        "explanation": "Pronome oggetto: le penne → le"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Pronomi",
+      "l3": "Pronome oggetto diretto"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "le usa",
+        "role": "Verbo",
+        "question": "le penne (lui)"
+      },
+      {
+        "text": "velocemente",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "le usa",
+          "lo leggo",
+          "la leggo",
+          "li leggo"
+        ],
+        "correct": "le usa",
+        "explanation": "Pronome oggetto: le penne → le"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Comparativi"
+    },
+    "sentence": [
+      {
+        "text": "Marco",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "è",
+        "role": "Verbo"
+      },
+      {
+        "text": "più alto",
+        "role": "Aggettivo",
+        "question": "alto (comparativo)"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "più alto",
+          "alto",
+          "il più alto",
+          "il meno alto"
+        ],
+        "correct": "più alto",
+        "explanation": "Comparativo: Marco più Luca"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Comparativi"
+    },
+    "sentence": [
+      {
+        "text": "Luca",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "è",
+        "role": "Verbo"
+      },
+      {
+        "text": "meno alto",
+        "role": "Aggettivo",
+        "question": "alto (comparativo)"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "meno alto",
+          "alto",
+          "il più alto",
+          "il meno alto"
+        ],
+        "correct": "meno alto",
+        "explanation": "Comparativo: Luca meno Marco"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Comparativi"
+    },
+    "sentence": [
+      {
+        "text": "Marco",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "è",
+        "role": "Verbo"
+      },
+      {
+        "text": "alto come",
+        "role": "Aggettivo",
+        "question": "alto (comparativo)"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "alto come",
+          "alto",
+          "il più alto",
+          "il meno alto"
+        ],
+        "correct": "alto come",
+        "explanation": "Comparativo: Marco come Luca"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Comparativi"
+    },
+    "sentence": [
+      {
+        "text": "Luca",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "è",
+        "role": "Verbo"
+      },
+      {
+        "text": "più basso",
+        "role": "Aggettivo",
+        "question": "basso (comparativo)"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "più basso",
+          "basso",
+          "il più basso",
+          "il meno basso"
+        ],
+        "correct": "più basso",
+        "explanation": "Comparativo: Luca più Marco"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Comparativi"
+    },
+    "sentence": [
+      {
+        "text": "Marco",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "è",
+        "role": "Verbo"
+      },
+      {
+        "text": "meno basso",
+        "role": "Aggettivo",
+        "question": "basso (comparativo)"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "meno basso",
+          "basso",
+          "il più basso",
+          "il meno basso"
+        ],
+        "correct": "meno basso",
+        "explanation": "Comparativo: Marco meno Luca"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Superlativi"
+    },
+    "sentence": [
+      {
+        "text": "Marco",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "è",
+        "role": "Verbo"
+      },
+      {
+        "text": "il più alto",
+        "role": "Aggettivo",
+        "question": "alto (superlativo)"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "il più alto",
+          "alto",
+          "più alto",
+          "meno alto"
+        ],
+        "correct": "il più alto",
+        "explanation": "Superlativo: Marco della classe il più alto"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Aggettivi",
+      "l3": "Superlativi"
+    },
+    "sentence": [
+      {
+        "text": "Luca",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "è",
+        "role": "Verbo"
+      },
+      {
+        "text": "il più basso",
+        "role": "Aggettivo",
+        "question": "basso (superlativo)"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "il più basso",
+          "basso",
+          "più basso",
+          "meno basso"
+        ],
+        "correct": "il più basso",
+        "explanation": "Superlativo: Luca della classe il più basso"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Vado",
+        "role": "Verbo"
+      },
+      {
+        "text": "del libro",
+        "role": "Complemento",
+        "question": "di + il libro"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "del libro",
+          "di il libro",
+          "al il libro",
+          "del il libro"
+        ],
+        "correct": "del libro",
+        "explanation": "Preposizione articolata: di + il libro = del libro"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Vado",
+        "role": "Verbo"
+      },
+      {
+        "text": "alla scuola",
+        "role": "Complemento",
+        "question": "a + la scuola"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "alla scuola",
+          "a la scuola",
+          "al la scuola",
+          "del la scuola"
+        ],
+        "correct": "alla scuola",
+        "explanation": "Preposizione articolata: a + la scuola = alla scuola"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Vado",
+        "role": "Verbo"
+      },
+      {
+        "text": "dai bambini",
+        "role": "Complemento",
+        "question": "da + i bambini"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "dai bambini",
+          "da i bambini",
+          "al i bambini",
+          "del i bambini"
+        ],
+        "correct": "dai bambini",
+        "explanation": "Preposizione articolata: da + i bambini = dai bambini"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Vado",
+        "role": "Verbo"
+      },
+      {
+        "text": "nel parco",
+        "role": "Complemento",
+        "question": "in + il parco"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "nel parco",
+          "in il parco",
+          "al il parco",
+          "del il parco"
+        ],
+        "correct": "nel parco",
+        "explanation": "Preposizione articolata: in + il parco = nel parco"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Preposizioni articolate",
+      "l3": "Preposizioni articolate semplici"
+    },
+    "sentence": [
+      {
+        "text": "Vado",
+        "role": "Verbo"
+      },
+      {
+        "text": "sulla tavola",
+        "role": "Complemento",
+        "question": "su + la tavola"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sulla tavola",
+          "su la tavola",
+          "al la tavola",
+          "del la tavola"
+        ],
+        "correct": "sulla tavola",
+        "explanation": "Preposizione articolata: su + la tavola = sulla tavola"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Espressioni di tempo",
+      "l3": "Avverbi di tempo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vado",
+        "role": "Verbo",
+        "question": "vado (infinito)"
+      },
+      {
+        "text": "oggi",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "oggi: io vado"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Espressioni di tempo",
+      "l3": "Avverbi di tempo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sono andato",
+        "role": "Verbo",
+        "question": "sono (infinito)"
+      },
+      {
+        "text": "ieri",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sono andato",
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "sono andato",
+        "explanation": "ieri: io sono andato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Espressioni di tempo",
+      "l3": "Avverbi di tempo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "andrò",
+        "role": "Verbo",
+        "question": "andrò (infinito)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andrò",
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "andrò",
+        "explanation": "domani: io andrò"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Espressioni di tempo",
+      "l3": "Avverbi di tempo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlo",
+        "role": "Verbo",
+        "question": "parlo (infinito)"
+      },
+      {
+        "text": "sempre",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "parlo",
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "parlo",
+        "explanation": "sempre: io parlo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Espressioni di tempo",
+      "l3": "Avverbi di tempo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "mangio",
+        "role": "Verbo",
+        "question": "mangio (infinito)"
+      },
+      {
+        "text": "spesso",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "mangio",
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "mangio",
+        "explanation": "spesso: io mangio"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Numeri",
+      "l3": "Numeri ordinali"
+    },
+    "sentence": [
+      {
+        "text": "È",
+        "role": "Verbo"
+      },
+      {
+        "text": "il",
+        "role": "Articolo"
+      },
+      {
+        "text": "primo",
+        "role": "Aggettivo",
+        "question": "primo (libro)"
+      },
+      {
+        "text": "libro",
+        "role": "Sostantivo",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "primo",
+          "uno",
+          "primo",
+          "due"
+        ],
+        "correct": "primo",
+        "explanation": "Numero ordinale: primo libro"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Numeri",
+      "l3": "Numeri ordinali"
+    },
+    "sentence": [
+      {
+        "text": "È",
+        "role": "Verbo"
+      },
+      {
+        "text": "il",
+        "role": "Articolo"
+      },
+      {
+        "text": "secondo",
+        "role": "Aggettivo",
+        "question": "secondo (giorno)"
+      },
+      {
+        "text": "giorno",
+        "role": "Sostantivo",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "secondo",
+          "uno",
+          "primo",
+          "due"
+        ],
+        "correct": "secondo",
+        "explanation": "Numero ordinale: secondo giorno"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Numeri",
+      "l3": "Numeri ordinali"
+    },
+    "sentence": [
+      {
+        "text": "È",
+        "role": "Verbo"
+      },
+      {
+        "text": "il",
+        "role": "Articolo"
+      },
+      {
+        "text": "terzo",
+        "role": "Aggettivo",
+        "question": "terzo (piano)"
+      },
+      {
+        "text": "piano",
+        "role": "Sostantivo",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "terzo",
+          "uno",
+          "primo",
+          "due"
+        ],
+        "correct": "terzo",
+        "explanation": "Numero ordinale: terzo piano"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Lessico",
+      "l2": "Numeri",
+      "l3": "Numeri ordinali"
+    },
+    "sentence": [
+      {
+        "text": "È",
+        "role": "Verbo"
+      },
+      {
+        "text": "il",
+        "role": "Articolo"
+      },
+      {
+        "text": "quarto",
+        "role": "Aggettivo",
+        "question": "quarto (piano)"
+      },
+      {
+        "text": "piano",
+        "role": "Sostantivo",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "quarto",
+          "uno",
+          "primo",
+          "due"
+        ],
+        "correct": "quarto",
+        "explanation": "Numero ordinale: quarto piano"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Voce passiva",
+      "l3": "Passiva con essere"
+    },
+    "sentence": [
+      {
+        "text": "il libro",
+        "role": "Soggetto",
+        "gender": "f"
+      },
+      {
+        "text": "è",
+        "role": "Verbo"
+      },
+      {
+        "text": "letto",
+        "role": "Participio",
+        "question": "leggere (participio)"
+      },
+      {
+        "text": "da Maria",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "letto",
+          "leggere",
+          "letto",
+          "scritto"
+        ],
+        "correct": "letto",
+        "explanation": "Passiva: il libro è letto da Maria"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Voce passiva",
+      "l3": "Passiva con essere"
+    },
+    "sentence": [
+      {
+        "text": "la lettera",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "è",
+        "role": "Verbo"
+      },
+      {
+        "text": "scritto",
+        "role": "Participio",
+        "question": "scrivere (participio)"
+      },
+      {
+        "text": "da Luigi",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "scritto",
+          "scrivere",
+          "letto",
+          "scritto"
+        ],
+        "correct": "scritto",
+        "explanation": "Passiva: la lettera è scritto da Luigi"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "CI",
+      "l3": "CI impersonale"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ci",
+        "role": "CI"
+      },
+      {
+        "text": "andare",
+        "role": "Verbo",
+        "question": "andare (infinito)"
+      },
+      {
+        "text": "al cinema",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "andare",
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "andare",
+        "explanation": "CI impersonale: io ci andare al cinema"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "CI",
+      "l3": "CI impersonale"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ci",
+        "role": "CI"
+      },
+      {
+        "text": "andare",
+        "role": "Verbo",
+        "question": "andare (infinito)"
+      },
+      {
+        "text": "a scuola",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "andare",
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "andare",
+        "explanation": "CI impersonale: tu ci andare a scuola"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "NE",
+      "l3": "NE partitivo"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ne",
+        "role": "NE"
+      },
+      {
+        "text": "ho",
+        "role": "Verbo"
+      },
+      {
+        "text": "due",
+        "role": "Numero",
+        "question": "libri (partitivo)"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 3,
+        "choices": [
+          "due",
+          "due",
+          "molti",
+          "pochi"
+        ],
+        "correct": "due",
+        "explanation": "NE partitivo: io ne ho due (libri)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "NE",
+      "l3": "NE partitivo"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "ne",
+        "role": "NE"
+      },
+      {
+        "text": "ho",
+        "role": "Verbo"
+      },
+      {
+        "text": "tre",
+        "role": "Numero",
+        "question": "penne (partitivo)"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 3,
+        "choices": [
+          "tre",
+          "due",
+          "molti",
+          "pochi"
+        ],
+        "correct": "tre",
+        "explanation": "NE partitivo: tu ne ho tre (penne)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerò",
+        "role": "Verbo (io)",
+        "question": "parlare (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: io + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerai",
+        "role": "Verbo (tu)",
+        "question": "parlare (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: tu + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parlerà",
+        "role": "Verbo (lui)",
+        "question": "parlare (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: lui + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parleremomo",
+        "role": "Verbo (noi)",
+        "question": "parlare (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: noi + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parleretete",
+        "role": "Verbo (voi)",
+        "question": "parlare (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: voi + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "parleranno",
+        "role": "Verbo (loro)",
+        "question": "parlare (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: loro + parlare"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriverò",
+        "role": "Verbo (io)",
+        "question": "scrivere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: io + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriverai",
+        "role": "Verbo (tu)",
+        "question": "scrivere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: tu + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriverà",
+        "role": "Verbo (lui)",
+        "question": "scrivere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: lui + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriveremo",
+        "role": "Verbo (noi)",
+        "question": "scrivere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: noi + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriverete",
+        "role": "Verbo (voi)",
+        "question": "scrivere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: voi + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "scriveranno",
+        "role": "Verbo (loro)",
+        "question": "scrivere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: loro + scrivere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormirò",
+        "role": "Verbo (io)",
+        "question": "dormire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: io + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormirai",
+        "role": "Verbo (tu)",
+        "question": "dormire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: tu + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormirà",
+        "role": "Verbo (lui)",
+        "question": "dormire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: lui + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormiremo",
+        "role": "Verbo (noi)",
+        "question": "dormire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: noi + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormirete",
+        "role": "Verbo (voi)",
+        "question": "dormire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: voi + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "dormiranno",
+        "role": "Verbo (loro)",
+        "question": "dormire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: loro + dormire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggerò",
+        "role": "Verbo (io)",
+        "question": "leggere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: io + leggere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggerai",
+        "role": "Verbo (tu)",
+        "question": "leggere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: tu + leggere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggerà",
+        "role": "Verbo (lui)",
+        "question": "leggere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: lui + leggere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggeremo",
+        "role": "Verbo (noi)",
+        "question": "leggere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: noi + leggere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggerete",
+        "role": "Verbo (voi)",
+        "question": "leggere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: voi + leggere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "leggeranno",
+        "role": "Verbo (loro)",
+        "question": "leggere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: loro + leggere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vederò",
+        "role": "Verbo (io)",
+        "question": "vedere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: io + vedere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vederai",
+        "role": "Verbo (tu)",
+        "question": "vedere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: tu + vedere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vederà",
+        "role": "Verbo (lui)",
+        "question": "vedere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: lui + vedere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vederemo",
+        "role": "Verbo (noi)",
+        "question": "vedere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: noi + vedere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vederete",
+        "role": "Verbo (voi)",
+        "question": "vedere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: voi + vedere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "vederanno",
+        "role": "Verbo (loro)",
+        "question": "vedere (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: loro + vedere"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "io",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finirò",
+        "role": "Verbo (io)",
+        "question": "finire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: io + finire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finirai",
+        "role": "Verbo (tu)",
+        "question": "finire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: tu + finire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "lui",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finirà",
+        "role": "Verbo (lui)",
+        "question": "finire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: lui + finire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "noi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finiremo",
+        "role": "Verbo (noi)",
+        "question": "finire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: noi + finire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "voi",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finirete",
+        "role": "Verbo (voi)",
+        "question": "finire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: voi + finire"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Morfologia",
+      "l2": "Verbi",
+      "l3": "Futuro semplice"
+    },
+    "sentence": [
+      {
+        "text": "loro",
+        "role": "Soggetto"
+      },
+      {
+        "text": "finiranno",
+        "role": "Verbo (loro)",
+        "question": "finire (futuro)"
+      },
+      {
+        "text": "domani",
+        "role": "Avverbio"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "vado",
+          "faccio",
+          "dico"
+        ],
+        "correct": "vado",
+        "explanation": "Futuro: loro + finire"
+      }
+    ]
   }
 ]
