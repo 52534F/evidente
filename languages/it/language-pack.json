@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0",
+  "code": "it",
+  "name": "Italian",
+  "nativeName": "Italiano",
+  "symbol": "🇮🇹",
+  "packageVersion": "1.0.0",
+  "description": "Grammar drill questions for Italian language learners (CEFR A1-C2)",
+  "author": "rasmus@gavrilo.net",
+  "license": "MIT",
+  "lastUpdated": "2026-04-30",
+  "documentation": "README.md",
+  "levels": {
+    "A1": {
+      "taskCount": 375,
+      "label": "Beginner",
+      "learningGoals": [
+        "Present tense conjugation",
+        "Articles",
+        "Basic pronouns",
+        "Noun gender/number",
+        "Simple questions"
+      ]
+    },
+    "A2": {
+      "taskCount": 221,
+      "label": "Elementary",
+      "learningGoals": [
+        "Passato prossimo",
+        "Imperfetto",
+        "Reflexive verbs",
+        "Future tense",
+        "Direct object pronouns"
+      ]
+    },
+    "B1": {
+      "taskCount": 79,
+      "label": "Intermediate",
+      "learningGoals": [
+        "Congiuntivo presente",
+        "Periodo ipotetico reale",
+        "Combined pronouns",
+        "Passive voice"
+      ]
+    },
+    "B2": {
+      "taskCount": 56,
+      "label": "Upper-Intermediate",
+      "learningGoals": [
+        "Congiuntivo imperfetto",
+        "Periodo ipotetico irreale",
+        "Gerundio",
+        "Indirect speech"
+      ]
+    },
+    "C1": {
+      "taskCount": 44,
+      "label": "Advanced",
+      "learningGoals": [
+        "Congiuntivo trapassato",
+        "Complex subordinate clauses",
+        "Advanced conditionals",
+        "Register differences"
+      ]
+    },
+    "C2": {
+      "taskCount": 48,
+      "label": "Mastery",
+      "learningGoals": [
+        "Nuanced subjunctive",
+        "Free indirect style",
+        "Literary forms",
+        "Complex sentence structures"
+      ]
+    }
+  },
+  "categories": [
+    "Morfologia",
+    "Sintassi",
+    "Pragmatica"
+  ],
+  "dataFormat": {
+    "version": "2.0",
+    "template": {
+      "category": {
+        "l1": "Morfologia",
+        "l2": "Verbi",
+        "l3": "Coniugazione"
+      },
+      "sentence": [
+        {
+          "text": "io",
+          "role": "Soggetto"
+        },
+        {
+          "text": "parlo",
+          "role": "Verbo",
+          "question": "parlare"
+        }
+      ],
+      "replies": [
+        {
+          "questionIndex": 1,
+          "choices": [
+            "parlo",
+            "parli",
+            "parla",
+            "parlano"
+          ],
+          "correct": "parlo",
+          "explanation": "..."
+        }
+      ]
+    }
+  },
+  "entryPoint": "index.js",
+  "environment": {
+    "browser": {
+      "api": "fetch()",
+      "basePath": "./languages/it/"
+    },
+    "node": {
+      "api": "fs.readFileSync()",
+      "basePath": "./languages/it/"
+    }
+  }
+}

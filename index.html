@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#2563eb">
+  <title>GrammarDrill</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Start Screen -->
+    <section id="start-screen" class="screen">
+      <h1>GrammarDrill</h1>
+      <p class="subtitle">Train your grammar muscles</p>
+      <div class="high-score-display">
+        <span>High Score:</span>
+        <strong id="high-score-value">0</strong>
+      </div>
+      <div class="language-select">
+        <label for="language-select">Language:</label>
+        <select id="language-select"></select>
+      </div>
+      <div class="level-select">
+        <label for="level-select">Level:</label>
+        <select id="level-select"></select>
+      </div>
+      <button id="start-btn" class="primary-btn">Start</button>
+      <button id="stats-btn" class="secondary-btn">Statistics</button>
+    </section>
+
+    <!-- Statistics Screen -->
+    <section id="stats-screen" class="screen hidden">
+      <header class="stats-header">
+        <button id="stats-back-btn" class="back-btn">← Back</button>
+        <h1>Statistics</h1>
+        <button id="stats-reset-btn" class="secondary-btn danger">Reset</button>
+      </header>
+      <div id="stats-content">
+        <div class="stats-section">
+          <h2>Overall</h2>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-label">Sessions Played</span>
+              <span class="stat-value" id="stats-sessions">0</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Total Time</span>
+              <span class="stat-value" id="stats-total-time">0s</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Last Played</span>
+              <span class="stat-value" id="stats-last-played">Never</span>
+            </div>
+          </div>
+        </div>
+        <div class="stats-section" id="stats-by-language">
+          <h2>By Language</h2>
+          <div id="language-stats-content"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Game Screen -->
+    <section id="game-screen" class="screen hidden">
+      <header class="game-header">
+        <div class="score-display clickable" id="game-score-btn">
+          <span>Score:</span>
+          <strong id="game-score">0</strong>
+        </div>
+        <div class="game-header-middle">
+          <button id="language-flag-btn" class="language-flag-btn" aria-label="Select language">
+            <span id="current-flag"></span>
+          </button>
+          <div id="language-dropdown" class="language-dropdown hidden"></div>
+          <button id="level-indicator-btn" class="level-indicator-btn" aria-label="Select level">
+            <span id="current-level"></span>
+          </button>
+          <div id="level-dropdown" class="level-dropdown hidden"></div>
+        </div>
+        <div class="streak-display clickable" id="game-streak-btn">
+          <span>Streak:</span>
+          <strong id="game-streak">0</strong>
+        </div>
+      </header>
+      
+      <!-- Category Bar -->
+      <div id="category-bar" class="category-bar hidden">
+        <span class="category-level l1"></span>
+        <span class="category-level l2"></span>
+        <span class="category-level l3"></span>
+      </div>
+      
+      <!-- Syntax Blocks -->
+      <div id="syntax-blocks" class="syntax-blocks hidden"></div>
+      
+      <div id="answer-buttons" class="answer-grid">
+        <button class="answer-btn" data-index="0">Option 1</button>
+        <button class="answer-btn" data-index="1">Option 2</button>
+        <button class="answer-btn" data-index="2">Option 3</button>
+        <button class="answer-btn" data-index="3">Option 4</button>
+      </div>
+      <div id="feedback-overlay" class="feedback hidden">
+        <p id="feedback-result"></p>
+        <p id="feedback-explanation"></p>
+      </div>
+      <button id="quit-btn" class="secondary-btn">Quit</button>
+    </section>
+
+    <!-- Game Over Screen -->
+    <section id="gameover-screen" class="screen hidden">
+      <h1>Game Over</h1>
+      <div class="final-stats">
+        <p>Final Score: <strong id="final-score">0</strong></p>
+        <p>Questions Answered: <strong id="final-questions">0</strong></p>
+      </div>
+      <p id="new-high-score" class="hidden new-high">New High Score!</p>
+      <button id="play-again-btn" class="primary-btn">Play Again</button>
+      <button id="home-btn" class="secondary-btn">Home</button>
+    </section>
+  </div>
+
+    <script src="stats.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

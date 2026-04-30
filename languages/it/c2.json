@@ -1,0 +1,1669 @@
+[
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Imperfetto"
+    },
+    "sentence": [
+      {
+        "text": "Credo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "lavorasse",
+        "role": "Verbo",
+        "question": "lavorare"
+      },
+      {
+        "text": "italiano",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "lavorasse",
+          "lavorava",
+          "lavorerà",
+          "lavori"
+        ],
+        "correct": "lavorasse",
+        "explanation": "Credo che + congiuntivo imperfetto"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Trapassato"
+    },
+    "sentence": [
+      {
+        "text": "Se non",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "avesse",
+        "role": "Verbo",
+        "question": "avere"
+      },
+      {
+        "text": "tempo",
+        "role": "Complemento"
+      },
+      {
+        "text": ", non",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "finisse",
+        "role": "Verbo",
+        "question": "finire"
+      },
+      {
+        "text": "il lavoro",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "avessi",
+          "avesse",
+          "averei",
+          "avevo"
+        ],
+        "correct": "avessi",
+        "explanation": "Se non + trapassato congiuntivo"
+      },
+      {
+        "questionIndex": 4,
+        "choices": [
+          "finisse",
+          "finisse",
+          "finirei",
+          "finivo"
+        ],
+        "correct": "finisse",
+        "explanation": "Trapassato congiuntivo (3ª persona)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi",
+      "l2": "Congiuntivo",
+      "l3": "Trapassato"
+    },
+    "sentence": [
+      {
+        "text": "Bastava che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "fossi",
+        "role": "Verbo",
+        "question": "essere"
+      },
+      {
+        "text": "arrivato prima",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "fossi",
+          "essere",
+          "sarò",
+          "sono"
+        ],
+        "correct": "fossi",
+        "explanation": "Bastava che + trapassato congiuntivo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi avanzata",
+      "l2": "Strutture sintatiche complesse",
+      "l3": "Dislocazione a sinistra"
+    },
+    "sentence": [
+      {
+        "text": "A Mario",
+        "role": "Dislocazione"
+      },
+      {
+        "text": "il libro",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "glielo",
+        "role": "Pronome combinato",
+        "question": "gli + lo"
+      },
+      {
+        "text": "dà",
+        "role": "Verbo",
+        "question": "dare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "glielo",
+          "gliela",
+          "gliene",
+          "me lo"
+        ],
+        "correct": "glielo",
+        "explanation": "glielo = gli (a Mario) + lo (il libro) - pronome combinato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi avanzata",
+      "l2": "Strutture sintatiche complesse",
+      "l3": "Dislocazione a destra"
+    },
+    "sentence": [
+      {
+        "text": "Lo dà",
+        "role": "Verbo"
+      },
+      {
+        "text": "glielo",
+        "role": "Pronome combinato",
+        "question": "gli + lo"
+      },
+      {
+        "text": "a Mario",
+        "role": "Complemento"
+      },
+      {
+        "text": "il libro",
+        "role": "Dislocazione",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "glielo",
+          "gliela",
+          "gliene",
+          "me lo"
+        ],
+        "correct": "glielo",
+        "explanation": "glielo = gli (a Mario) + lo (il libro) - pronome combinato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi avanzata",
+      "l2": "Strutture sintatiche complesse",
+      "l3": "Frasi scisse"
+    },
+    "sentence": [
+      {
+        "text": "È",
+        "role": "Verbo"
+      },
+      {
+        "text": "Mario",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "parla",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 3,
+        "choices": [
+          "parla",
+          "parlava",
+          "parlerà",
+          "parlerebbe"
+        ],
+        "correct": "parla",
+        "explanation": "Frasi scisse: è X che + indicativo/presente"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi avanzata",
+      "l2": "Strutture sintatiche complesse",
+      "l3": "Frasi scisse"
+    },
+    "sentence": [
+      {
+        "text": "È",
+        "role": "Verbo"
+      },
+      {
+        "text": "stato",
+        "role": "Participio passato",
+        "gender": "m"
+      },
+      {
+        "text": "Mario",
+        "role": "Soggetto",
+        "gender": "m"
+      },
+      {
+        "text": "che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "ha parlato",
+        "role": "Verbo",
+        "question": "parlare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 4,
+        "choices": [
+          "parla",
+          "parlava",
+          "ha parlato",
+          "parlerà"
+        ],
+        "correct": "ha parlato",
+        "explanation": "Frasi scisse: è stato X che + passato prossimo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Buongiorno",
+        "role": "Espressione formale"
+      },
+      {
+        "text": "signore",
+        "role": "Complemento"
+      },
+      {
+        "text": "come",
+        "role": "Avverbio"
+      },
+      {
+        "text": "sta",
+        "role": "Verbo",
+        "question": "stare"
+      },
+      {
+        "text": "?",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 3,
+        "choices": [
+          "stai",
+          "sta",
+          "stavo",
+          "starà"
+        ],
+        "correct": "sta",
+        "explanation": "Formale: Lei sta (3ª persona singolare formale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Ciao",
+        "role": "Espressione informale"
+      },
+      {
+        "text": "come",
+        "role": "Avverbio"
+      },
+      {
+        "text": "stai",
+        "role": "Verbo",
+        "question": "stare"
+      },
+      {
+        "text": "?",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "stai",
+          "sta",
+          "stavo",
+          "starà"
+        ],
+        "correct": "stai",
+        "explanation": "Informale: tu stai (2ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - richieste"
+    },
+    "sentence": [
+      {
+        "text": "Potrebbe",
+        "role": "Verbo formale",
+        "question": "potere"
+      },
+      {
+        "text": "aiutarmi",
+        "role": "Infinito"
+      },
+      {
+        "text": "?",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Puoi",
+          "Potresti",
+          "Potrebbe",
+          "Poteva"
+        ],
+        "correct": "Potrebbe",
+        "explanation": "Formale: Lei potrebbe (3ª persona singolare formale)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - richieste"
+    },
+    "sentence": [
+      {
+        "text": "Mi",
+        "role": "Oggetto indiretto"
+      },
+      {
+        "text": "puoi",
+        "role": "Verbo",
+        "question": "potere"
+      },
+      {
+        "text": "aiutare",
+        "role": "Infinito"
+      },
+      {
+        "text": "?",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "puoi",
+          "potresti",
+          "potrebbe",
+          "poteva"
+        ],
+        "correct": "puoi",
+        "explanation": "Informale: tu puoi (2ª persona singolare)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Espressioni idiomatiche",
+      "l2": "Modi di dire",
+      "l3": "Espressioni con avere"
+    },
+    "sentence": [
+      {
+        "text": "Ho",
+        "role": "Verbo"
+      },
+      {
+        "text": "fame",
+        "role": "Espressione idiomatica"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "fame",
+          "freddo",
+          "sonno",
+          "sete"
+        ],
+        "correct": "fame",
+        "explanation": "Avere fame = essere affamato (espressione idiomatica)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Espressioni idiomatiche",
+      "l2": "Modi di dire",
+      "l3": "Espressioni con avere"
+    },
+    "sentence": [
+      {
+        "text": "Ho",
+        "role": "Verbo"
+      },
+      {
+        "text": "sete",
+        "role": "Espressione idiomatica"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "fame",
+          "freddo",
+          "sonno",
+          "sete"
+        ],
+        "correct": "sete",
+        "explanation": "Avere sete = essere assetato (espressione idiomatica)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Espressioni idiomatiche",
+      "l2": "Modi di dire",
+      "l3": "Espressioni con essere"
+    },
+    "sentence": [
+      {
+        "text": "Sono",
+        "role": "Verbo"
+      },
+      {
+        "text": "d'accordo",
+        "role": "Espressione idiomatica"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "d'accordo",
+          "in ritardo",
+          "in tempo",
+          "di corsa"
+        ],
+        "correct": "d'accordo",
+        "explanation": "Essere d'accordo = concordare (espressione idiomatica)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Espressioni idiomatiche",
+      "l2": "Modi di dire",
+      "l3": "Espressioni con essere"
+    },
+    "sentence": [
+      {
+        "text": "Sono",
+        "role": "Verbo"
+      },
+      {
+        "text": "in ritardo",
+        "role": "Espressione idiomatica"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "d'accordo",
+          "in ritardo",
+          "in tempo",
+          "di corsa"
+        ],
+        "correct": "in ritardo",
+        "explanation": "Essere in ritardo = arrivare tardi (espressione idiomatica)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Linguaggio letterario",
+      "l2": "Arcaismi",
+      "l3": "Forme arcaiche di pronomi"
+    },
+    "sentence": [
+      {
+        "text": "Egli",
+        "role": "Soggetto arcaico",
+        "gender": "m"
+      },
+      {
+        "text": "parla",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "italiano",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Egli",
+          "Ella",
+          "Essi",
+          "Essa"
+        ],
+        "correct": "Egli",
+        "explanation": "Egli = lui (forma arcaica/formale letteraria)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Linguaggio letterario",
+      "l2": "Arcaismi",
+      "l3": "Forme arcaiche di pronomi"
+    },
+    "sentence": [
+      {
+        "text": "Ella",
+        "role": "Soggetto arcaico",
+        "gender": "f"
+      },
+      {
+        "text": "parla",
+        "role": "Verbo",
+        "question": "parlare"
+      },
+      {
+        "text": "italiano",
+        "role": "Complemento",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Egli",
+          "Ella",
+          "Essi",
+          "Essa"
+        ],
+        "correct": "Ella",
+        "explanation": "Ella = lei (forma arcaica/formale letteraria)"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Congiuntivo avanzato",
+      "l2": "Sfumature del congiuntivo",
+      "l3": "Congiuntivo trapassato"
+    },
+    "sentence": [
+      {
+        "text": "Se",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "avessi avuto",
+        "role": "Verbo",
+        "question": "avere"
+      },
+      {
+        "text": "tempo",
+        "role": "Complemento"
+      },
+      {
+        "text": "avrei finito",
+        "role": "Verbo",
+        "question": "finire"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "avevo",
+          "ho",
+          "avessi avuto",
+          "avrò"
+        ],
+        "correct": "avessi avuto",
+        "explanation": "Congiuntivo trapassato: se + trapassato congiuntivo per periodo ipotetico irreale passato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Congiuntivo avanzato",
+      "l2": "Sfumature del congiuntivo",
+      "l3": "Congiuntivo imperfetto vs trapassato"
+    },
+    "sentence": [
+      {
+        "text": "Credevo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "fossi",
+        "role": "Verbo",
+        "question": "essere"
+      },
+      {
+        "text": "arrivato",
+        "role": "Participio passato",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "eri",
+          "saresti",
+          "fossi",
+          "sia"
+        ],
+        "correct": "fossi",
+        "explanation": "Congiuntivo imperfetto dopo verbo al passato: credevo che + imperfetto congiuntivo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Stile indiretto libero",
+      "l2": "Narrativa",
+      "l3": "Stile indiretto libero"
+    },
+    "sentence": [
+      {
+        "text": "Che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "tempo",
+        "role": "Complemento"
+      },
+      {
+        "text": "fosse",
+        "role": "Verbo",
+        "question": "essere"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      },
+      {
+        "text": "Non",
+        "role": "Negazione"
+      },
+      {
+        "text": "sapeva",
+        "role": "Verbo",
+        "question": "sapere"
+      },
+      {
+        "text": "più che fare",
+        "role": "Complemento"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "era",
+          "fosse",
+          "sarà",
+          "sarebbe"
+        ],
+        "correct": "fosse",
+        "explanation": "Stile indiretto libero: congiuntivo per rappresentare i pensieri del personaggio"
+      }
+    ],
+    "disabled": true,
+    "disabledReason": "Negazione lessons require a new feature for word placement (negation positioning relative to verb). This lesson is disabled until the feature is implemented."
+  },
+  {
+    "category": {
+      "l1": "Stile indiretto libero",
+      "l2": "Narrativa",
+      "l3": "Stile indiretto libero"
+    },
+    "sentence": [
+      {
+        "text": "Dove",
+        "role": "Avverbio"
+      },
+      {
+        "text": "andasse",
+        "role": "Verbo",
+        "question": "andare"
+      },
+      {
+        "text": "?",
+        "role": "Punteggiatura"
+      },
+      {
+        "text": "Non",
+        "role": "Negazione"
+      },
+      {
+        "text": "lo",
+        "role": "Oggetto diretto"
+      },
+      {
+        "text": "sapeva",
+        "role": "Verbo",
+        "question": "sapere"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "andava",
+          "andasse",
+          "anderà",
+          "andrebbe"
+        ],
+        "correct": "andasse",
+        "explanation": "Stile indiretto libero: congiuntivo per rappresentare i pensieri del personaggio"
+      }
+    ],
+    "disabled": true,
+    "disabledReason": "Negazione lessons require a new feature for word placement (negation positioning relative to verb). This lesson is disabled until the feature is implemented."
+  },
+  {
+    "category": {
+      "l1": "Sintassi avanzata",
+      "l2": "Concordanza dei tempi",
+      "l3": "Concordanza nel passato"
+    },
+    "sentence": [
+      {
+        "text": "Pensavo che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "fossi",
+        "role": "Verbo",
+        "question": "essere"
+      },
+      {
+        "text": "arrivato",
+        "role": "Participio passato",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "eri",
+          "saresti",
+          "fossi",
+          "sia"
+        ],
+        "correct": "fossi",
+        "explanation": "Concordanza dei tempi: pensavo che + imperfetto congiuntivo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi avanzata",
+      "l2": "Concordanza dei tempi",
+      "l3": "Concordanza nel passato"
+    },
+    "sentence": [
+      {
+        "text": "Ho pensato che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "fossi",
+        "role": "Verbo",
+        "question": "essere"
+      },
+      {
+        "text": "arrivato",
+        "role": "Participio passato",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "eri",
+          "saresti",
+          "fossi",
+          "sia"
+        ],
+        "correct": "fossi",
+        "explanation": "Concordanza dei tempi: ho pensato che + imperfetto congiuntivo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi avanzata",
+      "l2": "Concordanza dei tempi",
+      "l3": "Concordanza nel presente"
+    },
+    "sentence": [
+      {
+        "text": "Penso che",
+        "role": "Congiunzione"
+      },
+      {
+        "text": "tu",
+        "role": "Soggetto"
+      },
+      {
+        "text": "sia",
+        "role": "Verbo",
+        "question": "essere"
+      },
+      {
+        "text": "arrivato",
+        "role": "Participio passato",
+        "gender": "m"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 2,
+        "choices": [
+          "eri",
+          "saresti",
+          "fossi",
+          "sia"
+        ],
+        "correct": "sia",
+        "explanation": "Concordanza dei tempi: penso che + presente congiuntivo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - saluti"
+    },
+    "sentence": [
+      {
+        "text": "Salve",
+        "role": "Saluto formale",
+        "question": "salve vs ciao"
+      },
+      {
+        "text": "!",
+        "role": "Punteggiatura"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Salve",
+          "Ciao",
+          "Hey"
+        ],
+        "correct": "Salve",
+        "explanation": "Registro formale: Salve"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi avanzata",
+      "l2": "Strutture sintatiche complesse",
+      "l3": "Dislocazione a sinistra"
+    },
+    "sentence": [
+      {
+        "text": "Il libro",
+        "role": "Dislocazione"
+      },
+      {
+        "text": ", lo leggo",
+        "role": "Verbo",
+        "question": "leggere"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggo",
+          "legge",
+          "leggono"
+        ],
+        "correct": "leggo",
+        "explanation": "Dislocazione a sinistra: oggetto + , + soggetto + verbo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Sintassi avanzata",
+      "l2": "Strutture sintatiche complesse",
+      "l3": "Frasi scisse"
+    },
+    "sentence": [
+      {
+        "text": "È il libro",
+        "role": "Verbo principale"
+      },
+      {
+        "text": "che leggo",
+        "role": "Verbo",
+        "question": "leggere"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "leggo",
+          "legge",
+          "leggono"
+        ],
+        "correct": "leggo",
+        "explanation": "Frasi scisse: è + oggetto + che + verbo"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Registri linguistici",
+      "l2": "Differenze di registro",
+      "l3": "Formale vs informale - richieste"
+    },
+    "sentence": [
+      {
+        "text": "Potrebbe",
+        "role": "Verbo formale",
+        "question": "potere"
+      },
+      {
+        "text": "aiutarmi?",
+        "role": "Infinito"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 0,
+        "choices": [
+          "Potrebbe",
+          "Puoi",
+          "Devi"
+        ],
+        "correct": "Potrebbe",
+        "explanation": "Registro formale: potrebbe + infinito"
+      }
+    ]
+  },
+  {
+    "category": {
+      "l1": "Linguaggio letterario",
+      "l2": "Narrativa",
+      "l3": "Stile indiretto libero"
+    },
+    "sentence": [
+      {
+        "text": "Pensò:",
+        "role": "Narrativa"
+      },
+      {
+        "text": "sarebbe andato",
+        "role": "Verbo",
+        "question": "andare"
+      }
+    ],
+    "replies": [
+      {
+        "questionIndex": 1,
+        "choices": [
+          "sarebbe andato",
+          "andrebbe",
+          "andava"
+        ],
+        "correct": "sarebbe andato",
+        "explanation": "Stile indiretto libero: pensò: + condizionale"
+      }
+    ]
+  }
+]

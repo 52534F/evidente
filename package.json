@@ -1,0 +1,21 @@
+{
+  "name": "grammardrill",
+  "version": "1.0.0",
+  "description": "Headless browser tests for grammardrill",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "serve": "npx serve . -p 3000",
+    "test:update": "playwright test --update-snapshots"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "serve": "^14.2.0"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "^1.14.30",
+    "sharp": "^0.34.5"
+  }
+}
